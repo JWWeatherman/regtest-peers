@@ -1,17 +1,12 @@
-# Bitcoin Regtest Environment #
+# Bitcoin Regtest w/ Peers #
 
-This repository contains instructions, with related helper code, that allows you
-to run your own blockchain locally. Get started pretty fast and develop your
-own Bitcoin application.
+This repository contains instructions, with related helper code, that allows you to run your own blockchain locally with 3 connected peers. Get started pretty fast and develop your own Bitcoin application.
 
 ### Why this project?
 
 This collection of instructions, with related scripts, should help Bitcoin
 application developers. Instead of spending hours with setting up a testing
-environment, the developer can focus on her application. The created environment
-allows the complete testing of the Bitcoin part, without spending real money or
-delays. The environment is reproducible and different scenarios, e.g. collection
-of transactions in a predefined order, can be created, but also deleted again.
+environment, the developer can focus on her application. The created environment allows the complete testing of the Bitcoin part, without spending real money or delays. The environment is reproducible and different scenarios, e.g. collection of transactions in a predefined order, can be created, but also deleted again.
 
 In comparison with the testnet3 Bitcoin network, this environment is not
 dependent on external nodes. All happens locally and could be fully controlled
@@ -38,68 +33,41 @@ https://bitcoin.org/en/download
     # Change 64 to 32 for 32bit architecture
     ~$ mv bitcoin-${BITCOIN_VERSION}-linux/bin/* /usr/local/bin
 
+## Peers ##
+
+There is three peers setup in the `peers` directory. Peers are connected allowing you to use one of the wallets for mining pool development. Then connected peers make a complete block chain. After running this app you will be able to add as many peers as you need very easily. It is very important to `bootstrap` all of the peers to ensure the blockchain is complete.
+
 ## Quickstart ##
 
-Setup your private blockchain in regtest mode and mine 50 BTC. In this
-version we assume that `bitcoind` is installed. Try `bitcoin-cli -help`. Future
-versions will install bitcoin-core automatically, if necessary.
+Setup your a peers private blockchain in regtest mode and mine 50 BTC. In this
+version we assume that `bitcoind` is installed. Try `bitcoin-cli -help`. 
+
+Do this for all of the peers found in `/peers` to ensure blockchain is complete. 
+
+`<Peername>` refers to the directory name found in `/peers` e.g. `/peers/Bob/` == `Bob`. Name is case sensitive.
 
 **Attention:** The previous blockchain, with related wallet, will be deleted!
-You can make a backup of the `~/.bitcoin/regtest` directory, if you want to
+You can make a backup of the `/peers/<Peername>/regtest` directory, if you want to
 keep a snapshot of the current version.
 
-    ~$ ./btc_node.sh bootstrap
+    ~$ ./btc_node.sh bootstrap <Peername>
     # Alternative short command:
-    ~$ ./btc_node.sh b
+    ~$ ./btc_node.sh b <Peername>
 
-Simulate a random number of transactions to the given address (between 1 and 10),
-with a random BTC amount each time (between 0 and 1).
+Simulate a random number of transactions to the given address (between 1 and 10), with a random BTC amount each time (between 0 and 1).
 
-    ~$ ./btc_node.sh simulate n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg
+    ~$ ./btc_node.sh simulate <Peername> n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg
     # Alternative short command:
-    ~$ ./btc_node.sh s n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg
-
-Simulate a fixed number of transactions to the given address,
-with a random amount each time (between 0 and 1).
-
-In the example below, `100` transactions with a random amount between 0 and 1
-BTC are send to `n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg`
-
-    ~$ ./btc_node.sh simulate n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg 100
-    # Alternative short command:
-    ~$ ./btc_node.sh s n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg 100
+    ~$ ./btc_node.sh s <Peername> n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg
 
 Each collection of transactions is confirmed¸ at the end of the command, by
 creating a new block. For manual mining of one block, use the following
 command.
 
-    ~$ ./btc_node.sh mine
+    ~$ ./btc_node.sh mine <Peername>
     # Alternative short command:
-    ~$ ./btc_node.sh m
-
-## Manual Interaction ##
-
-    # For testing purpose we want verbose output
-    ~$ bitcoind -regtest -printtoconsole
-    ...
-    
-----
-**If you have a systemd compatible system:**
-
-    # File: /etc/systemd/system/bitcoind-regtest.service
-    [Service]
-    ExecStart=/usr/bin/bitcoind -regtest -printtoconsole -externalip=127.0.0.1
-    Restart=always
-    User=YOUR_USERNAME
-    Group=YOUR_GROUPNAME
-
-Change the User and Group field to your username. This is important to guarantee that all data is stored under ~/.bitcoin/regtest. Normally the group name is the same as your user name. The *Restart=always* options assures that the daemon keeps running and restarts after crash or forced stop via kill.
-
-With the following two commands we start the daemon and constantly print the output.
-
-    ~$ sudo systemctl start bitcoind-regtest
-    ~$ sudo journalctl -xn -f -u bitcoind-regtest
-
+    ~$ ./btc_node.sh m <Peername>
+ 
 ----
 
 **For all:**
@@ -108,9 +76,9 @@ Switch to new console and let the bitcoind running. We generate 101 new blocks
 (starting from the genesis block), in order to be able to access the first one
 and get 50 BTC.
 
-    ~$ bitcoin-cli -regtest generate 101
+    ~$ bitcoin-cli -datadir=path/to/peers/<Peername> generate 101
     ... # Wait until all blocks are generated, ~1 minute
-    ~$ bitcoin-cli -regtest getbalance
+    ~$ bitcoin-cli -datadir=path/to/peers/<Peername> getbalance
     50.00000000 # <= You should see that or at least a number bigger then zero.
 
 **Congratulations!** You have now your first BTC that you can spent.
@@ -123,26 +91,8 @@ Where to go from here? Please read further how to spent this BTC and how to make
 We don't want to type each time `bitcoin-cli -regtest`. The command `br` is easier
 to type and easy to remember: The beginning letters of the command.
 
-    ~$ echo 'alias br="bitcoin-cli -regtest"' >> ~/.bashrc; source ~/.bashrc
-    ~$ br getbalance
-
-
-## TODO ##
-
-* [INSTALLATION] If bitcoind is not found, install it automatically.
-* [SECURITY] Add the signature file, of bitcoin-core, to this repository and
-explain how to check it and/or check it automatically during installation.
-* ~~[AUTOMATION] Provide scripts that automate the whole node setup and spending
-process, e.g.by simulated random transfers.~~
-* [FEATURE] Explain how the blockchain could be stored in a SQL database and
-accessed via your application.
-* [PORTABILITY] Describe how the node can be virtualized with vagrant or docker.
-Provide also the related scripts and configuration files.
-
-## Screenshots ##
-
-<img src="https://raw.githubusercontent.com/Sigimera/bitcoin-regtest-node/master/screenshots/btc_node_bootstrap.png">
-<img src="https://raw.githubusercontent.com/Sigimera/bitcoin-regtest-node/master/screenshots/btc_node_simulate.png">
+    ~$ echo 'alias br <Peername>="bitcoin-cli -datadir=path/to/peers/<Peername>"' >> ~/.bashrc; source ~/.bashrc
+    ~$ br <Peername> getbalance
 
 ## Support this project ##
 
@@ -151,12 +101,3 @@ Please help us to extend and improve this project.
 1. Fork it!
 2. Make your changes.
 3. Create a pull request.
-
-
-Alternatively you can also donate, if you want to motivate us to improve this
-project even further.
-
-[1LKzkn4CfktnSXDMNt856KqHcjMdTCp57S](bitcoin:1LKzkn4CfktnSXDMNt856KqHcjMdTCp57S?label=bitcoin-regtest-node)<br/>
-If clicking on the line above does not work, use this payment info:<br/>
-**Pay to:**  `1LKzkn4CfktnSXDMNt856KqHcjMdTCp57S` <br/>
-**Message:** Donation for bitcoin-regtest-node open source project.
