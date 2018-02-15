@@ -1,0 +1,883 @@
+2018-02-15 02:18:59 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-02-15 02:18:59 Bitcoin version v0.15.1
+2018-02-15 02:18:59 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-02-15 02:18:59 Validating signatures for all blocks.
+2018-02-15 02:18:59 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2018-02-15 02:18:59 Using the 'standard' SHA256 implementation
+2018-02-15 02:18:59 Default data directory /home/tomato/.bitcoin
+2018-02-15 02:18:59 Using data directory /home/tomato/bitcoin-regtest-node/peers/Richard/regtest
+2018-02-15 02:18:59 Using config file /home/tomato/bitcoin-regtest-node/peers/Richard/bitcoin.conf
+2018-02-15 02:18:59 Using at most 125 automatic connections (1024 file descriptors available)
+2018-02-15 02:18:59 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2018-02-15 02:18:59 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2018-02-15 02:18:59 Using 2 threads for script verification
+2018-02-15 02:18:59 scheduler thread start
+2018-02-15 02:18:59 HTTP: creating work queue of depth 16
+2018-02-15 02:18:59 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-02-15 02:18:59 HTTP: starting 4 worker threads
+2018-02-15 02:18:59 init message: Verifying wallet(s)...
+2018-02-15 02:18:59 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-02-15 02:18:59 Using wallet wallet.dat
+2018-02-15 02:18:59 CDBEnv::Open: LogDir=/home/tomato/bitcoin-regtest-node/peers/Richard/regtest/database ErrorFile=/home/tomato/bitcoin-regtest-node/peers/Richard/regtest/db.log
+2018-02-15 02:18:59 Cache configuration:
+2018-02-15 02:18:59 * Using 2.0MiB for block index database
+2018-02-15 02:18:59 * Using 8.0MiB for chain state database
+2018-02-15 02:18:59 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-02-15 02:18:59 init message: Loading block index...
+2018-02-15 02:18:59 Opening LevelDB in /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/blocks/index
+2018-02-15 02:19:00 Opened LevelDB successfully
+2018-02-15 02:19:00 Using obfuscation key for /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/blocks/index: 0000000000000000
+2018-02-15 02:19:00 LoadBlockIndexDB: last block file = 0
+2018-02-15 02:19:00 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-02-15 02:19:00 Checking all blk files are present...
+2018-02-15 02:19:00 LoadBlockIndexDB: transaction index disabled
+2018-02-15 02:19:00 Initializing databases...
+2018-02-15 02:19:00 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-02-15 02:19:00 Opening LevelDB in /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/chainstate
+2018-02-15 02:19:00 Opened LevelDB successfully
+2018-02-15 02:19:00 Wrote new obfuscate key for /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/chainstate: 0b25a17d8b5d3a9d
+2018-02-15 02:19:00 Using obfuscation key for /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/chainstate: 0b25a17d8b5d3a9d
+2018-02-15 02:19:00 init message: Rewinding blocks...
+2018-02-15 02:19:00  block index             363ms
+2018-02-15 02:19:00 init message: Loading wallet...
+2018-02-15 02:19:00 nFileVersion = 150100
+2018-02-15 02:19:00 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-02-15 02:19:00 Performing wallet upgrade to 60000
+2018-02-15 02:19:02 keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2018-02-15 02:19:02 keypool reserve 1
+2018-02-15 02:19:02 keypool keep 1
+2018-02-15 02:19:02  wallet                 2696ms
+2018-02-15 02:19:02 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:19:02 setKeyPool.size() = 2000
+2018-02-15 02:19:02 mapWallet.size() = 0
+2018-02-15 02:19:02 mapAddressBook.size() = 1
+2018-02-15 02:19:02 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2018-02-15 02:19:02 Failed to open mempool file from disk. Continuing anyway.
+2018-02-15 02:19:02 mapBlockIndex.size() = 1
+2018-02-15 02:19:02 nBestHeight = 0
+2018-02-15 02:19:02 AddLocal([::d931:bf1d:eb25:d7b1]:18333,1)
+2018-02-15 02:19:02 Discover: IPv6 wlp3s0: ::d931:bf1d:eb25:d7b1
+2018-02-15 02:19:02 AddLocal([::8cd0:38c1:bcc0:fe2e]:18333,1)
+2018-02-15 02:19:02 Discover: IPv6 wlp3s0: ::8cd0:38c1:bcc0:fe2e
+2018-02-15 02:19:02 Bound to [::]:18333
+2018-02-15 02:19:02 torcontrol thread start
+2018-02-15 02:19:02 Bound to 0.0.0.0:18333
+2018-02-15 02:19:02 init message: Loading P2P addresses...
+2018-02-15 02:19:02 ERROR: DeserializeFileDB: Failed to open file /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/peers.dat
+2018-02-15 02:19:02 Invalid or missing peers.dat; recreating
+2018-02-15 02:19:03 init message: Loading banlist...
+2018-02-15 02:19:03 ERROR: DeserializeFileDB: Failed to open file /home/tomato/bitcoin-regtest-node/peers/Richard/regtest/banlist.dat
+2018-02-15 02:19:03 Invalid or missing banlist.dat; recreating
+2018-02-15 02:19:03 init message: Starting network threads...
+2018-02-15 02:19:03 net thread start
+2018-02-15 02:19:03 dnsseed thread start
+2018-02-15 02:19:03 Loading addresses from DNS seeds (could take a while)
+2018-02-15 02:19:03 opencon thread start
+2018-02-15 02:19:03 0 addresses found from DNS seeds
+2018-02-15 02:19:03 init message: Done loading
+2018-02-15 02:19:03 dnsseed thread exit
+2018-02-15 02:19:03 addcon thread start
+2018-02-15 02:19:03 msghand thread start
+2018-02-15 02:19:06 keypool reserve 2
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-02-15 02:19:06 Leaving InitialBlockDownload (latching to false)
+2018-02-15 02:19:06 UpdateTip: new best=6fd63ebcad1e868d293a8475c187b3a11e4d3453b259a106616d07536279ad62 height=1 version=0x20000000 log2_work=2 tx=2 date='2018-02-15 02:19:06' progress=1.000000 cache=0.0MiB(1txo)
+2018-02-15 02:19:06 AddToWallet 0f5b251ac71202bb53488cf2d8d2eb3610385a643cd276a26b8ac953c469a2af  new
+2018-02-15 02:19:06 keypool keep 2
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6fd63ebcad1e868d293a8475c187b3a11e4d3453b259a106616d07536279ad62") returned 65280
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=6d3f41cd5d50e6424e48199ddf1e33ea69f54b670bc2e2087912fa7261872789 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2018-02-15 02:19:07' progress=1.000000 cache=0.0MiB(2txo)
+2018-02-15 02:19:06 AddToWallet a6e2adbd1a0b1758c9eddd6fd6522df1212bbf649cd4a362535c7b85c901e963  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=6cf98b1bf7c9e666a08f6c336538a44f54b20b242b8de0babd7ef78074dbdee0 height=3 version=0x20000000 log2_work=3 tx=4 date='2018-02-15 02:19:07' progress=1.000000 cache=0.0MiB(3txo)
+2018-02-15 02:19:06 AddToWallet 94d7aabc4b07e9eddbdad5e5760b46b5c88054f4a359cccc3a3a5b71ae7d9264  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=426f2ec45e733dad4ffb7d23ca3a22f841261473ab5ed13c6b9ab40c79bdf001 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(4txo)
+2018-02-15 02:19:06 AddToWallet 1b18d854e5b1f5d28d993d53230cb7cc520833ef787cba00b2071d618e32a9cf  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=20a5a6f8fde3dcb98b7d7cf50313dd9291de535ab6abb38ce92e354b6ea8185f height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(5txo)
+2018-02-15 02:19:06 AddToWallet b3afbfd7a70d33504c68c8baf99581da01424d2e00e6d0eb94feb27b0d6b8588  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=3ecaaacd6d2d528acfad7ef09ee62d9eb40e74c9b1f2ac85d3c939f82edff570 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(6txo)
+2018-02-15 02:19:06 AddToWallet a46a9132930bef92ea0853a96be81d78a11bbd51cfebceb9f8534ab709bccd27  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6d3f41cd5d50e6424e48199ddf1e33ea69f54b670bc2e2087912fa7261872789") returned 65280
+2018-02-15 02:19:06 UpdateTip: new best=7fc0832f1afb8eaf57048c083b5ffc7c7c25a2984044f7b5e6f1d0602e9734fa height=7 version=0x20000000 log2_work=4 tx=8 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(7txo)
+2018-02-15 02:19:06 AddToWallet 84f24cfe24dec1ed5264f28ebad61be80752c839edc6d2ef426d6621d11fd455  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=712ac82b4c06afefb0bce95d8189f866ed634580141848fe05af6689ae1a1b73 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(8txo)
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6cf98b1bf7c9e666a08f6c336538a44f54b20b242b8de0babd7ef78074dbdee0") returned 65280
+2018-02-15 02:19:06 AddToWallet b9e5378813f7c5944ea2c1600a14f49fcb5f42673b76c8c387a077f78741157c  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=538a0d7b935a59f57cb1c00e94fb15f4fb680dfd99da6b232b3ace3aca69efe2 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(9txo)
+2018-02-15 02:19:06 AddToWallet be28cb92f8a1486ac96645a9c355fe4a14482bcb6d819c92dde7473364a7763c  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=2cb80977903b02c323abeb0475f051a32e0045871a0cca47bbd44c2e6959b50f height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(10txo)
+2018-02-15 02:19:06 AddToWallet 9ee55d7f8c28a5b560fa9bd8a12d2460aa4e4f1e13b9a360a40d0fa7d2d7c411  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3ecaaacd6d2d528acfad7ef09ee62d9eb40e74c9b1f2ac85d3c939f82edff570") returned 65280
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7fc0832f1afb8eaf57048c083b5ffc7c7c25a2984044f7b5e6f1d0602e9734fa") returned 65280
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 20a5a6f8fde3dcb98b7d7cf50313dd9291de535ab6abb38ce92e354b6ea8185f") returned 65280
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 426f2ec45e733dad4ffb7d23ca3a22f841261473ab5ed13c6b9ab40c79bdf001") returned 65280
+2018-02-15 02:19:06 UpdateTip: new best=2b0d68080084563a030eb199b4d1e6ed3e226738c18d2b7ac29b62fb1708a4a6 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(11txo)
+2018-02-15 02:19:06 AddToWallet fc8ab468e0279df94c37b053cfe3d0acbaba79f938596d16c4d2bb8c8620fbf9  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=69048dcfaa69e10dda30f5482a52a8cff1e7f9445538972576c6cc52f9990ae7 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(12txo)
+2018-02-15 02:19:06 AddToWallet 728fb3805bf2655de63ed8e25a2631d0e7ddf17dfe3f3ae2ee2c42646f77c940  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 712ac82b4c06afefb0bce95d8189f866ed634580141848fe05af6689ae1a1b73") returned 65280
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2cb80977903b02c323abeb0475f051a32e0045871a0cca47bbd44c2e6959b50f") returned 65280
+2018-02-15 02:19:06 UpdateTip: new best=4500c7dc21dbb2e039ad27ec15db8a0f559109e9aec3a839c49ddb225eecdc06 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(13txo)
+2018-02-15 02:19:06 AddToWallet 10f1670e3a73183971a6d41b6c551bad0119427242b93eb2724c17f43d1467f9  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 538a0d7b935a59f57cb1c00e94fb15f4fb680dfd99da6b232b3ace3aca69efe2") returned 65280
+2018-02-15 02:19:06 UpdateTip: new best=744c8c0104579d3f9159f5cb297ec9d20ba3196ff5f2bc1664b2858aed12f828 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(14txo)
+2018-02-15 02:19:06 AddToWallet e72c4f190596d0b2b8095790a5bdb6cd4f92bec9550c7a1c7b98713eb19a5adb  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=5076096cd93155594ffe4dd29748b0256843ea82a1f6c76c98625f32f3a12510 height=15 version=0x20000000 log2_work=5 tx=16 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(15txo)
+2018-02-15 02:19:06 AddToWallet d43e990f116247b9f3c2b5ccb5953d5b632e60528685b727b76293ab5f294222  new
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 69048dcfaa69e10dda30f5482a52a8cff1e7f9445538972576c6cc52f9990ae7") returned 65280
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 900 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=224aa471de52b70f7249e4fa77f6f1a5bb7c4cf8fc5a87e92af95dca9563c3d1 height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(16txo)
+2018-02-15 02:19:06 AddToWallet b4e9fa0c0df60d44684df8405daa57bb0c03e6748e90db07ccaf4fcc40531438  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 UpdateTip: new best=4489443dfb0b18f99988108f506c22a1117a9ab8d13e37d28f0eeec4cf5e145f height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(17txo)
+2018-02-15 02:19:06 AddToWallet efa105b14682283a4d3ec27f03f7972e636cbb55d4c13adecb0d7a815445eca1  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2b0d68080084563a030eb199b4d1e6ed3e226738c18d2b7ac29b62fb1708a4a6") returned 65280
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 744c8c0104579d3f9159f5cb297ec9d20ba3196ff5f2bc1664b2858aed12f828") returned 65280
+2018-02-15 02:19:06 UpdateTip: new best=635e9ea4de1cf6a7e50e63f0ab53f763fbb992302dc1a6222d6e6ec24b2778c6 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(18txo)
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4500c7dc21dbb2e039ad27ec15db8a0f559109e9aec3a839c49ddb225eecdc06") returned 65280
+2018-02-15 02:19:06 AddToWallet 94dfb62740f2ee95f222c2aafdec15ba225493a84eda33b176e6d768850b3346  new
+2018-02-15 02:19:06 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:06 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 224aa471de52b70f7249e4fa77f6f1a5bb7c4cf8fc5a87e92af95dca9563c3d1") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=128f4c3e257b31867db8e35470b18966bfbee9b98f6360a279f0472cc4c35664 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(19txo)2018-02-15 02:19:07 
+runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4489443dfb0b18f99988108f506c22a1117a9ab8d13e37d28f0eeec4cf5e145f") returned 65280
+2018-02-15 02:19:07 AddToWallet 185b78797720167dd8a7cb4f4caacfa6c0bf082bf2febecc7f6b4d70fd85f00d  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=05b14acb084f87426029d7301b19e34f64ceb3a094b6cb6b100ceaae32256078 height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(20txo)
+2018-02-15 02:19:07 AddToWallet 8f26d6d2743a760c2406cd68ceaf2cb20a6ce642300ee70c47bc9f911a02da92  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 635e9ea4de1cf6a7e50e63f0ab53f763fbb992302dc1a6222d6e6ec24b2778c6") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5076096cd93155594ffe4dd29748b0256843ea82a1f6c76c98625f32f3a12510") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=68cf53946e4e853383067275c7f397b4228173e152d25b67c7f93e0fa8d0655f height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(21txo)
+2018-02-15 02:19:07 AddToWallet 12abc56bf93ec7c33b82f5f03034dab03a081f7d7b1396eec658618269688bc9  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 128f4c3e257b31867db8e35470b18966bfbee9b98f6360a279f0472cc4c35664") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=614c82479ed2ff5caeb28d03b17bdffb879d10e9145591e20e3d23013b0ef613 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(22txo)
+2018-02-15 02:19:07 AddToWallet 741e68ab1b307f437a653adf90c17936c792482324a2a73be3e015793c0704d4  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=126fdb800b1c4c941f7d242d742ab0b7742d47644b78743f862eec9f6bde59f6 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(23txo)
+2018-02-15 02:19:07 AddToWallet c83335f4d671ea9da9fc81e59cef30cee6dc5ad0264ec52967a7644524cf5946  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 68cf53946e4e853383067275c7f397b4228173e152d25b67c7f93e0fa8d0655f") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 05b14acb084f87426029d7301b19e34f64ceb3a094b6cb6b100ceaae32256078") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=00d1dec3f27b0fa7f309ce7c4d6e7c4960a62b3f0e1f259b64089b14de1f4b39 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(24txo)
+2018-02-15 02:19:07 AddToWallet 8d334bf0d8101a1a741ef1888120d24ebba63f478e4fda857f3f7cbb73f36904  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=4daae57ad4e04b44379b021ab37fdf01b9a814e54a92f316110ed271edc31f64 height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(25txo)
+2018-02-15 02:19:07 AddToWallet da89d305ce4df183247194980a1e1c767c4c3d127c6aab11e2508f4d1f3bf06c  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 126fdb800b1c4c941f7d242d742ab0b7742d47644b78743f862eec9f6bde59f6") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=0edc2740058ed8cda345fddff133ec9532fde7c2abbd40528dbe2938e7f32fba height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(26txo)
+2018-02-15 02:19:07 AddToWallet 562df79e765f37e2d76ff0b59dbbf6d965cfd35a6e55c54f6a4adb1c2446cd79  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 614c82479ed2ff5caeb28d03b17bdffb879d10e9145591e20e3d23013b0ef613") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 00d1dec3f27b0fa7f309ce7c4d6e7c4960a62b3f0e1f259b64089b14de1f4b39") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4daae57ad4e04b44379b021ab37fdf01b9a814e54a92f316110ed271edc31f64") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=4c3b7792ffe3bea8649befc1644a93a8e43df18884a65f9fcc32e913f635aac4 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(27txo)
+2018-02-15 02:19:07 AddToWallet c7efaa0c61dc3574c8f78c80222e30deac3f1bbd0f45be14985ab7c98b1d7b69  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=23ac42434eb8474fba862d09f5c4bccfd1cac83b202e9c98dc7fd12c56f2d954 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(28txo)
+2018-02-15 02:19:07 AddToWallet 0cc0ca10396386b183a23c81d34340f2c55c23317b9dd833ff1b723c25fc0ccc  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=3ff762394456f78326a546362078b160ed74e075ff419de925816e860511b0ec height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(29txo)
+2018-02-15 02:19:07 AddToWallet c6e6dc6f465bcc8e308ac2afebbfb57ccb4a57cc38c9ac7efa20b749ad6d99d0  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0edc2740058ed8cda345fddff133ec9532fde7c2abbd40528dbe2938e7f32fba") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=09f82591c066fe77be66606c3e32dbd856f47f5ba7810b88976eda4a2c04104f height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(30txo)
+2018-02-15 02:19:07 AddToWallet d898aeff5706eae6a3d0a5143d49ec66a8eb9a90739e0d454510655f433a758e  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4c3b7792ffe3bea8649befc1644a93a8e43df18884a65f9fcc32e913f635aac4") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=161186aadda50ea151abde9505914b5ca3bbe92decc6e08a2d83131ac5848650 height=31 version=0x20000000 log2_work=6 tx=32 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(31txo)
+2018-02-15 02:19:07 AddToWallet 705a30c087a17ac048dd9ac17a4aeda589ce29736c48085ca85139693e1b0750  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=481fd458227e96c9a113a8b11aaf54cdc5621000e2749463148bb33f665d143e height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(32txo)
+2018-02-15 02:19:07 AddToWallet 574342d5091fcd01a0398cbc83cb487cf26e8d4820536063492d1d01be8a3d28  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 09f82591c066fe77be66606c3e32dbd856f47f5ba7810b88976eda4a2c04104f") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=7d22a8b814d6b4b38142445f687863bf0f3668bea5312ebace5999235655f36b height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(33txo)
+2018-02-15 02:19:07 AddToWallet 6ee1bf9c0640f79d671438f8f020600ec07d8788950c1399535d1d9c8a90b294  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 23ac42434eb8474fba862d09f5c4bccfd1cac83b202e9c98dc7fd12c56f2d954") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3ff762394456f78326a546362078b160ed74e075ff419de925816e860511b0ec") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=3581b2302b39d79579d6b5851d5618a696a645ebbf47600ccf815c0f17d81bcf height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(34txo)
+2018-02-15 02:19:07 AddToWallet 352f9ce98643f8bf5e4f7a3112377cf7d3a58aa0c91742bcb1c425506421b7d8  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 161186aadda50ea151abde9505914b5ca3bbe92decc6e08a2d83131ac5848650") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 481fd458227e96c9a113a8b11aaf54cdc5621000e2749463148bb33f665d143e") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=3c36c79a949c75b45e4b8675e5081cd4b579b5538ce5dcd041a193770a7ff0ef height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(35txo)
+2018-02-15 02:19:07 AddToWallet d935dc0b28e23e3fad896cae3bc36afcc6a0f5104a5c31e610ec6d67091877d5  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7d22a8b814d6b4b38142445f687863bf0f3668bea5312ebace5999235655f36b") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=27ae3fd1ab6a3e6255c0db595b66f217d0415f1b603a2fd62235fa859c11e120 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(36txo)
+2018-02-15 02:19:07 AddToWallet 7fbfb796ea5cefb361c1bdeba5e6273d1a28c004a30e71196b6a66e6bbe5698a  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3581b2302b39d79579d6b5851d5618a696a645ebbf47600ccf815c0f17d81bcf") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=1df147c1178ab86dd5c163a6850d123559635130028e7d0d9154c7e1e36517c9 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(37txo)
+2018-02-15 02:19:07 AddToWallet 3a9ce7329654aa9b3932fcaca74e535f93a8a270aeee07c2efd9dbd4c9b74bac  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=0c7cffba2a4899b0ee0644001935a179722a3a1d0df24db119146a60c2549c25 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(38txo)
+2018-02-15 02:19:07 AddToWallet 6061dd935bd7977dde8fc0fabdc4f9783074cbe2acec4b826457de9837797ee3  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3c36c79a949c75b45e4b8675e5081cd4b579b5538ce5dcd041a193770a7ff0ef") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 27ae3fd1ab6a3e6255c0db595b66f217d0415f1b603a2fd62235fa859c11e120") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=129eb549ba98b2b89766ecd3792d9113dfa3716b9a949ecc8ba25a25e71e05ea height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(39txo)
+2018-02-15 02:19:07 AddToWallet f00b2850839bb90187b9a9ac547b4add5df1adda49af01606bc7d9f3d067a295  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=2c1216a743fa7eef489980b485ea30f324c1101523c7f8550f25a8fec27c5dd5 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(40txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1df147c1178ab86dd5c163a6850d123559635130028e7d0d9154c7e1e36517c9") returned 65280
+2018-02-15 02:19:07 AddToWallet f15d97acc718126c556b4eb08d6642e7128f3a6a91462a8d343bbc858ee3eef8  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0c7cffba2a4899b0ee0644001935a179722a3a1d0df24db119146a60c2549c25") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=186f3f7f68db06756c8049a26e5c8aef84d8b717419f3a5c0008e81a30f12183 height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(41txo)
+2018-02-15 02:19:07 AddToWallet d55a1e1c23c06dd59b7e322a035b3b1c5797bb4178c78711cd38a4020cbb903f  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 129eb549ba98b2b89766ecd3792d9113dfa3716b9a949ecc8ba25a25e71e05ea") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=7b231395c4f0e623dcf82f528b1537912cbaa813df68400109828b91657416dd height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(42txo)
+2018-02-15 02:19:07 AddToWallet 2de4c100c77fc4a8c542fc0b16b855fec24b8b1d6924161edbeca6c6572d4270  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=63250287261541235c06783662f3674fe7a6782160064a65a445e25a79c1c150 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(43txo)
+2018-02-15 02:19:07 AddToWallet 9def84c38fe9e35fc7d20fe60d7be783e54dbd8151d65257c4daad0a6b6877d0  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2c1216a743fa7eef489980b485ea30f324c1101523c7f8550f25a8fec27c5dd5") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=741970aade57009933b786408970ed06b9590e95ae8912efcff840f107f1cf28 height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(44txo)
+2018-02-15 02:19:07 AddToWallet 91b61b1ed5e8172f311ba95d1db19bac3e98996553e476a2a3198726d5e601a4  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 186f3f7f68db06756c8049a26e5c8aef84d8b717419f3a5c0008e81a30f12183") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7b231395c4f0e623dcf82f528b1537912cbaa813df68400109828b91657416dd") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=67cee9aa21da50234dbeb3fa333d035aa55ef277dd31090510810be13ed36596 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(45txo)
+2018-02-15 02:19:07 AddToWallet 54cd468372f6ce781c989135dd77d71726ef1e983cdfd184b683d3c58fc09af2  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=31f4e6c6747bcf26a749e873a498afc4a43ec4e2c2def9112539dfd913e7365d height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(46txo)
+2018-02-15 02:19:07 AddToWallet f5755961b17b31177150ea349b5d0c169814374550546144e0b10053aa502ed5  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=099d977199701ad1bb6d5f7e4bb617fc66690dbcac2c1bb875ede2dbd41b0f5b height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(47txo)
+2018-02-15 02:19:07 AddToWallet 89434c359f431462e792adeb03f83de762c3aded1c2ea26013ef4ef6204e1f52  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=0fd786e8fccdfcb459a34027e9eeafd76de2660d4682d87b4a080ee25c67718a height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(48txo)
+2018-02-15 02:19:07 AddToWallet b2f12c049eb46723d4cdf49fecf01b48a791dac478df0ae5e8fe2d01abff999d  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 67cee9aa21da50234dbeb3fa333d035aa55ef277dd31090510810be13ed36596") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=14063d015422a2f900b12397db37653a70359a105382643f63b05498777a9d54 height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(49txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 741970aade57009933b786408970ed06b9590e95ae8912efcff840f107f1cf28") returned 65280
+2018-02-15 02:19:07 AddToWallet 5c3b5f536d9c3e934c08dbb3a1a2991a9a9d7d31241db1c74f5333ae627d317a  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 63250287261541235c06783662f3674fe7a6782160064a65a445e25a79c1c150") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=2fcb939ac2b83801cc37bac1edcc9275eb103dcff3515470af55400996a0fefe height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(50txo)
+2018-02-15 02:19:07 AddToWallet d723db4d675662d2b8070799ca3d0b44495d3ab5586e5d2b319ad06f0d868caa  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=55d03c4314595ff06d1abc7972dc0cbdee4aa93ca123ec69fb115d91acf6321a height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(51txo)
+2018-02-15 02:19:07 AddToWallet 761b77585e97dfd1a0d36eaafb33b2dfd29796492e0acf700161c2172aede655  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 099d977199701ad1bb6d5f7e4bb617fc66690dbcac2c1bb875ede2dbd41b0f5b") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 31f4e6c6747bcf26a749e873a498afc4a43ec4e2c2def9112539dfd913e7365d") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=23a2b94d8c6badb095bd8a61a067d8146853e520dce35430ec2e255893d9848c height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(52txo)
+2018-02-15 02:19:07 AddToWallet 5b4ce22c45147b4c5536f77e1e6b1459c9fac6f0e6420da51d1ef42b3d92e0f4  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=6fb7f8f6a2a20f69db87e182742ba23c84ef019305152bea4fbbab6e7e8dc67b height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(53txo)
+2018-02-15 02:19:07 AddToWallet 4687cb5cebbae3bf9399c26b8f1f3c3d826fbed195612900d7e21f8a80f16753  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2fcb939ac2b83801cc37bac1edcc9275eb103dcff3515470af55400996a0fefe") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0fd786e8fccdfcb459a34027e9eeafd76de2660d4682d87b4a080ee25c67718a") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=4cefd529f12d8c79856854aa2440323aae4f7e3c9bda53dc5dc62dff1330ff6a height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(54txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 14063d015422a2f900b12397db37653a70359a105382643f63b05498777a9d54") returned 65280
+2018-02-15 02:19:07 AddToWallet 0ba52e72b0135564a6e5e24447cd2d8299ed2dffe08446378b20db6d1e3860f6  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 55d03c4314595ff06d1abc7972dc0cbdee4aa93ca123ec69fb115d91acf6321a") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=247d91bb9dc3fb78867251446b07e3c81870bee4f0dc38120b2fd367191659d6 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(55txo)
+2018-02-15 02:19:07 AddToWallet fcf27c9535769ca7ab85b3edb97dd2b6154a19d442603ced3d9bd74e4cb7b838  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=30da598b18451c589b2a68a3eb75b864df20518ce9730c13a117c1beb0ea7601 height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(56txo)
+2018-02-15 02:19:07 AddToWallet 6f9e78f60c111608bd0070680d5a46f98cb3f965a6104c7ec4ef0fbcb99f1247  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6fb7f8f6a2a20f69db87e182742ba23c84ef019305152bea4fbbab6e7e8dc67b") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 23a2b94d8c6badb095bd8a61a067d8146853e520dce35430ec2e255893d9848c") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4cefd529f12d8c79856854aa2440323aae4f7e3c9bda53dc5dc62dff1330ff6a") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=2707f5aacf3e48a47a17d90b16750a046022a15e3d442255e070fa98b78ac98a height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(57txo)
+2018-02-15 02:19:07 AddToWallet 9250a230aa62cf6764020e36955336bb1945363060f283a9cb094914baab8ff3  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 30da598b18451c589b2a68a3eb75b864df20518ce9730c13a117c1beb0ea7601") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 247d91bb9dc3fb78867251446b07e3c81870bee4f0dc38120b2fd367191659d6") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=7d3d7b3c7652c3dd0055fb47a6b2356c2193362287dc397f901bb3a4fd26bd36 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(58txo)
+2018-02-15 02:19:07 AddToWallet 7708246837da68c7876c1f5542ac88e19172a8f828cdc9b6b9d6efbf9337d153  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=5711579064f5acc2e7cd43b34d39ab1bb8c5b44fc564ad4bbc42634f47d2a928 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(59txo)
+2018-02-15 02:19:07 AddToWallet 137718c757e682f43931a61dd5fb3476183138d730c17f5095507dd51dcd5f88  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2707f5aacf3e48a47a17d90b16750a046022a15e3d442255e070fa98b78ac98a") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=60145a95780cb4d78426c1cf43ac36e58a60b0420b16a39e72ceedaff261d6d5 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(60txo)
+2018-02-15 02:19:07 AddToWallet a9584d01a5f170902d9994489c15b41857970d0d4dc239682bb9e0971011d2d0  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=24b3c9c1a258c9b4a4f8bd84430a8acedf5b170106c19e1181123d627d46277c height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(61txo)
+2018-02-15 02:19:07 AddToWallet 5ecda01252b30749979a6d41a89c6bbe099de7997637a8e5ad00530ef1af80a8  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7d3d7b3c7652c3dd0055fb47a6b2356c2193362287dc397f901bb3a4fd26bd36") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5711579064f5acc2e7cd43b34d39ab1bb8c5b44fc564ad4bbc42634f47d2a928") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=630386cfd4371d974bed7c43c1d58d936e8ca61460ba624bb080d8c69ce2d052 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(62txo)
+2018-02-15 02:19:07 AddToWallet b414848105515e8b83147ef91e731828335236359b0a0d1687f9c4cad628893f  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 24b3c9c1a258c9b4a4f8bd84430a8acedf5b170106c19e1181123d627d46277c") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=490d566ae9396f78767621f3623dc50c4f54409f86cdf7cc06a288fe31758380 height=63 version=0x20000000 log2_work=7 tx=64 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(63txo)
+2018-02-15 02:19:07 AddToWallet 28d8b666ccf955c3471a337ceff89fdfccdfad876ac7827b9b12b862ce971956  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 60145a95780cb4d78426c1cf43ac36e58a60b0420b16a39e72ceedaff261d6d5") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=383d0bbc0a2615e1839fbcda6842b5772438968d7cf8edf9d055d9c5a69dcf06 height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(64txo)
+2018-02-15 02:19:07 AddToWallet 0310d0ed599ed2fab0d5e3f71861cbe375483ab56b8280f1e8914456cc7332a7  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 630386cfd4371d974bed7c43c1d58d936e8ca61460ba624bb080d8c69ce2d052") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=243e106f7812437067ae8e5c217921fcbe037ba2842beb91c515beb099c242c7 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(65txo)
+2018-02-15 02:19:07 AddToWallet 380834e3b752c4240b6561f40f74fa2d349b4d2409b8ad64d5a97e33ea55030d  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 490d566ae9396f78767621f3623dc50c4f54409f86cdf7cc06a288fe31758380") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=769224eb5fa5c535a81e1726fd1ee9d4fe42e60131a78b5cda90fd774a96bd01 height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(66txo)
+2018-02-15 02:19:07 AddToWallet bdbffd5012878664080877de83cea1091ac8f150aa17800e6ca885e481792b24  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=26cd66cbb21b988bf1b773d3d93bf3d5f8a213f4be6730da7a29088c26b841c4 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(67txo)
+2018-02-15 02:19:07 AddToWallet 90d2942447a4882d66daece96f5a6099bd0d370f0a76f4cc42d1b8ba393e8840  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 383d0bbc0a2615e1839fbcda6842b5772438968d7cf8edf9d055d9c5a69dcf06") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 243e106f7812437067ae8e5c217921fcbe037ba2842beb91c515beb099c242c7") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=383433c5b137a58d4b02b5544aa35b336101593845f078be9697989d10dc5ba4 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(68txo)
+2018-02-15 02:19:07 AddToWallet 619ed6cbe153b22b7762613620cf3eee897b051e035ac1f70766727461d0456b  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=5333a0cc5968401c02d4b4aacd1ebda5b86777dceeef92eba9806c3b28e5773e height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(69txo)
+2018-02-15 02:19:07 AddToWallet 65871f2c92d5d8c1d7782e61f4b19d8db46ceffa97a049681f82c380234f0959  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 26cd66cbb21b988bf1b773d3d93bf3d5f8a213f4be6730da7a29088c26b841c4") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 769224eb5fa5c535a81e1726fd1ee9d4fe42e60131a78b5cda90fd774a96bd01") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=1f1888e3b100fe1396e0332219176c74dcb2e9783c879274e863ab4971ac350e height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(70txo)
+2018-02-15 02:19:07 AddToWallet f887fbe8ef78f3e855df6f09e570678432ab4bdfda0957c10e9638df0b8ead27  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=76aef5c8e2bcbff0a23d0090852f2942f2240010eb65da93bb83c3007469ec10 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(71txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 383433c5b137a58d4b02b5544aa35b336101593845f078be9697989d10dc5ba4") returned 65280
+2018-02-15 02:19:07 AddToWallet 0696894e88a585afcc30b74ce10114cc6c162be0bc1be36e504cd81fef11a89e  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=3edc4d19fc120d71428691c7ca2c35f7540c726cb33018cacfe3748cac51f240 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(72txo)
+2018-02-15 02:19:07 AddToWallet b81540df82e007f0500b00ed7d3aa79d4ce52ab059e5894c0b30727682197d23  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5333a0cc5968401c02d4b4aacd1ebda5b86777dceeef92eba9806c3b28e5773e") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1f1888e3b100fe1396e0332219176c74dcb2e9783c879274e863ab4971ac350e") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 76aef5c8e2bcbff0a23d0090852f2942f2240010eb65da93bb83c3007469ec10") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=442a6442b017e49efb518580a33704ad7335fc62d5c7879bba6a2208cb77c718 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(73txo)
+2018-02-15 02:19:07 AddToWallet 1d27dc8bbfac2e818cbdc1516de5acdab69d2e9a8ffc5b89bf4350f4b46b666f  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=6e53011a50c316d826a5c3995901c584bbd8a0bacd7fa4e33886b76ecf1b6194 height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(74txo)
+2018-02-15 02:19:07 AddToWallet 482e6a36160c0b41392061909183a73e9bd0343346a6bb7590f67ead092ed9e2  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3edc4d19fc120d71428691c7ca2c35f7540c726cb33018cacfe3748cac51f240") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=3eac669d4d41a13e77c73513dfaef37833fb29661ab5baf1be5253ce950e0216 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(75txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 442a6442b017e49efb518580a33704ad7335fc62d5c7879bba6a2208cb77c718") returned 65280
+2018-02-15 02:19:07 AddToWallet 17eb70366ffca05d3fc571d4c74c8bc3f9d36cbdec9602267e42c1c11512b904  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=565b9e218c47e54245093264ea05dffa87d88a8f82a234447b2a39add0739863 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(76txo)
+2018-02-15 02:19:07 AddToWallet 89efaba7539e6099be9809fac32a089d95ba0402a643aa8bb3e831d984bb9e23  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=6e3c7f2e1569607f3f5b62bec68c6374ca6c17e848a51c1339a745399db81015 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(77txo)
+2018-02-15 02:19:07 AddToWallet 426c48168e47e462e2ea7cf11b89ead996a6d2637aaa47a33d2acd12394b4811  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6e53011a50c316d826a5c3995901c584bbd8a0bacd7fa4e33886b76ecf1b6194") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3eac669d4d41a13e77c73513dfaef37833fb29661ab5baf1be5253ce950e0216") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=698261ed3b2e5234b0c0123ed496bc4b3723dcb29b089a675a8a87918da94d46 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(78txo)
+2018-02-15 02:19:07 AddToWallet 8f1b9a52d1237000e19f5aec0abd54e9725f4e82919dd1feef380ff65d716e29  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=435e569b265222b27aabfd2c7b3a75014cf8db7792c925ffb6e1a6abf85a2770 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(79txo)
+2018-02-15 02:19:07 AddToWallet 355d62148e9957eafd19225cbe5829fe42af6babe6462ce32624178d741ad42e  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6e3c7f2e1569607f3f5b62bec68c6374ca6c17e848a51c1339a745399db81015") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=1418fd41b5832663259aa9d1c248a87ac921489ee0abba503c3864317047ffe3 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(80txo)
+2018-02-15 02:19:07 AddToWallet b7610cba4eac30be363c3b1cbd32cdbe0bab285aafbe29c613319025206fbb3d  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 698261ed3b2e5234b0c0123ed496bc4b3723dcb29b089a675a8a87918da94d46") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 565b9e218c47e54245093264ea05dffa87d88a8f82a234447b2a39add0739863") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 435e569b265222b27aabfd2c7b3a75014cf8db7792c925ffb6e1a6abf85a2770") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=4f09e1b11b87dc7695a6ba74cd4dd04686197cf2c88a79853f6bad4a238346af height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(81txo)
+2018-02-15 02:19:07 AddToWallet e0776634f0591b06388e52bd44737a967b98f40fbe930dc97a0a41db5ff2e3af  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=74f1d7f1c19503835dc7d8c1c914910d3b35e0bf09d869dcf24e16c21f766c7b height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(82txo)
+2018-02-15 02:19:07 AddToWallet 69c4246c6fb30a296e42fd86bed286a5b0ca4c781644512e1e7b76ff3f7e8c60  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1418fd41b5832663259aa9d1c248a87ac921489ee0abba503c3864317047ffe3") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=7ef4e718265ba8654bbbdb0ec0416bd35b7096ac331d2ce71d26316f60f109c8 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(83txo)
+2018-02-15 02:19:07 AddToWallet c5147192cbdbd9c3d785b28189aaba56dff37d03cbf93db168db0cfc82322ff9  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4f09e1b11b87dc7695a6ba74cd4dd04686197cf2c88a79853f6bad4a238346af") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=0564354f3f6727bc45e2f37a749c809decad39548f0457e4668b53d891e7c50e height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(84txo)
+2018-02-15 02:19:07 AddToWallet 84b307d3257bfe15dbad71864dea7395bfc78833ed5a89d100d5c9fed617f6ff  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 74f1d7f1c19503835dc7d8c1c914910d3b35e0bf09d869dcf24e16c21f766c7b") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7ef4e718265ba8654bbbdb0ec0416bd35b7096ac331d2ce71d26316f60f109c8") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=4ab5eb483de925d69d67ff526c8c94c33fbe61046aed384611da426e7da1b500 height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(85txo)
+2018-02-15 02:19:07 AddToWallet 9b444d8d54ba8d7def0e412aff2be64c3441b904a4132d19462e2de3b94fe7c0  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=36a1d43878467d80bda739fddb2bb54132d744c19811d455da72645c072bae07 height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(86txo)
+2018-02-15 02:19:07 AddToWallet cfaf7f152577c5e43c313312c2fca1c8a17205da6d4ef0247f18adb3012a2c73  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0564354f3f6727bc45e2f37a749c809decad39548f0457e4668b53d891e7c50e") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=466d3d5793c62c02098f4a4ea9d7456ce3206a6a7e64515dff2c8843c08d6e20 height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(87txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4ab5eb483de925d69d67ff526c8c94c33fbe61046aed384611da426e7da1b500") returned 65280
+2018-02-15 02:19:07 AddToWallet 6a5e0e21ed47780acf1a3dfef49d5490bbcd01ae77f0bb87478c8f3ba8220cd3  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=5861402cf6af949c0bf95721f2e15d525e568e52653219b9db70c4a4d4c1ccb7 height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(88txo)
+2018-02-15 02:19:07 AddToWallet fb90dce2e6253b2b1f424992badf9e05ef73c4dbd49ada91a202699ffd6b5d93  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=10732f327411a71ebaec4538fff9fb1912e77705ac081c80ac7eab7b3b609f90 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(89txo)
+2018-02-15 02:19:07 AddToWallet 9f21a827a38dbbf145c17c500808590a948880d60f3847102700e764687a9615  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 36a1d43878467d80bda739fddb2bb54132d744c19811d455da72645c072bae07") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=620e4f7cced77df7ee722f9a4f5f0ebd8db0cde37f3592bc743d2ed327be30d2 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(90txo)
+2018-02-15 02:19:07 AddToWallet 6bcbc6290c3ff2a055f6bf62aba2d137c6e0872220c8dad8e10da29e0a7f2f51  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=3482a1c82506078c1a1b84973899b093848131d227cd3a0900102eca88446e49 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(91txo)
+2018-02-15 02:19:07 AddToWallet 5519d601194670b8b6cbc853e152e71137d7076a7d6723c687a1a818a9de39ce  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 466d3d5793c62c02098f4a4ea9d7456ce3206a6a7e64515dff2c8843c08d6e20") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5861402cf6af949c0bf95721f2e15d525e568e52653219b9db70c4a4d4c1ccb7") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 10732f327411a71ebaec4538fff9fb1912e77705ac081c80ac7eab7b3b609f90") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=5beab4da465cc0ba63ffb9eebd845e20d3055939c576c2422fc17ab1e4f76779 height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(92txo)
+2018-02-15 02:19:07 AddToWallet 0f11038fdcd689b818078d592feb05357456d6fc14a5653cb3043bac985c0549  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=385fdb3c73d26f49f4e1c4f14e45ecb6cd0c5c2adce5d4e2d96ac524b5773cf9 height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(93txo)
+2018-02-15 02:19:07 AddToWallet 652e50d57b1eaa4e1c7e3221bbc58482fe4c125f73e4d592768d19090a3d9d79  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=2050c7dbc0351e6415851840f202489291ec59174fc1f83fda94c0a31b7c4664 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(94txo)
+2018-02-15 02:19:07 AddToWallet 9816763a2963ebdea4fc4d4204d6941e2b497f404f6375502ae3dedacd60a6c8  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=6ebc7cb5c738143b557df14fad3c8b0b2d2d11936eec972523d4da2bacdf378e height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(95txo)
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3482a1c82506078c1a1b84973899b093848131d227cd3a0900102eca88446e49") returned 65280
+2018-02-15 02:19:07 AddToWallet 1f1b18d0fe11048049a03598c603c87c66586dfd854ba70d8ce0bd3303d1efdc  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 620e4f7cced77df7ee722f9a4f5f0ebd8db0cde37f3592bc743d2ed327be30d2") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 385fdb3c73d26f49f4e1c4f14e45ecb6cd0c5c2adce5d4e2d96ac524b5773cf9") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5beab4da465cc0ba63ffb9eebd845e20d3055939c576c2422fc17ab1e4f76779") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=699dbaf75ab90cb870c2bbc19122c1e2f3429995e1eb7b6f7f342ab3e47a0267 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(96txo)
+2018-02-15 02:19:07 AddToWallet 76caae835944cd3f0792ea9071b83c276e1b27f51c9f9e4bef8f9a3de52a6002  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6ebc7cb5c738143b557df14fad3c8b0b2d2d11936eec972523d4da2bacdf378e") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2050c7dbc0351e6415851840f202489291ec59174fc1f83fda94c0a31b7c4664") returned 65280
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=5d52bf07e2370d66e58a51626ef2f0061b3d940ee9a4767b5370602c632ca193 height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(97txo)
+2018-02-15 02:19:07 AddToWallet f384a87a6a2788d3410fe00f97e10b229f605ac1536675fdd48dc2c233d6b2a6  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=0274889c7141aca76de40b3b0a47ea6546f4bac3366b83108d646315b8d1516e height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(98txo)
+2018-02-15 02:19:07 AddToWallet da7dbcfd6a6f9ecd7cb4d67d9bf5d82d25e0d23715ad0408300580b3c07bf5d0  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 699dbaf75ab90cb870c2bbc19122c1e2f3429995e1eb7b6f7f342ab3e47a0267") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=200d63d722dbb30fd8bf53f6fb75fa43d8203a3a03de5f14e079bb6c6954e5b6 height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(99txo)
+2018-02-15 02:19:07 AddToWallet 175c64f2d788601493caff0eb7f0cf2fe3c57a35796af39e1c1fdde6ecc90339  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 UpdateTip: new best=78841455f14c150846846dd05a2cc61c9f91bf108c8cb5115c517ae2240615c3 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(100txo)
+2018-02-15 02:19:07 AddToWallet 3d892e7c3121e1d5f5cfef04dda9c47820786133d3dce96faae9c6ad10fbde43  new
+2018-02-15 02:19:07 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0274889c7141aca76de40b3b0a47ea6546f4bac3366b83108d646315b8d1516e") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5d52bf07e2370d66e58a51626ef2f0061b3d940ee9a4767b5370602c632ca193") returned 65280
+2018-02-15 02:19:07 UpdateTip: new best=6781606a53e23dcf353dda3921957b6e54dba2ef9aaea6004e1fb33cbf22b0fa height=101 version=0x20000000 log2_work=7.6724253 tx=102 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(101txo)
+2018-02-15 02:19:07 AddToWallet 283c13d2341922334d67349d1023bd87b536ebee73cd104d9c496b5dc5c53f95  new
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 200d63d722dbb30fd8bf53f6fb75fa43d8203a3a03de5f14e079bb6c6954e5b6") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6781606a53e23dcf353dda3921957b6e54dba2ef9aaea6004e1fb33cbf22b0fa") returned 65280
+2018-02-15 02:19:07 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 78841455f14c150846846dd05a2cc61c9f91bf108c8cb5115c517ae2240615c3") returned 65280
+2018-02-15 02:19:19 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:19:19 keypool reserve 3
+2018-02-15 02:19:19 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:19:19 UpdateTip: new best=352c2af63fbbd1d816c6aa5d2b7af9d22db1e096a5674c075e4a29c02450d02a height=102 version=0x20000000 log2_work=7.6865005 tx=103 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(102txo)
+2018-02-15 02:19:19 AddToWallet c724b2496dadd0e6a412a8e6a4bfd52fad413946de6ff600b5cc93e3e1c8994a  new
+2018-02-15 02:19:19 keypool keep 3
+2018-02-15 02:19:19 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 352c2af63fbbd1d816c6aa5d2b7af9d22db1e096a5674c075e4a29c02450d02a") returned 65280
+2018-02-15 02:20:04 Adding fixed seed nodes as DNS doesn't seem to be available.
+2018-02-15 02:20:55 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:20:55 keypool reserve 4
+2018-02-15 02:20:55 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:20:55 UpdateTip: new best=1d75e498c74e78c9db4977e7b04759f563958ce61511d05219661e4e16baef01 height=103 version=0x20000000 log2_work=7.7004397 tx=104 date='2018-02-15 02:20:55' progress=1.000000 cache=0.0MiB(103txo)
+2018-02-15 02:20:55 AddToWallet fe463377ead70d8b9f832fd7c6fb5e3e8ccd43693ae4a72254cb1c3405741a7c  new
+2018-02-15 02:20:55 keypool keep 4
+2018-02-15 02:20:55 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1d75e498c74e78c9db4977e7b04759f563958ce61511d05219661e4e16baef01") returned 65280
+2018-02-15 02:32:42 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:32:42 keypool reserve 5
+2018-02-15 02:32:42 keypool keep 5
+2018-02-15 02:37:05 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:37:05 keypool reserve 6
+2018-02-15 02:37:05 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:05 UpdateTip: new best=698f2670731e887acab50607913b543cc68eb86e450654219f0a48e11a48e5d2 height=104 version=0x20000000 log2_work=7.7142455 tx=105 date='2018-02-15 02:37:05' progress=1.000000 cache=0.0MiB(104txo)
+2018-02-15 02:37:05 AddToWallet 846d8e4bfc4e9f5da9e2809806b03912489771badcfbc9033ba8c1fe3fce3c39  new
+2018-02-15 02:37:05 keypool keep 6
+2018-02-15 02:37:05 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 698f2670731e887acab50607913b543cc68eb86e450654219f0a48e11a48e5d2") returned 65280
+2018-02-15 02:37:45 receive version message: /Satoshi:0.15.1/: version 70015, blocks=0, us=[::]:0, peer=0
+2018-02-15 02:37:49 UpdateTip: new best=04a194166def2ab5933bc150079013e1229fc99341c33e4737f0a10b3c78abef height=105 version=0x20000000 log2_work=7.7279205 tx=106 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(105txo)
+2018-02-15 02:37:49 UpdateTip: new best=588f261325b058db9102eaedb802bcaed67db3e5d13bb2e083fbab327669d3c5 height=106 version=0x20000000 log2_work=7.741467 tx=107 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(106txo)
+2018-02-15 02:37:49 UpdateTip: new best=729a81ae190fa5f86e3389b01afd8e079b53ea6bdef2f54554ac4a4c4e4fda70 height=107 version=0x20000000 log2_work=7.7548875 tx=108 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(107txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 04a194166def2ab5933bc150079013e1229fc99341c33e4737f0a10b3c78abef") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3d6d9d088047b0f441721224c0257444d47f8132b8491322dca587668e41d7fc height=108 version=0x20000000 log2_work=7.7681843 tx=109 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(108txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 588f261325b058db9102eaedb802bcaed67db3e5d13bb2e083fbab327669d3c5") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=653d309a84601b153660481aa737606492711e55ce74fc18307df407b059579d height=109 version=0x20000000 log2_work=7.7813597 tx=110 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(109txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 729a81ae190fa5f86e3389b01afd8e079b53ea6bdef2f54554ac4a4c4e4fda70") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=7940b30aa57ff9c3c53942bc066c3bc259a470a0765e48093a1e39e2177f7b5a height=110 version=0x20000000 log2_work=7.7944159 tx=111 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(110txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3d6d9d088047b0f441721224c0257444d47f8132b8491322dca587668e41d7fc") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5db70014a0a8624fa2c8f66e26b9dac3979f538497afffdc43a5533d06f452c0 height=111 version=0x20000000 log2_work=7.8073549 tx=112 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(111txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 653d309a84601b153660481aa737606492711e55ce74fc18307df407b059579d") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5cb3e2769a4e1378bd9add765c3534300640e269d28c908a409988130b6e0f4d height=112 version=0x20000000 log2_work=7.820179 tx=113 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(112txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7940b30aa57ff9c3c53942bc066c3bc259a470a0765e48093a1e39e2177f7b5a") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2dbbee741f5abd5a6d0091f9e27490d86dda7294df5804729c786ba07fc8710f height=113 version=0x20000000 log2_work=7.83289 tx=114 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(113txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5db70014a0a8624fa2c8f66e26b9dac3979f538497afffdc43a5533d06f452c0") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0bc92fc5a9c747e28902039c30ae883180d3786205bf763d3d6587b134055960 height=114 version=0x20000000 log2_work=7.8454901 tx=115 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(114txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5cb3e2769a4e1378bd9add765c3534300640e269d28c908a409988130b6e0f4d") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=4153b5da6ab542ad6535361848ddb0d425e123a5f120b37a65a1fbd63f2504f9 height=115 version=0x20000000 log2_work=7.857981 tx=116 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(115txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2dbbee741f5abd5a6d0091f9e27490d86dda7294df5804729c786ba07fc8710f") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=52f84250da3b932618561dd0fa2a7feec545f63e7f080e82808099a18249bc30 height=116 version=0x20000000 log2_work=7.8703647 tx=117 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(116txo)
+2018-02-15 02:37:49 UpdateTip: new best=1296e5d7ad9beb8afcfbdcfff6232c9143ef03cd3d01507bbc8d04ae378e4d8e height=117 version=0x20000000 log2_work=7.882643 tx=118 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(117txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0bc92fc5a9c747e28902039c30ae883180d3786205bf763d3d6587b134055960") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=66bd429ddf5b26bb85d0844a3970253c081f32b76964a98b34e4f66fc144e930 height=118 version=0x20000000 log2_work=7.8948178 tx=119 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(118txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 52f84250da3b932618561dd0fa2a7feec545f63e7f080e82808099a18249bc30") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1296e5d7ad9beb8afcfbdcfff6232c9143ef03cd3d01507bbc8d04ae378e4d8e") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4153b5da6ab542ad6535361848ddb0d425e123a5f120b37a65a1fbd63f2504f9") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2884bbb4c8d93dea5cada0a46e272509a13ecffa9c21d2b7ed68ad6d9c4e3cae height=119 version=0x20000000 log2_work=7.9068906 tx=120 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(119txo)
+2018-02-15 02:37:49 UpdateTip: new best=643c98e2dd38ae574c6880bc924bed3f31dc8f7fe0dbceebd241459cda8f9b59 height=120 version=0x20000000 log2_work=7.9188632 tx=121 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(120txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 66bd429ddf5b26bb85d0844a3970253c081f32b76964a98b34e4f66fc144e930") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=409111d91b9e0da7961d318aa103a6f5f5201f8b6e32c77bfaec8f23c40ecb3a height=121 version=0x20000000 log2_work=7.9307373 tx=122 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(121txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2884bbb4c8d93dea5cada0a46e272509a13ecffa9c21d2b7ed68ad6d9c4e3cae") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=23f2bd0a3028bea12b494f4d0ca18c4f2a6ce97831b39fd96b34b8a6ed620c08 height=122 version=0x20000000 log2_work=7.9425145 tx=123 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(122txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 643c98e2dd38ae574c6880bc924bed3f31dc8f7fe0dbceebd241459cda8f9b59") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=345dc6ef391960794830959b2a2abffde32d50843d99d2939c48113582306d1a height=123 version=0x20000000 log2_work=7.9541963 tx=124 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(123txo)
+2018-02-15 02:37:49 UpdateTip: new best=0156ede470598833e369e69ae5024d4eaa508a2c348f99a403276a41ea91fb88 height=124 version=0x20000000 log2_work=7.9657843 tx=125 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(124txo)runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 409111d91b9e0da7961d318aa103a6f5f5201f8b6e32c77bfaec8f23c40ecb3a") returned 65280
+2018-02-15 02:37:49 
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 23f2bd0a3028bea12b494f4d0ca18c4f2a6ce97831b39fd96b34b8a6ed620c08") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=4e53712ae5b422489db3cdd78d42c94582be99ad8f31431fa8b09136499fc22c height=125 version=0x20000000 log2_work=7.9772799 tx=126 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(125txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0156ede470598833e369e69ae5024d4eaa508a2c348f99a403276a41ea91fb88") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2d247f0efab56c3a8614b1eaf4e40296ab717dbb9dc3a1d076043ce8b7ff1448 height=126 version=0x20000000 log2_work=7.9886847 tx=127 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(126txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 345dc6ef391960794830959b2a2abffde32d50843d99d2939c48113582306d1a") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=02c91fde1ed6204125915c93f8943f8d3520ead369e1ff03021998665c53bd35 height=127 version=0x20000000 log2_work=8 tx=128 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(127txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4e53712ae5b422489db3cdd78d42c94582be99ad8f31431fa8b09136499fc22c") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=6dfd09d60e1c5457b6ceb17b1aa7f4c9be4ab2c30dae4d76ef37a9d3adcda6a3 height=128 version=0x20000000 log2_work=8.0112273 tx=129 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(128txo)
+2018-02-15 02:37:49 UpdateTip: new best=41e58054f1a42d8b210cad28d75261627a72ba835590bedc27823914f8ada8c4 height=129 version=0x20000000 log2_work=8.0223678 tx=130 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(129txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2d247f0efab56c3a8614b1eaf4e40296ab717dbb9dc3a1d076043ce8b7ff1448") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3816b8988d5bd9b6e0ff4d3aa0b053937cbeff9d8df9f636ccb159b5d5402c22 height=130 version=0x20000000 log2_work=8.033423 tx=131 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(130txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 02c91fde1ed6204125915c93f8943f8d3520ead369e1ff03021998665c53bd35") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6dfd09d60e1c5457b6ceb17b1aa7f4c9be4ab2c30dae4d76ef37a9d3adcda6a3") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3d4a63ccb196122f8c7443ff45e99f5df39c9ae9dc679fa724d67f6cbd2dbac8 height=131 version=0x20000000 log2_work=8.0443941 tx=132 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(131txo)
+2018-02-15 02:37:49 UpdateTip: new best=3da4308fd5f0cab87396768d2d870119584954227bcf736b962d957a98caa107 height=132 version=0x20000000 log2_work=8.0552824 tx=133 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(132txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 41e58054f1a42d8b210cad28d75261627a72ba835590bedc27823914f8ada8c4") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3816b8988d5bd9b6e0ff4d3aa0b053937cbeff9d8df9f636ccb159b5d5402c22") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2c72a0c930f91d2070898cbaacd2e4b8aa979a800b488b8412e227af717c2e93 height=133 version=0x20000000 log2_work=8.0660892 tx=134 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(133txo)
+2018-02-15 02:37:49 UpdateTip: new best=75aa1823b403df421e8ee1b704b230b8de84eefb50a6b551a182e7769a83d22b height=134 version=0x20000000 log2_work=8.0768156 tx=135 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(134txo)
+2018-02-15 02:37:49 UpdateTip: new best=7a09843b5d512387d9b956e5488063285d45db2060c1a1ba8bba2e27a918ff75 height=135 version=0x20000000 log2_work=8.0874628 tx=136 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(135txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3d4a63ccb196122f8c7443ff45e99f5df39c9ae9dc679fa724d67f6cbd2dbac8") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3da4308fd5f0cab87396768d2d870119584954227bcf736b962d957a98caa107") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2c72a0c930f91d2070898cbaacd2e4b8aa979a800b488b8412e227af717c2e93") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=1c592234f8727af141993fcea655164ba386343eb5e65b57a0ab743c91ea9a16 height=136 version=0x20000000 log2_work=8.0980321 tx=137 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(136txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7a09843b5d512387d9b956e5488063285d45db2060c1a1ba8bba2e27a918ff75") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 75aa1823b403df421e8ee1b704b230b8de84eefb50a6b551a182e7769a83d22b") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=74857a051e5b886ec7fc152344e2251aed315ea0e20b64c3ddd74f7862e56413 height=137 version=0x20000000 log2_work=8.1085245 tx=138 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(137txo)
+2018-02-15 02:37:49 UpdateTip: new best=771e13f08105c9af31d8c1f2673b5a79b8544399e9e779d163582cc94fcc3049 height=138 version=0x20000000 log2_work=8.1189411 tx=139 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(138txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1c592234f8727af141993fcea655164ba386343eb5e65b57a0ab743c91ea9a16") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=4033a22cf18f04a2e8b8c123ef254ecc88a4b5ae48b3fe1227956cab6ef2b178 height=139 version=0x20000000 log2_work=8.129283 tx=140 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(139txo)
+2018-02-15 02:37:49 UpdateTip: new best=3e472342c5a7e51c1c7df49415b44aa8635f8e2e87354cd900ea8f72737039ac height=140 version=0x20000000 log2_work=8.1395514 tx=141 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(140txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 74857a051e5b886ec7fc152344e2251aed315ea0e20b64c3ddd74f7862e56413") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 771e13f08105c9af31d8c1f2673b5a79b8544399e9e779d163582cc94fcc3049") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=631576e8c4e054ed665484f8f93fe21493d4118e3e1f0d8dcd981d8be9ea04cf height=141 version=0x20000000 log2_work=8.1497471 tx=142 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(141txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4033a22cf18f04a2e8b8c123ef254ecc88a4b5ae48b3fe1227956cab6ef2b178") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0e8eace343a01b6474cc87c6ba6916cf20b6ad415bc97158f51abcaf7dbac055 height=142 version=0x20000000 log2_work=8.1598713 tx=143 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(142txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3e472342c5a7e51c1c7df49415b44aa8635f8e2e87354cd900ea8f72737039ac") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5dbca5d8a04c506df3d5f711af79ac7f5fdb279c8f731e63b157123d1cfd2f8e height=143 version=0x20000000 log2_work=8.169925 tx=144 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(143txo)
+2018-02-15 02:37:49 UpdateTip: new best=094b7b4eb1fbb012ccd95e4e8abfdfa27548c4c7e0d6c910fd3ad05065dfa75f height=144 version=0x30000003 log2_work=8.1799091 tx=145 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(144txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 631576e8c4e054ed665484f8f93fe21493d4118e3e1f0d8dcd981d8be9ea04cf") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0e8eace343a01b6474cc87c6ba6916cf20b6ad415bc97158f51abcaf7dbac055") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0c2270b377ff4d8dac50f05b974d8adbc1af0c6d08c51f2eecb34368de274ff5 height=145 version=0x30000003 log2_work=8.1898246 tx=146 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(145txo)
+2018-02-15 02:37:49 UpdateTip: new best=5d814326d5471ca70a8912645c0dbbd888080afdcb28912874fc448724a9cb79 height=146 version=0x30000003 log2_work=8.1996723 tx=147 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(146txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5dbca5d8a04c506df3d5f711af79ac7f5fdb279c8f731e63b157123d1cfd2f8e") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0906752b92a4a01f5ee36da39c2c4743b198197f46f676f91bfe00770ed1bce4 height=147 version=0x30000003 log2_work=8.2094534 tx=148 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(147txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 094b7b4eb1fbb012ccd95e4e8abfdfa27548c4c7e0d6c910fd3ad05065dfa75f") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=799460b3ee5f77bdaf87e7fc9360f2390c831347f31fba58badfed6c7334ceff height=148 version=0x30000003 log2_work=8.2191685 tx=149 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(148txo)
+2018-02-15 02:37:49 UpdateTip: new best=50990b0ba8b326f0d2bcc159acd9a0216d23f1c6ebf2fbcf19373d39c7c57103 height=149 version=0x30000003 log2_work=8.2288187 tx=150 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(149txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0c2270b377ff4d8dac50f05b974d8adbc1af0c6d08c51f2eecb34368de274ff5") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2057b7fb436d383542ea250bc61792e1a9c4d1ae1fdcdcc7357b8aa2d12e37cb height=150 version=0x30000003 log2_work=8.2384047 tx=151 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(150txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5d814326d5471ca70a8912645c0dbbd888080afdcb28912874fc448724a9cb79") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=35cdbced0e0d810a55a1fde78d8e7c0b204856136ee4be6f8b3bbe0b18803188 height=151 version=0x30000003 log2_work=8.2479275 tx=152 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(151txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 50990b0ba8b326f0d2bcc159acd9a0216d23f1c6ebf2fbcf19373d39c7c57103") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0906752b92a4a01f5ee36da39c2c4743b198197f46f676f91bfe00770ed1bce4") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=690618fb673619dc757704e9b47ebb86bb40883d7cde09c6b661adc76c718a1a height=152 version=0x30000003 log2_work=8.2573878 tx=153 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(152txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 799460b3ee5f77bdaf87e7fc9360f2390c831347f31fba58badfed6c7334ceff") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5b88c4e867495e8d6b7cb54bb74df924b0eb803ca7d5096f17243ebb1bca457c height=153 version=0x30000003 log2_work=8.2667865 tx=154 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(153txo)
+2018-02-15 02:37:49 UpdateTip: new best=7d37ebf12cd48a37d528d80de8d19d55d6ff02cc7032718f8ef0626c798a51b1 height=154 version=0x30000003 log2_work=8.2761244 tx=155 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(154txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 690618fb673619dc757704e9b47ebb86bb40883d7cde09c6b661adc76c718a1a") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 35cdbced0e0d810a55a1fde78d8e7c0b204856136ee4be6f8b3bbe0b18803188") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=387fe760f548630795c01737a554a36c9e8804ab5704f148c014e20389af60a2 height=155 version=0x30000003 log2_work=8.2854022 tx=156 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(155txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2057b7fb436d383542ea250bc61792e1a9c4d1ae1fdcdcc7357b8aa2d12e37cb") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5b88c4e867495e8d6b7cb54bb74df924b0eb803ca7d5096f17243ebb1bca457c") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=7e54f18de3a5c1f4c8f9faa9bdb04d0cd9187a023e6c16c29662d95facc73bec height=156 version=0x30000003 log2_work=8.2946207 tx=157 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(156txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7d37ebf12cd48a37d528d80de8d19d55d6ff02cc7032718f8ef0626c798a51b1") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=495e21e0cfef8097fb149ed46026eeb79271e77d3584d0b7d1f77279ea1b486f height=157 version=0x30000003 log2_work=8.3037807 tx=158 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(157txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 387fe760f548630795c01737a554a36c9e8804ab5704f148c014e20389af60a2") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3699c6cb3704d19c1c857ca8b08d9dbbc4307435bf52e3e36564d8f0e4c8a632 height=158 version=0x30000003 log2_work=8.312883 tx=159 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(158txo)
+2018-02-15 02:37:49 UpdateTip: new best=0b45fc39b9d7c6fec1ed0de65fd40f3596c886f420dac422f39e849fc89c1166 height=159 version=0x30000003 log2_work=8.3219281 tx=160 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(159txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 495e21e0cfef8097fb149ed46026eeb79271e77d3584d0b7d1f77279ea1b486f") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7e54f18de3a5c1f4c8f9faa9bdb04d0cd9187a023e6c16c29662d95facc73bec") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=6f442a7d65c2b0d63457f38b0e5b650ba4ece97d0e4047eee147d23870372e25 height=160 version=0x30000003 log2_work=8.3309169 tx=161 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(160txo)
+2018-02-15 02:37:49 UpdateTip: new best=728d61518374c6c3ee8e7dcccb7e56d44a83cecb18beee3bde1e3e8eefcfd2ac height=161 version=0x30000003 log2_work=8.33985 tx=162 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(161txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3699c6cb3704d19c1c857ca8b08d9dbbc4307435bf52e3e36564d8f0e4c8a632") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0b45fc39b9d7c6fec1ed0de65fd40f3596c886f420dac422f39e849fc89c1166") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=7110c8caca121889a487d70f70945ceb7a3c08c8b31a7e6ed1338437e5545bc9 height=162 version=0x30000003 log2_work=8.3487282 tx=163 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(162txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6f442a7d65c2b0d63457f38b0e5b650ba4ece97d0e4047eee147d23870372e25") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=59c96631df724de5c482dda262f633bbf04bcfd277ad3b4d57bc667bf51f03b8 height=163 version=0x30000003 log2_work=8.357552 tx=164 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(163txo)
+2018-02-15 02:37:49 UpdateTip: new best=3b353ff2b0f94a9334a36738050013042dc7b4dff149aaea8be877cd75004043 height=164 version=0x30000003 log2_work=8.3663222 tx=165 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(164txo)
+2018-02-15 02:37:49 UpdateTip: new best=61d334f3cb4b9b53b04d410cdaada10a8876a3f181eb27cf4c130446a3f997e4 height=165 version=0x30000003 log2_work=8.3750394 tx=166 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(165txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 728d61518374c6c3ee8e7dcccb7e56d44a83cecb18beee3bde1e3e8eefcfd2ac") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 59c96631df724de5c482dda262f633bbf04bcfd277ad3b4d57bc667bf51f03b8") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7110c8caca121889a487d70f70945ceb7a3c08c8b31a7e6ed1338437e5545bc9") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=69108bf55c4083530c94484d0225e3dd701992ae4b4941bb7a1aab0dfecad929 height=166 version=0x30000003 log2_work=8.3837043 tx=167 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(166txo)
+2018-02-15 02:37:49 UpdateTip: new best=54dae9452449afcade05c04d3671f80f9066bbf542be1f7febe946ce4b8a5e60 height=167 version=0x30000003 log2_work=8.3923174 tx=168 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(167txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3b353ff2b0f94a9334a36738050013042dc7b4dff149aaea8be877cd75004043") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 61d334f3cb4b9b53b04d410cdaada10a8876a3f181eb27cf4c130446a3f997e4") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=2715d42a36882f8ee4becc5a9f18478d8da2279916fdfc989f02d784c93fb5c9 height=168 version=0x30000003 log2_work=8.4008794 tx=169 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(168txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 69108bf55c4083530c94484d0225e3dd701992ae4b4941bb7a1aab0dfecad929") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3f1bcc0696494df6810c89af436275814a363f68d407d9cf4b0926298d7ebf4b height=169 version=0x30000003 log2_work=8.4093909 tx=170 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(169txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 54dae9452449afcade05c04d3671f80f9066bbf542be1f7febe946ce4b8a5e60") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0113bc1f9f579d18c8fad9ce84a63194d05503e7a51178e617b09db9b03bc883 height=170 version=0x30000003 log2_work=8.4178525 tx=171 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(170txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2715d42a36882f8ee4becc5a9f18478d8da2279916fdfc989f02d784c93fb5c9") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=695b4dbc9be133f98022e2dec544012297661bd62704cca6bfe0cb41ad7b6d80 height=171 version=0x30000003 log2_work=8.4262648 tx=172 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(171txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3f1bcc0696494df6810c89af436275814a363f68d407d9cf4b0926298d7ebf4b") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=79c8cd945441ae3e73e5fbc294bf0b60f183698dd60e489a4aaafb646f823377 height=172 version=0x30000003 log2_work=8.4346282 tx=173 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(172txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0113bc1f9f579d18c8fad9ce84a63194d05503e7a51178e617b09db9b03bc883") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=664e8eb4baad166d03723d0ec9afdf6b982b918691a24e8d3fe96924a684db1d height=173 version=0x30000003 log2_work=8.4429435 tx=174 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(173txo)
+2018-02-15 02:37:49 UpdateTip: new best=5ea738c2570bd47ae85c5ca87ad59168ab07aba38d98e99ba724eed0876a6067 height=174 version=0x30000003 log2_work=8.4512111 tx=175 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(174txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 695b4dbc9be133f98022e2dec544012297661bd62704cca6bfe0cb41ad7b6d80") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 79c8cd945441ae3e73e5fbc294bf0b60f183698dd60e489a4aaafb646f823377") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 664e8eb4baad166d03723d0ec9afdf6b982b918691a24e8d3fe96924a684db1d") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5ce2d90bea7dfb5425607a500cf2206d9c7cbf9ce80b4de84b77e0eb20027238 height=175 version=0x30000003 log2_work=8.4594316 tx=176 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(175txo)
+2018-02-15 02:37:49 UpdateTip: new best=5123632aab1248d523fcf6764cce7aec0a6ce904ea5fcee0f76455ba79b6b5a7 height=176 version=0x30000003 log2_work=8.4676056 tx=177 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(176txo)
+2018-02-15 02:37:49 UpdateTip: new best=57fb964a99bdf05dd82e4f9c2cb60a9a190ce0fe740d6f154638c9a932e55cd0 height=177 version=0x30000003 log2_work=8.4757334 tx=178 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(177txo)2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5ce2d90bea7dfb5425607a500cf2206d9c7cbf9ce80b4de84b77e0eb20027238") returned 65280
+2018-02-15 02:37:49 
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5ea738c2570bd47ae85c5ca87ad59168ab07aba38d98e99ba724eed0876a6067") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=4c42a5b342ab71a7d9467fd532a2e671eb4c896e8478ed5c8f23505162449c98 height=178 version=0x30000003 log2_work=8.4838158 tx=179 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(178txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5123632aab1248d523fcf6764cce7aec0a6ce904ea5fcee0f76455ba79b6b5a7") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5458a3b279289dc3d90fee86d700c72263ac380b3148d12c0c7a58107c53549d height=179 version=0x30000003 log2_work=8.4918531 tx=180 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(179txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 57fb964a99bdf05dd82e4f9c2cb60a9a190ce0fe740d6f154638c9a932e55cd0") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=354649d5fa13eae6dea21ceef9f5b65563f0f822f959d42ce4379f5cf1996814 height=180 version=0x30000003 log2_work=8.4998459 tx=181 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(180txo)
+2018-02-15 02:37:49 UpdateTip: new best=184414ecbe2f0d9de8d8149a5f3fbc957dd4e23cfc9f2d0c03733e325f97ae7a height=181 version=0x30000003 log2_work=8.5077946 tx=182 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(181txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4c42a5b342ab71a7d9467fd532a2e671eb4c896e8478ed5c8f23505162449c98") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=15f66afcf3eda6b0ccfc6146b5c797e947fd11668cf8898bb1228d11725b6e41 height=182 version=0x30000003 log2_work=8.5156998 tx=183 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(182txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5458a3b279289dc3d90fee86d700c72263ac380b3148d12c0c7a58107c53549d") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 354649d5fa13eae6dea21ceef9f5b65563f0f822f959d42ce4379f5cf1996814") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5c3247e9f2a101155f6b1762457ba41350ef62ad0bcca666735cce182c1321a3 height=183 version=0x30000003 log2_work=8.523562 tx=184 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(183txo)
+2018-02-15 02:37:49 UpdateTip: new best=1f8b118b7e7d6dffdb4496d8849aef0331163f570b8ca4aeac03af03c5595717 height=184 version=0x30000003 log2_work=8.5313815 tx=185 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(184txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 184414ecbe2f0d9de8d8149a5f3fbc957dd4e23cfc9f2d0c03733e325f97ae7a") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=7e71dfd8799a05b9d468f3946a9e5502c05839b1bd92e85c3815ebfa6c081e47 height=185 version=0x30000003 log2_work=8.5391588 tx=186 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(185txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 15f66afcf3eda6b0ccfc6146b5c797e947fd11668cf8898bb1228d11725b6e41") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0685dc3df5116378fc2ed4715c6efc4c61603bca02eea7b1371e194c03cf06b3 height=186 version=0x30000003 log2_work=8.5468945 tx=187 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(186txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5c3247e9f2a101155f6b1762457ba41350ef62ad0bcca666735cce182c1321a3") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=48558e627d0157799398c92cc2ebbe5c268eaca701473399eccc00650bf91c9d height=187 version=0x30000003 log2_work=8.5545889 tx=188 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(187txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1f8b118b7e7d6dffdb4496d8849aef0331163f570b8ca4aeac03af03c5595717") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=014e478612330f7fe0238abd001b09304441ba105abf1013c8e52c5d5ff04e29 height=188 version=0x30000003 log2_work=8.5622424 tx=189 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(188txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7e71dfd8799a05b9d468f3946a9e5502c05839b1bd92e85c3815ebfa6c081e47") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0685dc3df5116378fc2ed4715c6efc4c61603bca02eea7b1371e194c03cf06b3") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=750aadb91e71460636a8a58ef03306e35461e309eb2b4d0107847fca5c995157 height=189 version=0x30000003 log2_work=8.5698556 tx=190 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(189txo)
+2018-02-15 02:37:49 UpdateTip: new best=0c69aeeefae6c6d48467ed6be98d455ce1f183a0bd71b6073b91e6ed267e824d height=190 version=0x30000003 log2_work=8.5774288 tx=191 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(190txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 48558e627d0157799398c92cc2ebbe5c268eaca701473399eccc00650bf91c9d") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 014e478612330f7fe0238abd001b09304441ba105abf1013c8e52c5d5ff04e29") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=781c47a12bca7012f3d992bfb6f455e75b7e1483d27f96d01eb64120f5cb16fc height=191 version=0x30000003 log2_work=8.5849625 tx=192 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(191txo)
+2018-02-15 02:37:49 UpdateTip: new best=7505196cce662c0d579809d35f4a6d76360bdf14be649602a0dafc36f756cf33 height=192 version=0x30000003 log2_work=8.592457 tx=193 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(192txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 750aadb91e71460636a8a58ef03306e35461e309eb2b4d0107847fca5c995157") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=3ac646b84f4d0623f18600bfa5a5d1e95ddf936dacd98bee8b3f7f4c0a6b269e height=193 version=0x30000003 log2_work=8.5999128 tx=194 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(193txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0c69aeeefae6c6d48467ed6be98d455ce1f183a0bd71b6073b91e6ed267e824d") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=394f806ae3c43d0e999d6db9435f5e12457ba3d0a368732e3256c723079111b7 height=194 version=0x30000003 log2_work=8.6073303 tx=195 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(194txo)2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 781c47a12bca7012f3d992bfb6f455e75b7e1483d27f96d01eb64120f5cb16fc") returned 65280
+2018-02-15 02:37:49 
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 7505196cce662c0d579809d35f4a6d76360bdf14be649602a0dafc36f756cf33") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=58222028244bad731e0a9018d6b2c43aa265e4eb60d2f9e5443cb2d2f4862f9c height=195 version=0x30000003 log2_work=8.6147098 tx=196 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(195txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3ac646b84f4d0623f18600bfa5a5d1e95ddf936dacd98bee8b3f7f4c0a6b269e") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=28dc369f5becc670c2eddc3e997171a23dc5e048416cc168ecf9844d401b2c04 height=196 version=0x30000003 log2_work=8.6220518 tx=197 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(196txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 394f806ae3c43d0e999d6db9435f5e12457ba3d0a368732e3256c723079111b7") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=65171ac8a7d4ba814a716193aaeceed12c769b0fb45b397b02f2a5959fcd8e08 height=197 version=0x30000003 log2_work=8.6293566 tx=198 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(197txo)
+2018-02-15 02:37:49 UpdateTip: new best=757cdf2ba84f5ccf7c76738239c3461d86cf73438deadb4409a9cf416d694a55 height=198 version=0x30000003 log2_work=8.6366246 tx=199 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(198txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 28dc369f5becc670c2eddc3e997171a23dc5e048416cc168ecf9844d401b2c04") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 58222028244bad731e0a9018d6b2c43aa265e4eb60d2f9e5443cb2d2f4862f9c") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=4984f934914f97aa892eec4fae1463fd95db64bc448510dc7bbf412f50bcf075 height=199 version=0x30000003 log2_work=8.6438562 tx=200 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(199txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 65171ac8a7d4ba814a716193aaeceed12c769b0fb45b397b02f2a5959fcd8e08") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=076d9d879f373958d7e9108e9f0c83989bdb3781c57535b7aba1465805de1ba2 height=200 version=0x30000003 log2_work=8.6510517 tx=201 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(200txo)
+2018-02-15 02:37:49 UpdateTip: new best=67a06e20bbda1615c6d63d9c9b085dbe82bd6f82bd294b05e3b3b839440f9d44 height=201 version=0x30000003 log2_work=8.6582115 tx=202 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(201txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 757cdf2ba84f5ccf7c76738239c3461d86cf73438deadb4409a9cf416d694a55") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=14cc740239410dac8809f51100967927b46610b6e10a1c4a83e90c8438714226 height=202 version=0x30000003 log2_work=8.6653359 tx=203 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(202txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 076d9d879f373958d7e9108e9f0c83989bdb3781c57535b7aba1465805de1ba2") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4984f934914f97aa892eec4fae1463fd95db64bc448510dc7bbf412f50bcf075") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=5c443a4566a2e61ecbcd8553836c8b681818dbabb1440b8634818779e7880cf0 height=203 version=0x30000003 log2_work=8.6724253 tx=204 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(203txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 67a06e20bbda1615c6d63d9c9b085dbe82bd6f82bd294b05e3b3b839440f9d44") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=02b148aae489d17b7e6d4852ce2eec7e518141506cbb2d3470e3abe0901b6281 height=204 version=0x30000003 log2_work=8.6794801 tx=205 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(204txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 14cc740239410dac8809f51100967927b46610b6e10a1c4a83e90c8438714226") returned 65280
+2018-02-15 02:37:49 UpdateTip: new best=0a24b31231fcd566e8b1d68279bd6062cd32cd77f5339efe67a383490954b72d height=205 version=0x30000003 log2_work=8.6865005 tx=206 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(205txo)
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 02b148aae489d17b7e6d4852ce2eec7e518141506cbb2d3470e3abe0901b6281") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5c443a4566a2e61ecbcd8553836c8b681818dbabb1440b8634818779e7880cf0") returned 65280
+2018-02-15 02:37:49 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 0a24b31231fcd566e8b1d68279bd6062cd32cd77f5339efe67a383490954b72d") returned 65280
+2018-02-15 02:42:30 UpdateTip: new best=028173fc42d803c3a09237ed98434f74fe26b11384600203327359197f73b814 height=206 version=0x30000003 log2_work=8.693487 tx=207 date='2018-02-15 02:42:30' progress=1.000000 cache=0.0MiB(206txo)
+2018-02-15 02:42:30 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 028173fc42d803c3a09237ed98434f74fe26b11384600203327359197f73b814") returned 65280
+2018-02-15 02:43:35 UpdateTip: new best=4767425fd2fe0d6821acd7f6831330b5a71251a8b972d6d5a24a6cbe200bae4d height=207 version=0x30000003 log2_work=8.7004397 tx=208 date='2018-02-15 02:43:35' progress=1.000000 cache=0.0MiB(207txo)
+2018-02-15 02:43:35 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 4767425fd2fe0d6821acd7f6831330b5a71251a8b972d6d5a24a6cbe200bae4d") returned 65280
+2018-02-15 02:44:36 UpdateTip: new best=6e13ea8ee31c875a71274726a4524d1794fc20118c5fcc0bdd44dfa6e42a121e height=208 version=0x30000003 log2_work=8.7073591 tx=209 date='2018-02-15 02:44:36' progress=1.000000 cache=0.0MiB(208txo)
+2018-02-15 02:44:36 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6e13ea8ee31c875a71274726a4524d1794fc20118c5fcc0bdd44dfa6e42a121e") returned 65280
+2018-02-15 02:46:31 UpdateTip: new best=2ec7673d20f4ab6c9f1846bfa0d61624f6313179757940238a08665d4fbda123 height=209 version=0x30000003 log2_work=8.7142455 tx=210 date='2018-02-15 02:46:31' progress=1.000000 cache=0.0MiB(209txo)
+2018-02-15 02:46:31 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2ec7673d20f4ab6c9f1846bfa0d61624f6313179757940238a08665d4fbda123") returned 65280
+2018-02-15 02:46:52 UpdateTip: new best=1896fc9384790b44cef0ec185428cc359901bfd5fdc8c4356faf8c9a81105a7d height=210 version=0x30000003 log2_work=8.7210992 tx=211 date='2018-02-15 02:46:52' progress=1.000000 cache=0.0MiB(210txo)
+2018-02-15 02:46:52 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 1896fc9384790b44cef0ec185428cc359901bfd5fdc8c4356faf8c9a81105a7d") returned 65280
+2018-02-15 02:47:12 UpdateTip: new best=2fe3c71758f84435d6d1ff6cadad9d95c38de83d4770b14da48dba8c1aab6668 height=211 version=0x30000003 log2_work=8.7279205 tx=212 date='2018-02-15 02:47:12' progress=1.000000 cache=0.0MiB(211txo)
+2018-02-15 02:47:12 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2fe3c71758f84435d6d1ff6cadad9d95c38de83d4770b14da48dba8c1aab6668") returned 65280
+2018-02-15 02:48:01 UpdateTip: new best=5fbd6f88f6401452fe4eb98d87c8abc63e48a94bf3c81da70d4dd0f7e7e50236 height=212 version=0x30000003 log2_work=8.7347096 tx=213 date='2018-02-15 02:48:01' progress=1.000000 cache=0.0MiB(212txo)
+2018-02-15 02:48:01 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5fbd6f88f6401452fe4eb98d87c8abc63e48a94bf3c81da70d4dd0f7e7e50236") returned 65280
+2018-02-15 02:49:38 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:49:38 keypool reserve 7
+2018-02-15 02:49:38 keypool keep 7
+2018-02-15 02:49:57 UpdateTip: new best=5c1c23ee6aabe5a7a66b6b62092c83a1ff2f9d72b0659915f6034802744f6d34 height=213 version=0x30000003 log2_work=8.741467 tx=214 date='2018-02-15 02:49:57' progress=1.000000 cache=0.0MiB(213txo)
+2018-02-15 02:49:57 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 5c1c23ee6aabe5a7a66b6b62092c83a1ff2f9d72b0659915f6034802744f6d34") returned 65280
+2018-02-15 02:50:51 UpdateTip: new best=67b1f38d92536bc724316e55ca03d058cecf29298ca8c1830de80cbb41fe7e67 height=214 version=0x30000003 log2_work=8.7481928 tx=216 date='2018-02-15 02:50:51' progress=1.000000 cache=0.0MiB(216txo)
+2018-02-15 02:50:51 AddToWallet b0bff2b6a1c1334dc83b8ffeb871d9bfdcb6adbab110ea255696388c19ef7b91  new
+2018-02-15 02:50:51 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 67b1f38d92536bc724316e55ca03d058cecf29298ca8c1830de80cbb41fe7e67") returned 65280
+2018-02-15 02:53:14 UpdateTip: new best=3b7de7e0cb03e2a221c90e4fecd81b952237deb36812e9a30155a69e5bf622e3 height=215 version=0x30000003 log2_work=8.7548875 tx=218 date='2018-02-15 02:53:14' progress=1.000000 cache=0.0MiB(218txo)
+2018-02-15 02:53:14 AddToWallet 062857f4193a96015677007cdb918039a6a1a2094d3d9f3f1c6584886cce5d50  new
+2018-02-15 02:53:14 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3b7de7e0cb03e2a221c90e4fecd81b952237deb36812e9a30155a69e5bf622e3") returned 65280
+2018-02-15 02:53:17 UpdateTip: new best=568c074cf5c9a9f72a8ba9358652bb3797d36c0f7b313d5ed248d03fb2c157fc height=216 version=0x30000003 log2_work=8.7615512 tx=220 date='2018-02-15 02:53:17' progress=1.000000 cache=0.0MiB(220txo)
+2018-02-15 02:53:17 AddToWallet bc90476506cb93b8ca068e305d90f65c9472facf2c9be306c30c227098b5da2b  new
+2018-02-15 02:53:17 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 568c074cf5c9a9f72a8ba9358652bb3797d36c0f7b313d5ed248d03fb2c157fc") returned 65280
+2018-02-15 02:53:23 UpdateTip: new best=3f3810203bef554a9823d0c2389c13b9678551539ad947c4f9a8c588ab1216fa height=217 version=0x30000003 log2_work=8.7681843 tx=222 date='2018-02-15 02:53:23' progress=1.000000 cache=0.0MiB(222txo)
+2018-02-15 02:53:23 AddToWallet f41af243e631f0b76d6761a5ee15741ed94de8497da27b7724d73f347877029f  new
+2018-02-15 02:53:23 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 3f3810203bef554a9823d0c2389c13b9678551539ad947c4f9a8c588ab1216fa") returned 65280
+2018-02-15 02:53:58 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:53:58 keypool reserve 1001
+2018-02-15 02:53:58 Fee Calculation: Fee:3840 Bytes:192 Needed:3840 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:53:58 CommitTransaction:
+CTransaction(hash=5bf9cdc16b, ver=2, vin.size=1, vout.size=2, nLockTime=217)
+    CTxIn(COutPoint(69c4246c6f, 0), scriptSig=483045022100be2afb8a02b0, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.16406000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=49.83590160, scriptPubKey=76a914353f6a68d293efc854ff993a)
+2018-02-15 02:53:58 keypool keep 1001
+2018-02-15 02:53:58 AddToWallet 5bf9cdc16b72182bad2721130db8927b1d7a9a6ebca6ae542e14a9e8000eb645  new
+2018-02-15 02:53:58 AddToWallet 5bf9cdc16b72182bad2721130db8927b1d7a9a6ebca6ae542e14a9e8000eb645  
+2018-02-15 02:53:58 Relaying wtx 5bf9cdc16b72182bad2721130db8927b1d7a9a6ebca6ae542e14a9e8000eb645
+2018-02-15 02:53:58 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:53:58 keypool reserve 8
+2018-02-15 02:53:58 CreateNewBlock(): block weight: 1676 txs: 1 fees: 3840 sigops 408
+2018-02-15 02:53:58 UpdateTip: new best=6fbceb78c66fb0cf38d10ae1cf5eb555143c082eaeb5d108170695200067c24a height=218 version=0x30000003 log2_work=8.7747871 tx=224 date='2018-02-15 02:53:58' progress=1.000000 cache=0.0MiB(225txo)
+2018-02-15 02:53:58 AddToWallet 6d2235a9690cea9ce86c45f7a8216b8658854cf05466599e9fad836faa4d60eb  new
+2018-02-15 02:53:58 AddToWallet 5bf9cdc16b72182bad2721130db8927b1d7a9a6ebca6ae542e14a9e8000eb645  update
+2018-02-15 02:53:58 keypool keep 8
+2018-02-15 02:53:58 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6fbceb78c66fb0cf38d10ae1cf5eb555143c082eaeb5d108170695200067c24a") returned 65280
+2018-02-15 02:54:02 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:54:02 keypool reserve 1002
+2018-02-15 02:54:02 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:54:02 CommitTransaction:
+CTransaction(hash=097e9e5dff, ver=2, vin.size=1, vout.size=2, nLockTime=218)
+    CTxIn(COutPoint(5bf9cdc16b, 1), scriptSig=483045022100f9be9d592ea7, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.23866000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=49.59719640, scriptPubKey=76a914332c46cef37ef71523256087)
+2018-02-15 02:54:02 keypool keep 1002
+2018-02-15 02:54:02 AddToWallet 097e9e5dff000271552384652b90a911afbff0508ce05e7728eb5be18f6c5eb5  new
+2018-02-15 02:54:02 AddToWallet 097e9e5dff000271552384652b90a911afbff0508ce05e7728eb5be18f6c5eb5  
+2018-02-15 02:54:02 Relaying wtx 097e9e5dff000271552384652b90a911afbff0508ce05e7728eb5be18f6c5eb5
+2018-02-15 02:54:02 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:54:02 keypool reserve 9
+2018-02-15 02:54:02 CreateNewBlock(): block weight: 1812 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:54:02 UpdateTip: new best=334082f2eb3bfb302aa3a0ca5191894a0db78e9f410b6c806df23a1f7984dfc3 height=219 version=0x30000003 log2_work=8.7813597 tx=226 date='2018-02-15 02:54:02' progress=1.000000 cache=0.0MiB(227txo)
+2018-02-15 02:54:02 AddToWallet d1e7be60bb790bbbd659f6789daeb8bd81aec85377146db095e68eb4b37c8b46  new
+2018-02-15 02:54:02 AddToWallet 097e9e5dff000271552384652b90a911afbff0508ce05e7728eb5be18f6c5eb5  update
+2018-02-15 02:54:02 keypool keep 9
+2018-02-15 02:54:02 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 334082f2eb3bfb302aa3a0ca5191894a0db78e9f410b6c806df23a1f7984dfc3") returned 65280
+2018-02-15 02:54:04 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:54:04 keypool reserve 1003
+2018-02-15 02:54:04 Fee Calculation: Fee:7480 Bytes:374 Needed:7480 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:54:04 CommitTransaction:
+CTransaction(hash=c7fc1a1e1f, ver=2, vin.size=2, vout.size=2, nLockTime=219)
+    CTxIn(COutPoint(5bf9cdc16b, 0), scriptSig=483045022100b43b40d96bb5, nSequence=4294967294)
+    CTxIn(COutPoint(b0bff2b6a1, 1), scriptSig=483045022100b407351155ed, nSequence=4294967294)
+    CScriptWitness()
+    CScriptWitness()
+    CTxOut(nValue=0.24539000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=0.01731520, scriptPubKey=76a9148bc5640202a3e4a093201fc4)
+2018-02-15 02:54:04 keypool keep 1003
+2018-02-15 02:54:04 AddToWallet c7fc1a1e1f0e81239c960c274767115d333f801f761211aea01fd08df982288f  new
+2018-02-15 02:54:04 AddToWallet c7fc1a1e1f0e81239c960c274767115d333f801f761211aea01fd08df982288f  
+2018-02-15 02:54:04 Relaying wtx c7fc1a1e1f0e81239c960c274767115d333f801f761211aea01fd08df982288f
+2018-02-15 02:54:04 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:54:04 keypool reserve 10
+2018-02-15 02:54:04 CreateNewBlock(): block weight: 2404 txs: 1 fees: 7480 sigops 408
+2018-02-15 02:54:04 UpdateTip: new best=6bd34a4c75ca7fee901bf29503dc664b82c383737fd859debdf1d3dc6aa966cc height=220 version=0x30000003 log2_work=8.7879026 tx=228 date='2018-02-15 02:54:04' progress=1.000000 cache=0.0MiB(228txo)
+2018-02-15 02:54:04 AddToWallet b765b14de36d7bf88e35f02cc66ec4ac0c4c0ce5e68f453490d63cc8d7560bba  new
+2018-02-15 02:54:04 AddToWallet c7fc1a1e1f0e81239c960c274767115d333f801f761211aea01fd08df982288f  update
+2018-02-15 02:54:04 keypool keep 10
+2018-02-15 02:54:04 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 6bd34a4c75ca7fee901bf29503dc664b82c383737fd859debdf1d3dc6aa966cc") returned 65280
+2018-02-15 02:56:50 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:56:50 keypool reserve 1004
+2018-02-15 02:56:50 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:1 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:56:50 CommitTransaction:
+CTransaction(hash=9b2b21b9ba, ver=2, vin.size=1, vout.size=2, nLockTime=220)
+    CTxIn(COutPoint(097e9e5dff, 0), scriptSig=483045022100cbea0acf2f73, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.16966000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=0.06895480, scriptPubKey=76a914946f68fe6c227d8db3c9404d)
+2018-02-15 02:56:50 keypool keep 1004
+2018-02-15 02:56:50 AddToWallet 9b2b21b9ba312eefdbf626cfdcd0cd65406627880f807ed54ddc94ab8a0b8ffc  new
+2018-02-15 02:56:50 AddToWallet 9b2b21b9ba312eefdbf626cfdcd0cd65406627880f807ed54ddc94ab8a0b8ffc  
+2018-02-15 02:56:50 Relaying wtx 9b2b21b9ba312eefdbf626cfdcd0cd65406627880f807ed54ddc94ab8a0b8ffc
+2018-02-15 02:56:50 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:56:51 keypool reserve 11
+2018-02-15 02:56:51 CreateNewBlock(): block weight: 1812 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:56:51 UpdateTip: new best=2141c31794e0e722bc8f3e33008231384918c235232c4b30e981582ec27315c0 height=221 version=0x30000003 log2_work=8.7944159 tx=230 date='2018-02-15 02:56:51' progress=1.000000 cache=0.0MiB(230txo)
+2018-02-15 02:56:51 AddToWallet 93ad8a33ca1417dee41250e4622fe806527807ad8d2e130780cdefc3c0317faf  new
+2018-02-15 02:56:51 AddToWallet 9b2b21b9ba312eefdbf626cfdcd0cd65406627880f807ed54ddc94ab8a0b8ffc  update
+2018-02-15 02:56:51 keypool keep 11
+2018-02-15 02:56:51 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 2141c31794e0e722bc8f3e33008231384918c235232c4b30e981582ec27315c0") returned 65280
+2018-02-15 02:56:52 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:56:52 keypool reserve 1005
+2018-02-15 02:56:52 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:1 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:56:52 CommitTransaction:
+CTransaction(hash=3f878c09b7, ver=2, vin.size=1, vout.size=2, nLockTime=221)
+    CTxIn(COutPoint(9b2b21b9ba, 0), scriptSig=483045022100f3665d131bee, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.06108480, scriptPubKey=76a9142488f84f98cede251abf64b1)
+    CTxOut(nValue=0.10853000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+2018-02-15 02:56:52 keypool keep 1005
+2018-02-15 02:56:52 AddToWallet 3f878c09b762bb4a68ef9dc8048f154aa77c7cd7df507318c7a49ebe2b2d29d3  new
+2018-02-15 02:56:52 AddToWallet 3f878c09b762bb4a68ef9dc8048f154aa77c7cd7df507318c7a49ebe2b2d29d3  
+2018-02-15 02:56:52 Relaying wtx 3f878c09b762bb4a68ef9dc8048f154aa77c7cd7df507318c7a49ebe2b2d29d3
+2018-02-15 02:56:52 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:56:52 keypool reserve 12
+2018-02-15 02:56:52 CreateNewBlock(): block weight: 1812 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:56:52 UpdateTip: new best=00ed54d2b595816ac775f321d81498492d42362ba9cce227cc01f035712d4e4c height=222 version=0x30000003 log2_work=8.8008999 tx=232 date='2018-02-15 02:56:52' progress=1.000000 cache=0.0MiB(232txo)
+2018-02-15 02:56:52 AddToWallet d5750dd9b4af86dc926b48c83b3566ea4527115307da0fc4dd2826071fa7f2a7  new
+2018-02-15 02:56:52 AddToWallet 3f878c09b762bb4a68ef9dc8048f154aa77c7cd7df507318c7a49ebe2b2d29d3  update
+2018-02-15 02:56:52 keypool keep 12
+2018-02-15 02:56:52 runCommand error: system(sh -c "blocknotify 127.0.0.1:17117 bitcoin 00ed54d2b595816ac775f321d81498492d42362ba9cce227cc01f035712d4e4c") returned 65280
+2018-02-15 02:58:02 tor: Thread interrupt
+2018-02-15 02:58:02 torcontrol thread exit
+2018-02-15 02:58:02 addcon thread exit
+2018-02-15 02:58:02 scheduler thread interrupt
+2018-02-15 02:58:02 Shutdown: In progress...
+2018-02-15 02:58:02 opencon thread exit
+2018-02-15 02:58:02 net thread exit
+2018-02-15 02:58:02 msghand thread exit
+2018-02-15 02:58:02 Dumped mempool: 9e-06s to copy, 0.057539s to dump
+2018-02-15 02:58:02 Shutdown: done

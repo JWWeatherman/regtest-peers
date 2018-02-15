@@ -15,13 +15,13 @@ function terminateBitcoind() {
 # Cleaning up old blockchain
 ######################################
 function purgingBlockchain() {
-  echoyellow "[WARN] Deleting directory '${REGTEST_DIR}' in "
+  echoyellow "[WARN] Deleting directory '${PEERS_DIR}/$1/regtest' in "
   for i in `seq 5 -1 1`; do
     echored  $i
     sleep 1
     echo -n " "
   done
-  rm -rf ${REGTEST_DIR}
+  rm -rf ${PEERS_DIR}/$1/regtest 
   echo
 }
 
@@ -29,11 +29,11 @@ function purgingBlockchain() {
 # Starting a fresh bitcoin daemon instance
 ######################################
 function startBitcoind() {
-  ${BR_START} &
-  ${BR} ${BR_OPTS} &> ${LOG_FILE} &
-  echo $! > ${PID_FILE}
+  ${BR_START} ${DATA_DIR}$1 ${DAEMON} &  
+  ${BITCOIN_CLI} ${DATA_DIR}$1 ${BR_OPTS} &> ${LOG_FILE} & echo $! > ${PID_FILE}
 
-  echogreen "[DAEMON] Starting '${BR} ${BR_OPTS}' with PID '$(<${PID_FILE})'"; echo
+  echoyellow "[DAEMON] '$1'"; echo
+  echogreen "[DAEMON] Starting '${BITCOIN_CLI}' '${DATA_DIR}$1' '${BR_OPTS}' with PID '$(<${PID_FILE})'"; echo
   echogreen "[DAEMON] Logfile under '${LOG_FILE}'"; echo
 
   # Waiting until bitcoind has started
@@ -46,9 +46,11 @@ function startBitcoind() {
 ######################################
 function miningFirstBTC() {
   echocyan "[MINING] Mining Bitcoin. Please be patient for ~1 minute"; echo
-  ${BR} generate 101
+  echoyellow "'${BITCOIN_CLI}' '${DATA_DIR}$1' generate 101"; echo
+  
+  ${BITCOIN_CLI} ${DATA_DIR}$1 generate 101
 
-  BALANCE=$(${BR} getbalance)
-  echocyan "[WALLET] Your current balance: \e[1m\e[7m${BALANCE} BTC\e[0m"; echo
+  BALANCE=$(${BITCOIN_CLI} ${DATA_DIR}$1 getbalance)
+  echocyan "[WALLET] $1 wallet balance: \e[1m\e[7m${BALANCE} BTC\e[0m"; echo
 }
 

@@ -1,0 +1,656 @@
+2018-02-15 02:37:42 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-02-15 02:37:42 Bitcoin version v0.15.1
+2018-02-15 02:37:42 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2018-02-15 02:37:42 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-02-15 02:37:42 Validating signatures for all blocks.
+2018-02-15 02:37:42 Setting nMinimumChainWork=0000000000000000000000000000000000000000000000000000000000000000
+2018-02-15 02:37:42 Using the 'standard' SHA256 implementation
+2018-02-15 02:37:42 Default data directory /home/tomato/.bitcoin
+2018-02-15 02:37:42 Using data directory /home/tomato/bitcoin-regtest-node/peers/Alice/regtest
+2018-02-15 02:37:42 Using config file /home/tomato/bitcoin-regtest-node/peers/Alice/bitcoin.conf
+2018-02-15 02:37:42 Using at most 125 automatic connections (1024 file descriptors available)
+2018-02-15 02:37:42 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2018-02-15 02:37:42 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2018-02-15 02:37:42 Using 2 threads for script verification
+2018-02-15 02:37:42 scheduler thread start
+2018-02-15 02:37:42 HTTP: creating work queue of depth 16
+2018-02-15 02:37:42 No rpcpassword set - using random cookie authentication
+2018-02-15 02:37:42 Generated RPC authentication cookie /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/.cookie
+2018-02-15 02:37:42 HTTP: starting 4 worker threads
+2018-02-15 02:37:42 init message: Verifying wallet(s)...
+2018-02-15 02:37:42 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-02-15 02:37:42 Using wallet wallet.dat
+2018-02-15 02:37:42 CDBEnv::Open: LogDir=/home/tomato/bitcoin-regtest-node/peers/Alice/regtest/database ErrorFile=/home/tomato/bitcoin-regtest-node/peers/Alice/regtest/db.log
+2018-02-15 02:37:42 Cache configuration:
+2018-02-15 02:37:42 * Using 2.0MiB for block index database
+2018-02-15 02:37:42 * Using 8.0MiB for chain state database
+2018-02-15 02:37:42 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-02-15 02:37:42 init message: Loading block index...
+2018-02-15 02:37:42 Opening LevelDB in /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/blocks/index
+2018-02-15 02:37:42 Opened LevelDB successfully
+2018-02-15 02:37:42 Using obfuscation key for /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/blocks/index: 0000000000000000
+2018-02-15 02:37:42 LoadBlockIndexDB: last block file = 0
+2018-02-15 02:37:42 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-02-15 02:37:42 Checking all blk files are present...
+2018-02-15 02:37:42 LoadBlockIndexDB: transaction index disabled
+2018-02-15 02:37:42 Initializing databases...
+2018-02-15 02:37:42 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-02-15 02:37:42 Opening LevelDB in /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/chainstate
+2018-02-15 02:37:42 Opened LevelDB successfully
+2018-02-15 02:37:42 Wrote new obfuscate key for /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/chainstate: f56b19f6125a9925
+2018-02-15 02:37:42 Using obfuscation key for /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/chainstate: f56b19f6125a9925
+2018-02-15 02:37:42 init message: Rewinding blocks...
+2018-02-15 02:37:42  block index             365ms
+2018-02-15 02:37:42 init message: Loading wallet...
+2018-02-15 02:37:42 nFileVersion = 150100
+2018-02-15 02:37:42 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-02-15 02:37:43 Performing wallet upgrade to 60000
+2018-02-15 02:37:44 keypool added 2000 keys (1000 internal), size=2000 (1000 internal)
+2018-02-15 02:37:44 keypool reserve 1
+2018-02-15 02:37:44 keypool keep 1
+2018-02-15 02:37:45  wallet                 2288ms
+2018-02-15 02:37:45 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:37:45 setKeyPool.size() = 2000
+2018-02-15 02:37:45 mapWallet.size() = 0
+2018-02-15 02:37:45 mapAddressBook.size() = 1
+2018-02-15 02:37:45 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0txo)
+2018-02-15 02:37:45 Failed to open mempool file from disk. Continuing anyway.
+2018-02-15 02:37:45 mapBlockIndex.size() = 1
+2018-02-15 02:37:45 nBestHeight = 0
+2018-02-15 02:37:45 torcontrol thread start
+2018-02-15 02:37:45 AddLocal([::d931:bf1d:eb25:d7b1]:18444,1)
+2018-02-15 02:37:45 Discover: IPv6 wlp3s0: ::d931:bf1d:eb25:d7b1
+2018-02-15 02:37:45 AddLocal([::8cd0:38c1:bcc0:fe2e]:18444,1)
+2018-02-15 02:37:45 Discover: IPv6 wlp3s0: ::8cd0:38c1:bcc0:fe2e
+2018-02-15 02:37:45 Bound to [::]:18444
+2018-02-15 02:37:45 Bound to 0.0.0.0:18444
+2018-02-15 02:37:45 init message: Loading P2P addresses...
+2018-02-15 02:37:45 ERROR: DeserializeFileDB: Failed to open file /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/peers.dat
+2018-02-15 02:37:45 Invalid or missing peers.dat; recreating
+2018-02-15 02:37:45 init message: Loading banlist...
+2018-02-15 02:37:45 ERROR: DeserializeFileDB: Failed to open file /home/tomato/bitcoin-regtest-node/peers/Alice/regtest/banlist.dat
+2018-02-15 02:37:45 Invalid or missing banlist.dat; recreating
+2018-02-15 02:37:45 init message: Starting network threads...
+2018-02-15 02:37:45 DNS seeding disabled
+2018-02-15 02:37:45 init message: Done loading
+2018-02-15 02:37:45 net thread start
+2018-02-15 02:37:45 msghand thread start
+2018-02-15 02:37:45 opencon thread start
+2018-02-15 02:37:45 addcon thread start
+2018-02-15 02:37:45 receive version message: /Satoshi:0.15.1/: version 70015, blocks=104, us=[::]:0, peer=0
+2018-02-15 02:37:45 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-02-15 02:37:45 Leaving InitialBlockDownload (latching to false)
+2018-02-15 02:37:45 UpdateTip: new best=6fd63ebcad1e868d293a8475c187b3a11e4d3453b259a106616d07536279ad62 height=1 version=0x20000000 log2_work=2 tx=2 date='2018-02-15 02:19:06' progress=1.000000 cache=0.0MiB(1txo)
+2018-02-15 02:37:45 UpdateTip: new best=6d3f41cd5d50e6424e48199ddf1e33ea69f54b670bc2e2087912fa7261872789 height=2 version=0x20000000 log2_work=2.5849625 tx=3 date='2018-02-15 02:19:07' progress=1.000000 cache=0.0MiB(2txo)
+2018-02-15 02:37:45 UpdateTip: new best=6cf98b1bf7c9e666a08f6c336538a44f54b20b242b8de0babd7ef78074dbdee0 height=3 version=0x20000000 log2_work=3 tx=4 date='2018-02-15 02:19:07' progress=1.000000 cache=0.0MiB(3txo)
+2018-02-15 02:37:45 UpdateTip: new best=426f2ec45e733dad4ffb7d23ca3a22f841261473ab5ed13c6b9ab40c79bdf001 height=4 version=0x20000000 log2_work=3.3219281 tx=5 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(4txo)
+2018-02-15 02:37:45 UpdateTip: new best=20a5a6f8fde3dcb98b7d7cf50313dd9291de535ab6abb38ce92e354b6ea8185f height=5 version=0x20000000 log2_work=3.5849625 tx=6 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(5txo)
+2018-02-15 02:37:45 UpdateTip: new best=3ecaaacd6d2d528acfad7ef09ee62d9eb40e74c9b1f2ac85d3c939f82edff570 height=6 version=0x20000000 log2_work=3.8073549 tx=7 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(6txo)
+2018-02-15 02:37:45 UpdateTip: new best=7fc0832f1afb8eaf57048c083b5ffc7c7c25a2984044f7b5e6f1d0602e9734fa height=7 version=0x20000000 log2_work=4 tx=8 date='2018-02-15 02:19:08' progress=1.000000 cache=0.0MiB(7txo)
+2018-02-15 02:37:45 UpdateTip: new best=712ac82b4c06afefb0bce95d8189f866ed634580141848fe05af6689ae1a1b73 height=8 version=0x20000000 log2_work=4.169925 tx=9 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(8txo)
+2018-02-15 02:37:45 UpdateTip: new best=538a0d7b935a59f57cb1c00e94fb15f4fb680dfd99da6b232b3ace3aca69efe2 height=9 version=0x20000000 log2_work=4.3219281 tx=10 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(9txo)
+2018-02-15 02:37:45 UpdateTip: new best=2cb80977903b02c323abeb0475f051a32e0045871a0cca47bbd44c2e6959b50f height=10 version=0x20000000 log2_work=4.4594316 tx=11 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(10txo)
+2018-02-15 02:37:45 UpdateTip: new best=2b0d68080084563a030eb199b4d1e6ed3e226738c18d2b7ac29b62fb1708a4a6 height=11 version=0x20000000 log2_work=4.5849625 tx=12 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(11txo)
+2018-02-15 02:37:45 UpdateTip: new best=69048dcfaa69e10dda30f5482a52a8cff1e7f9445538972576c6cc52f9990ae7 height=12 version=0x20000000 log2_work=4.7004397 tx=13 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(12txo)
+2018-02-15 02:37:45 UpdateTip: new best=4500c7dc21dbb2e039ad27ec15db8a0f559109e9aec3a839c49ddb225eecdc06 height=13 version=0x20000000 log2_work=4.8073549 tx=14 date='2018-02-15 02:19:09' progress=1.000000 cache=0.0MiB(13txo)
+2018-02-15 02:37:45 UpdateTip: new best=744c8c0104579d3f9159f5cb297ec9d20ba3196ff5f2bc1664b2858aed12f828 height=14 version=0x20000000 log2_work=4.9068906 tx=15 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(14txo)
+2018-02-15 02:37:45 UpdateTip: new best=5076096cd93155594ffe4dd29748b0256843ea82a1f6c76c98625f32f3a12510 height=15 version=0x20000000 log2_work=5 tx=16 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(15txo)
+2018-02-15 02:37:45 UpdateTip: new best=224aa471de52b70f7249e4fa77f6f1a5bb7c4cf8fc5a87e92af95dca9563c3d1 height=16 version=0x20000000 log2_work=5.0874628 tx=17 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(16txo)
+2018-02-15 02:37:45 UpdateTip: new best=4489443dfb0b18f99988108f506c22a1117a9ab8d13e37d28f0eeec4cf5e145f height=17 version=0x20000000 log2_work=5.169925 tx=18 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(17txo)
+2018-02-15 02:37:45 UpdateTip: new best=635e9ea4de1cf6a7e50e63f0ab53f763fbb992302dc1a6222d6e6ec24b2778c6 height=18 version=0x20000000 log2_work=5.2479275 tx=19 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(18txo)
+2018-02-15 02:37:45 UpdateTip: new best=128f4c3e257b31867db8e35470b18966bfbee9b98f6360a279f0472cc4c35664 height=19 version=0x20000000 log2_work=5.3219281 tx=20 date='2018-02-15 02:19:10' progress=1.000000 cache=0.0MiB(19txo)
+2018-02-15 02:37:45 UpdateTip: new best=05b14acb084f87426029d7301b19e34f64ceb3a094b6cb6b100ceaae32256078 height=20 version=0x20000000 log2_work=5.3923174 tx=21 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(20txo)
+2018-02-15 02:37:45 UpdateTip: new best=68cf53946e4e853383067275c7f397b4228173e152d25b67c7f93e0fa8d0655f height=21 version=0x20000000 log2_work=5.4594316 tx=22 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(21txo)
+2018-02-15 02:37:45 UpdateTip: new best=614c82479ed2ff5caeb28d03b17bdffb879d10e9145591e20e3d23013b0ef613 height=22 version=0x20000000 log2_work=5.523562 tx=23 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(22txo)
+2018-02-15 02:37:45 UpdateTip: new best=126fdb800b1c4c941f7d242d742ab0b7742d47644b78743f862eec9f6bde59f6 height=23 version=0x20000000 log2_work=5.5849625 tx=24 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(23txo)
+2018-02-15 02:37:45 UpdateTip: new best=00d1dec3f27b0fa7f309ce7c4d6e7c4960a62b3f0e1f259b64089b14de1f4b39 height=24 version=0x20000000 log2_work=5.6438562 tx=25 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(24txo)
+2018-02-15 02:37:45 UpdateTip: new best=4daae57ad4e04b44379b021ab37fdf01b9a814e54a92f316110ed271edc31f64 height=25 version=0x20000000 log2_work=5.7004397 tx=26 date='2018-02-15 02:19:11' progress=1.000000 cache=0.0MiB(25txo)
+2018-02-15 02:37:45 UpdateTip: new best=0edc2740058ed8cda345fddff133ec9532fde7c2abbd40528dbe2938e7f32fba height=26 version=0x20000000 log2_work=5.7548875 tx=27 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(26txo)
+2018-02-15 02:37:45 UpdateTip: new best=4c3b7792ffe3bea8649befc1644a93a8e43df18884a65f9fcc32e913f635aac4 height=27 version=0x20000000 log2_work=5.8073549 tx=28 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(27txo)
+2018-02-15 02:37:45 UpdateTip: new best=23ac42434eb8474fba862d09f5c4bccfd1cac83b202e9c98dc7fd12c56f2d954 height=28 version=0x20000000 log2_work=5.857981 tx=29 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(28txo)
+2018-02-15 02:37:45 UpdateTip: new best=3ff762394456f78326a546362078b160ed74e075ff419de925816e860511b0ec height=29 version=0x20000000 log2_work=5.9068906 tx=30 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(29txo)
+2018-02-15 02:37:45 UpdateTip: new best=09f82591c066fe77be66606c3e32dbd856f47f5ba7810b88976eda4a2c04104f height=30 version=0x20000000 log2_work=5.9541963 tx=31 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(30txo)
+2018-02-15 02:37:45 UpdateTip: new best=161186aadda50ea151abde9505914b5ca3bbe92decc6e08a2d83131ac5848650 height=31 version=0x20000000 log2_work=6 tx=32 date='2018-02-15 02:19:12' progress=1.000000 cache=0.0MiB(31txo)
+2018-02-15 02:37:45 UpdateTip: new best=481fd458227e96c9a113a8b11aaf54cdc5621000e2749463148bb33f665d143e height=32 version=0x20000000 log2_work=6.0443941 tx=33 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(32txo)
+2018-02-15 02:37:45 UpdateTip: new best=7d22a8b814d6b4b38142445f687863bf0f3668bea5312ebace5999235655f36b height=33 version=0x20000000 log2_work=6.0874628 tx=34 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(33txo)
+2018-02-15 02:37:45 UpdateTip: new best=3581b2302b39d79579d6b5851d5618a696a645ebbf47600ccf815c0f17d81bcf height=34 version=0x20000000 log2_work=6.129283 tx=35 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(34txo)
+2018-02-15 02:37:45 UpdateTip: new best=3c36c79a949c75b45e4b8675e5081cd4b579b5538ce5dcd041a193770a7ff0ef height=35 version=0x20000000 log2_work=6.169925 tx=36 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(35txo)
+2018-02-15 02:37:45 UpdateTip: new best=27ae3fd1ab6a3e6255c0db595b66f217d0415f1b603a2fd62235fa859c11e120 height=36 version=0x20000000 log2_work=6.2094534 tx=37 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(36txo)
+2018-02-15 02:37:45 UpdateTip: new best=1df147c1178ab86dd5c163a6850d123559635130028e7d0d9154c7e1e36517c9 height=37 version=0x20000000 log2_work=6.2479275 tx=38 date='2018-02-15 02:19:13' progress=1.000000 cache=0.0MiB(37txo)
+2018-02-15 02:37:45 UpdateTip: new best=0c7cffba2a4899b0ee0644001935a179722a3a1d0df24db119146a60c2549c25 height=38 version=0x20000000 log2_work=6.2854022 tx=39 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(38txo)
+2018-02-15 02:37:45 UpdateTip: new best=129eb549ba98b2b89766ecd3792d9113dfa3716b9a949ecc8ba25a25e71e05ea height=39 version=0x20000000 log2_work=6.3219281 tx=40 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(39txo)
+2018-02-15 02:37:45 UpdateTip: new best=2c1216a743fa7eef489980b485ea30f324c1101523c7f8550f25a8fec27c5dd5 height=40 version=0x20000000 log2_work=6.357552 tx=41 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(40txo)
+2018-02-15 02:37:45 UpdateTip: new best=186f3f7f68db06756c8049a26e5c8aef84d8b717419f3a5c0008e81a30f12183 height=41 version=0x20000000 log2_work=6.3923174 tx=42 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(41txo)
+2018-02-15 02:37:45 UpdateTip: new best=7b231395c4f0e623dcf82f528b1537912cbaa813df68400109828b91657416dd height=42 version=0x20000000 log2_work=6.4262648 tx=43 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(42txo)
+2018-02-15 02:37:45 UpdateTip: new best=63250287261541235c06783662f3674fe7a6782160064a65a445e25a79c1c150 height=43 version=0x20000000 log2_work=6.4594316 tx=44 date='2018-02-15 02:19:14' progress=1.000000 cache=0.0MiB(43txo)
+2018-02-15 02:37:45 UpdateTip: new best=741970aade57009933b786408970ed06b9590e95ae8912efcff840f107f1cf28 height=44 version=0x20000000 log2_work=6.4918531 tx=45 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(44txo)
+2018-02-15 02:37:45 UpdateTip: new best=67cee9aa21da50234dbeb3fa333d035aa55ef277dd31090510810be13ed36596 height=45 version=0x20000000 log2_work=6.523562 tx=46 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(45txo)
+2018-02-15 02:37:45 UpdateTip: new best=31f4e6c6747bcf26a749e873a498afc4a43ec4e2c2def9112539dfd913e7365d height=46 version=0x20000000 log2_work=6.5545889 tx=47 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(46txo)
+2018-02-15 02:37:45 UpdateTip: new best=099d977199701ad1bb6d5f7e4bb617fc66690dbcac2c1bb875ede2dbd41b0f5b height=47 version=0x20000000 log2_work=6.5849625 tx=48 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(47txo)
+2018-02-15 02:37:45 UpdateTip: new best=0fd786e8fccdfcb459a34027e9eeafd76de2660d4682d87b4a080ee25c67718a height=48 version=0x20000000 log2_work=6.6147098 tx=49 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(48txo)
+2018-02-15 02:37:45 UpdateTip: new best=14063d015422a2f900b12397db37653a70359a105382643f63b05498777a9d54 height=49 version=0x20000000 log2_work=6.6438562 tx=50 date='2018-02-15 02:19:15' progress=1.000000 cache=0.0MiB(49txo)
+2018-02-15 02:37:45 UpdateTip: new best=2fcb939ac2b83801cc37bac1edcc9275eb103dcff3515470af55400996a0fefe height=50 version=0x20000000 log2_work=6.6724253 tx=51 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(50txo)
+2018-02-15 02:37:45 UpdateTip: new best=55d03c4314595ff06d1abc7972dc0cbdee4aa93ca123ec69fb115d91acf6321a height=51 version=0x20000000 log2_work=6.7004397 tx=52 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(51txo)
+2018-02-15 02:37:45 UpdateTip: new best=23a2b94d8c6badb095bd8a61a067d8146853e520dce35430ec2e255893d9848c height=52 version=0x20000000 log2_work=6.7279205 tx=53 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(52txo)
+2018-02-15 02:37:45 UpdateTip: new best=6fb7f8f6a2a20f69db87e182742ba23c84ef019305152bea4fbbab6e7e8dc67b height=53 version=0x20000000 log2_work=6.7548875 tx=54 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(53txo)
+2018-02-15 02:37:45 UpdateTip: new best=4cefd529f12d8c79856854aa2440323aae4f7e3c9bda53dc5dc62dff1330ff6a height=54 version=0x20000000 log2_work=6.7813597 tx=55 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(54txo)
+2018-02-15 02:37:45 UpdateTip: new best=247d91bb9dc3fb78867251446b07e3c81870bee4f0dc38120b2fd367191659d6 height=55 version=0x20000000 log2_work=6.8073549 tx=56 date='2018-02-15 02:19:16' progress=1.000000 cache=0.0MiB(55txo)
+2018-02-15 02:37:45 UpdateTip: new best=30da598b18451c589b2a68a3eb75b864df20518ce9730c13a117c1beb0ea7601 height=56 version=0x20000000 log2_work=6.83289 tx=57 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(56txo)
+2018-02-15 02:37:45 UpdateTip: new best=2707f5aacf3e48a47a17d90b16750a046022a15e3d442255e070fa98b78ac98a height=57 version=0x20000000 log2_work=6.857981 tx=58 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(57txo)
+2018-02-15 02:37:45 UpdateTip: new best=7d3d7b3c7652c3dd0055fb47a6b2356c2193362287dc397f901bb3a4fd26bd36 height=58 version=0x20000000 log2_work=6.882643 tx=59 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(58txo)
+2018-02-15 02:37:45 UpdateTip: new best=5711579064f5acc2e7cd43b34d39ab1bb8c5b44fc564ad4bbc42634f47d2a928 height=59 version=0x20000000 log2_work=6.9068906 tx=60 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(59txo)
+2018-02-15 02:37:45 UpdateTip: new best=60145a95780cb4d78426c1cf43ac36e58a60b0420b16a39e72ceedaff261d6d5 height=60 version=0x20000000 log2_work=6.9307373 tx=61 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(60txo)
+2018-02-15 02:37:45 UpdateTip: new best=24b3c9c1a258c9b4a4f8bd84430a8acedf5b170106c19e1181123d627d46277c height=61 version=0x20000000 log2_work=6.9541963 tx=62 date='2018-02-15 02:19:17' progress=1.000000 cache=0.0MiB(61txo)
+2018-02-15 02:37:45 UpdateTip: new best=630386cfd4371d974bed7c43c1d58d936e8ca61460ba624bb080d8c69ce2d052 height=62 version=0x20000000 log2_work=6.9772799 tx=63 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(62txo)
+2018-02-15 02:37:45 UpdateTip: new best=490d566ae9396f78767621f3623dc50c4f54409f86cdf7cc06a288fe31758380 height=63 version=0x20000000 log2_work=7 tx=64 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(63txo)
+2018-02-15 02:37:45 UpdateTip: new best=383d0bbc0a2615e1839fbcda6842b5772438968d7cf8edf9d055d9c5a69dcf06 height=64 version=0x20000000 log2_work=7.0223678 tx=65 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(64txo)
+2018-02-15 02:37:45 UpdateTip: new best=243e106f7812437067ae8e5c217921fcbe037ba2842beb91c515beb099c242c7 height=65 version=0x20000000 log2_work=7.0443941 tx=66 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(65txo)
+2018-02-15 02:37:45 UpdateTip: new best=769224eb5fa5c535a81e1726fd1ee9d4fe42e60131a78b5cda90fd774a96bd01 height=66 version=0x20000000 log2_work=7.0660892 tx=67 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(66txo)
+2018-02-15 02:37:45 UpdateTip: new best=26cd66cbb21b988bf1b773d3d93bf3d5f8a213f4be6730da7a29088c26b841c4 height=67 version=0x20000000 log2_work=7.0874628 tx=68 date='2018-02-15 02:19:18' progress=1.000000 cache=0.0MiB(67txo)
+2018-02-15 02:37:45 UpdateTip: new best=383433c5b137a58d4b02b5544aa35b336101593845f078be9697989d10dc5ba4 height=68 version=0x20000000 log2_work=7.1085245 tx=69 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(68txo)
+2018-02-15 02:37:45 UpdateTip: new best=5333a0cc5968401c02d4b4aacd1ebda5b86777dceeef92eba9806c3b28e5773e height=69 version=0x20000000 log2_work=7.129283 tx=70 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(69txo)
+2018-02-15 02:37:45 UpdateTip: new best=1f1888e3b100fe1396e0332219176c74dcb2e9783c879274e863ab4971ac350e height=70 version=0x20000000 log2_work=7.1497471 tx=71 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(70txo)
+2018-02-15 02:37:45 UpdateTip: new best=76aef5c8e2bcbff0a23d0090852f2942f2240010eb65da93bb83c3007469ec10 height=71 version=0x20000000 log2_work=7.169925 tx=72 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(71txo)
+2018-02-15 02:37:45 UpdateTip: new best=3edc4d19fc120d71428691c7ca2c35f7540c726cb33018cacfe3748cac51f240 height=72 version=0x20000000 log2_work=7.1898246 tx=73 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(72txo)
+2018-02-15 02:37:45 UpdateTip: new best=442a6442b017e49efb518580a33704ad7335fc62d5c7879bba6a2208cb77c718 height=73 version=0x20000000 log2_work=7.2094534 tx=74 date='2018-02-15 02:19:19' progress=1.000000 cache=0.0MiB(73txo)
+2018-02-15 02:37:45 UpdateTip: new best=6e53011a50c316d826a5c3995901c584bbd8a0bacd7fa4e33886b76ecf1b6194 height=74 version=0x20000000 log2_work=7.2288187 tx=75 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(74txo)
+2018-02-15 02:37:45 UpdateTip: new best=3eac669d4d41a13e77c73513dfaef37833fb29661ab5baf1be5253ce950e0216 height=75 version=0x20000000 log2_work=7.2479275 tx=76 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(75txo)
+2018-02-15 02:37:45 UpdateTip: new best=565b9e218c47e54245093264ea05dffa87d88a8f82a234447b2a39add0739863 height=76 version=0x20000000 log2_work=7.2667865 tx=77 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(76txo)
+2018-02-15 02:37:45 UpdateTip: new best=6e3c7f2e1569607f3f5b62bec68c6374ca6c17e848a51c1339a745399db81015 height=77 version=0x20000000 log2_work=7.2854022 tx=78 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(77txo)
+2018-02-15 02:37:45 UpdateTip: new best=698261ed3b2e5234b0c0123ed496bc4b3723dcb29b089a675a8a87918da94d46 height=78 version=0x20000000 log2_work=7.3037807 tx=79 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(78txo)
+2018-02-15 02:37:45 UpdateTip: new best=435e569b265222b27aabfd2c7b3a75014cf8db7792c925ffb6e1a6abf85a2770 height=79 version=0x20000000 log2_work=7.3219281 tx=80 date='2018-02-15 02:19:20' progress=1.000000 cache=0.0MiB(79txo)
+2018-02-15 02:37:45 UpdateTip: new best=1418fd41b5832663259aa9d1c248a87ac921489ee0abba503c3864317047ffe3 height=80 version=0x20000000 log2_work=7.33985 tx=81 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(80txo)
+2018-02-15 02:37:45 UpdateTip: new best=4f09e1b11b87dc7695a6ba74cd4dd04686197cf2c88a79853f6bad4a238346af height=81 version=0x20000000 log2_work=7.357552 tx=82 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(81txo)
+2018-02-15 02:37:45 UpdateTip: new best=74f1d7f1c19503835dc7d8c1c914910d3b35e0bf09d869dcf24e16c21f766c7b height=82 version=0x20000000 log2_work=7.3750394 tx=83 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(82txo)
+2018-02-15 02:37:45 UpdateTip: new best=7ef4e718265ba8654bbbdb0ec0416bd35b7096ac331d2ce71d26316f60f109c8 height=83 version=0x20000000 log2_work=7.3923174 tx=84 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(83txo)
+2018-02-15 02:37:45 UpdateTip: new best=0564354f3f6727bc45e2f37a749c809decad39548f0457e4668b53d891e7c50e height=84 version=0x20000000 log2_work=7.4093909 tx=85 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(84txo)
+2018-02-15 02:37:45 UpdateTip: new best=4ab5eb483de925d69d67ff526c8c94c33fbe61046aed384611da426e7da1b500 height=85 version=0x20000000 log2_work=7.4262648 tx=86 date='2018-02-15 02:19:21' progress=1.000000 cache=0.0MiB(85txo)
+2018-02-15 02:37:45 UpdateTip: new best=36a1d43878467d80bda739fddb2bb54132d744c19811d455da72645c072bae07 height=86 version=0x20000000 log2_work=7.4429435 tx=87 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(86txo)
+2018-02-15 02:37:45 UpdateTip: new best=466d3d5793c62c02098f4a4ea9d7456ce3206a6a7e64515dff2c8843c08d6e20 height=87 version=0x20000000 log2_work=7.4594316 tx=88 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(87txo)
+2018-02-15 02:37:45 UpdateTip: new best=5861402cf6af949c0bf95721f2e15d525e568e52653219b9db70c4a4d4c1ccb7 height=88 version=0x20000000 log2_work=7.4757334 tx=89 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(88txo)
+2018-02-15 02:37:45 UpdateTip: new best=10732f327411a71ebaec4538fff9fb1912e77705ac081c80ac7eab7b3b609f90 height=89 version=0x20000000 log2_work=7.4918531 tx=90 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(89txo)
+2018-02-15 02:37:45 UpdateTip: new best=620e4f7cced77df7ee722f9a4f5f0ebd8db0cde37f3592bc743d2ed327be30d2 height=90 version=0x20000000 log2_work=7.5077946 tx=91 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(90txo)
+2018-02-15 02:37:45 UpdateTip: new best=3482a1c82506078c1a1b84973899b093848131d227cd3a0900102eca88446e49 height=91 version=0x20000000 log2_work=7.523562 tx=92 date='2018-02-15 02:19:22' progress=1.000000 cache=0.0MiB(91txo)
+2018-02-15 02:37:45 UpdateTip: new best=5beab4da465cc0ba63ffb9eebd845e20d3055939c576c2422fc17ab1e4f76779 height=92 version=0x20000000 log2_work=7.5391588 tx=93 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(92txo)
+2018-02-15 02:37:45 UpdateTip: new best=385fdb3c73d26f49f4e1c4f14e45ecb6cd0c5c2adce5d4e2d96ac524b5773cf9 height=93 version=0x20000000 log2_work=7.5545889 tx=94 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(93txo)
+2018-02-15 02:37:45 UpdateTip: new best=2050c7dbc0351e6415851840f202489291ec59174fc1f83fda94c0a31b7c4664 height=94 version=0x20000000 log2_work=7.5698556 tx=95 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(94txo)
+2018-02-15 02:37:45 UpdateTip: new best=6ebc7cb5c738143b557df14fad3c8b0b2d2d11936eec972523d4da2bacdf378e height=95 version=0x20000000 log2_work=7.5849625 tx=96 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(95txo)
+2018-02-15 02:37:45 UpdateTip: new best=699dbaf75ab90cb870c2bbc19122c1e2f3429995e1eb7b6f7f342ab3e47a0267 height=96 version=0x20000000 log2_work=7.5999128 tx=97 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(96txo)
+2018-02-15 02:37:45 UpdateTip: new best=5d52bf07e2370d66e58a51626ef2f0061b3d940ee9a4767b5370602c632ca193 height=97 version=0x20000000 log2_work=7.6147098 tx=98 date='2018-02-15 02:19:23' progress=1.000000 cache=0.0MiB(97txo)
+2018-02-15 02:37:45 UpdateTip: new best=0274889c7141aca76de40b3b0a47ea6546f4bac3366b83108d646315b8d1516e height=98 version=0x20000000 log2_work=7.6293566 tx=99 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(98txo)
+2018-02-15 02:37:45 UpdateTip: new best=200d63d722dbb30fd8bf53f6fb75fa43d8203a3a03de5f14e079bb6c6954e5b6 height=99 version=0x20000000 log2_work=7.6438562 tx=100 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(99txo)
+2018-02-15 02:37:45 UpdateTip: new best=78841455f14c150846846dd05a2cc61c9f91bf108c8cb5115c517ae2240615c3 height=100 version=0x20000000 log2_work=7.6582115 tx=101 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(100txo)
+2018-02-15 02:37:45 UpdateTip: new best=6781606a53e23dcf353dda3921957b6e54dba2ef9aaea6004e1fb33cbf22b0fa height=101 version=0x20000000 log2_work=7.6724253 tx=102 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(101txo)
+2018-02-15 02:37:45 UpdateTip: new best=352c2af63fbbd1d816c6aa5d2b7af9d22db1e096a5674c075e4a29c02450d02a height=102 version=0x20000000 log2_work=7.6865005 tx=103 date='2018-02-15 02:19:24' progress=1.000000 cache=0.0MiB(102txo)
+2018-02-15 02:37:45 UpdateTip: new best=1d75e498c74e78c9db4977e7b04759f563958ce61511d05219661e4e16baef01 height=103 version=0x20000000 log2_work=7.7004397 tx=104 date='2018-02-15 02:20:55' progress=1.000000 cache=0.0MiB(103txo)
+2018-02-15 02:37:45 UpdateTip: new best=698f2670731e887acab50607913b543cc68eb86e450654219f0a48e11a48e5d2 height=104 version=0x20000000 log2_work=7.7142455 tx=105 date='2018-02-15 02:37:05' progress=1.000000 cache=0.0MiB(104txo)
+2018-02-15 02:37:49 keypool reserve 2
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=04a194166def2ab5933bc150079013e1229fc99341c33e4737f0a10b3c78abef height=105 version=0x20000000 log2_work=7.7279205 tx=106 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(105txo)
+2018-02-15 02:37:49 AddToWallet cab22d93b1ba116ece49995a4dbe6d2c82455c07b08b2197bd0d4f84d35bbc8c  new
+2018-02-15 02:37:49 keypool keep 2
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=588f261325b058db9102eaedb802bcaed67db3e5d13bb2e083fbab327669d3c5 height=106 version=0x20000000 log2_work=7.741467 tx=107 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(106txo)
+2018-02-15 02:37:49 AddToWallet 5ff0b66c998d4d2d071cf44362b9e3f1f5965ad5eb704873455c8bcfbe87b93b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=729a81ae190fa5f86e3389b01afd8e079b53ea6bdef2f54554ac4a4c4e4fda70 height=107 version=0x20000000 log2_work=7.7548875 tx=108 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(107txo)
+2018-02-15 02:37:49 AddToWallet 3b035033ffbc1c97df0edaa47189219b5a8c6dc848c285c44ac93613f77389e1  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3d6d9d088047b0f441721224c0257444d47f8132b8491322dca587668e41d7fc height=108 version=0x20000000 log2_work=7.7681843 tx=109 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(108txo)
+2018-02-15 02:37:49 AddToWallet b2173bad3075472ce7487b0b4551888e35cda6548b9158f516afc28956c1188c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=653d309a84601b153660481aa737606492711e55ce74fc18307df407b059579d height=109 version=0x20000000 log2_work=7.7813597 tx=110 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(109txo)
+2018-02-15 02:37:49 AddToWallet bdedb37e2570723d70ceb0ff655c435c74c132bf4a735ee1eb9772f565a26cf4  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7940b30aa57ff9c3c53942bc066c3bc259a470a0765e48093a1e39e2177f7b5a height=110 version=0x20000000 log2_work=7.7944159 tx=111 date='2018-02-15 02:37:49' progress=1.000000 cache=0.0MiB(110txo)
+2018-02-15 02:37:49 AddToWallet e1403fe5fb0a01aa6432511c202235222c4447d6419d75a42cb01e82d4bb837b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5db70014a0a8624fa2c8f66e26b9dac3979f538497afffdc43a5533d06f452c0 height=111 version=0x20000000 log2_work=7.8073549 tx=112 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(111txo)
+2018-02-15 02:37:49 AddToWallet c83b370f0516fa1b14f0d150572b8ab3d7ab74b03581c089f968a908f3a802cf  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5cb3e2769a4e1378bd9add765c3534300640e269d28c908a409988130b6e0f4d height=112 version=0x20000000 log2_work=7.820179 tx=113 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(112txo)
+2018-02-15 02:37:49 AddToWallet 165672f04d062c0345e6d6276b88de3eeb84283bd7c8ee1c6cb78963913b1ac5  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2dbbee741f5abd5a6d0091f9e27490d86dda7294df5804729c786ba07fc8710f height=113 version=0x20000000 log2_work=7.83289 tx=114 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(113txo)
+2018-02-15 02:37:49 AddToWallet e3d603266c5593ef5dc3300bb465cbe59953044b4e291b060db367428080fb68  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0bc92fc5a9c747e28902039c30ae883180d3786205bf763d3d6587b134055960 height=114 version=0x20000000 log2_work=7.8454901 tx=115 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(114txo)
+2018-02-15 02:37:49 AddToWallet 3124e2e7af13a4059a5ce6b7821b81829c51842f16dd496a74ec0e719f178a09  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=4153b5da6ab542ad6535361848ddb0d425e123a5f120b37a65a1fbd63f2504f9 height=115 version=0x20000000 log2_work=7.857981 tx=116 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(115txo)
+2018-02-15 02:37:49 AddToWallet 6abf62e8c3efe41b0e83a32429748912714f31316675d43e2d34d4f488bfcaa8  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=52f84250da3b932618561dd0fa2a7feec545f63e7f080e82808099a18249bc30 height=116 version=0x20000000 log2_work=7.8703647 tx=117 date='2018-02-15 02:37:50' progress=1.000000 cache=0.0MiB(116txo)
+2018-02-15 02:37:49 AddToWallet f7abdf14dc3337dea4935415f27ae8243dcde01fae2fdb8832c0f1a7ae2e6b71  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=1296e5d7ad9beb8afcfbdcfff6232c9143ef03cd3d01507bbc8d04ae378e4d8e height=117 version=0x20000000 log2_work=7.882643 tx=118 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(117txo)
+2018-02-15 02:37:49 AddToWallet 27656a2d1485218fc1dfa0ad458f8a829e4d2904d36bc6e9dd7d5b40a3aedd22  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=66bd429ddf5b26bb85d0844a3970253c081f32b76964a98b34e4f66fc144e930 height=118 version=0x20000000 log2_work=7.8948178 tx=119 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(118txo)
+2018-02-15 02:37:49 AddToWallet 3f3b2e13648761be82122d9602bd87356550bab552b52cbb2dd9b49fccd73f5e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2884bbb4c8d93dea5cada0a46e272509a13ecffa9c21d2b7ed68ad6d9c4e3cae height=119 version=0x20000000 log2_work=7.9068906 tx=120 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(119txo)
+2018-02-15 02:37:49 AddToWallet 1f524b827fb643cc266752976d862221d63e2c417014c2c59c3d0c015854c7e5  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=643c98e2dd38ae574c6880bc924bed3f31dc8f7fe0dbceebd241459cda8f9b59 height=120 version=0x20000000 log2_work=7.9188632 tx=121 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(120txo)
+2018-02-15 02:37:49 AddToWallet ef0710435c6eb8836a2f2cd87c0848a8aa9cb25b5ee24fef26bf3d0455517c68  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=409111d91b9e0da7961d318aa103a6f5f5201f8b6e32c77bfaec8f23c40ecb3a height=121 version=0x20000000 log2_work=7.9307373 tx=122 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(121txo)
+2018-02-15 02:37:49 AddToWallet b0fcdb52f79c251c785c4efcba3bc5e00333dbdcf2cd3a8502d162d16f351e9c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=23f2bd0a3028bea12b494f4d0ca18c4f2a6ce97831b39fd96b34b8a6ed620c08 height=122 version=0x20000000 log2_work=7.9425145 tx=123 date='2018-02-15 02:37:51' progress=1.000000 cache=0.0MiB(122txo)
+2018-02-15 02:37:49 AddToWallet 860716c8fda03a20240efc7f82b1b9e74bc6e965b5f8d76e54b95164bbef5599  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=345dc6ef391960794830959b2a2abffde32d50843d99d2939c48113582306d1a height=123 version=0x20000000 log2_work=7.9541963 tx=124 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(123txo)
+2018-02-15 02:37:49 AddToWallet 0c1a1829c4f5cf094720ae2b3976ead04b25ba5f9b9a238e90b0038b98fc706c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0156ede470598833e369e69ae5024d4eaa508a2c348f99a403276a41ea91fb88 height=124 version=0x20000000 log2_work=7.9657843 tx=125 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(124txo)
+2018-02-15 02:37:49 AddToWallet 07dc4af8ffb0d5fb08059930512ddd173b6e680b0a825495c4e1a22acb6dc29f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=4e53712ae5b422489db3cdd78d42c94582be99ad8f31431fa8b09136499fc22c height=125 version=0x20000000 log2_work=7.9772799 tx=126 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(125txo)
+2018-02-15 02:37:49 AddToWallet 6c2a753a416199dabdfb3165a3d56e559b52caed8711533d64b6228c438ffc26  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2d247f0efab56c3a8614b1eaf4e40296ab717dbb9dc3a1d076043ce8b7ff1448 height=126 version=0x20000000 log2_work=7.9886847 tx=127 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(126txo)
+2018-02-15 02:37:49 AddToWallet 8fa99c8f1e1ad090bdc3d69c1c9b144d24269317aeda662c93e074f807061192  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 904 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=02c91fde1ed6204125915c93f8943f8d3520ead369e1ff03021998665c53bd35 height=127 version=0x20000000 log2_work=8 tx=128 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(127txo)
+2018-02-15 02:37:49 AddToWallet 9007015305c191104bb9893933f610713774c6ea553424b2afe8f429b9353aa2  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=6dfd09d60e1c5457b6ceb17b1aa7f4c9be4ab2c30dae4d76ef37a9d3adcda6a3 height=128 version=0x20000000 log2_work=8.0112273 tx=129 date='2018-02-15 02:37:52' progress=1.000000 cache=0.0MiB(128txo)
+2018-02-15 02:37:49 AddToWallet 389bc407dbbbe23335de8b442b360229500b5312dfbdadbf8b8a00ae49a74d43  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=41e58054f1a42d8b210cad28d75261627a72ba835590bedc27823914f8ada8c4 height=129 version=0x20000000 log2_work=8.0223678 tx=130 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(129txo)
+2018-02-15 02:37:49 AddToWallet 853524cba9d91300a9fad727466d6917f0498960a3243445506fe98c5875c398  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3816b8988d5bd9b6e0ff4d3aa0b053937cbeff9d8df9f636ccb159b5d5402c22 height=130 version=0x20000000 log2_work=8.033423 tx=131 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(130txo)
+2018-02-15 02:37:49 AddToWallet 45da9d04719f3dfcee59c0c1a9409e6ecde7c2539a7a8c79b9e1a84501dc0d96  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3d4a63ccb196122f8c7443ff45e99f5df39c9ae9dc679fa724d67f6cbd2dbac8 height=131 version=0x20000000 log2_work=8.0443941 tx=132 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(131txo)
+2018-02-15 02:37:49 AddToWallet f8f1339b88b802a29cc2e50e6f1eed97194e61c147a35e6bd217446a10418a01  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3da4308fd5f0cab87396768d2d870119584954227bcf736b962d957a98caa107 height=132 version=0x20000000 log2_work=8.0552824 tx=133 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(132txo)
+2018-02-15 02:37:49 AddToWallet 25188bf6f3ea6c95f59f772c3e4cf8e979004f2d251da4c8d192c9ffaf789586  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2c72a0c930f91d2070898cbaacd2e4b8aa979a800b488b8412e227af717c2e93 height=133 version=0x20000000 log2_work=8.0660892 tx=134 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(133txo)
+2018-02-15 02:37:49 AddToWallet 6b622684a2fb355373771572a1935cc1455bb094459ec9fa6f6b2eb2981f8080  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=75aa1823b403df421e8ee1b704b230b8de84eefb50a6b551a182e7769a83d22b height=134 version=0x20000000 log2_work=8.0768156 tx=135 date='2018-02-15 02:37:53' progress=1.000000 cache=0.0MiB(134txo)
+2018-02-15 02:37:49 AddToWallet a8687b54f905494f8de962f7e15bfaafc5e263e7bc6b260e4be6ea76d46179f9  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7a09843b5d512387d9b956e5488063285d45db2060c1a1ba8bba2e27a918ff75 height=135 version=0x20000000 log2_work=8.0874628 tx=136 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(135txo)
+2018-02-15 02:37:49 AddToWallet f539c067f913339a936b08eff779a68c98bbb9b37371d2d6094df616a5ceb958  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=1c592234f8727af141993fcea655164ba386343eb5e65b57a0ab743c91ea9a16 height=136 version=0x20000000 log2_work=8.0980321 tx=137 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(136txo)
+2018-02-15 02:37:49 AddToWallet d25200119bcd0edfcc3bf009a74369bb83aac0c8bc792ee6af20aeb90fab4338  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=74857a051e5b886ec7fc152344e2251aed315ea0e20b64c3ddd74f7862e56413 height=137 version=0x20000000 log2_work=8.1085245 tx=138 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(137txo)
+2018-02-15 02:37:49 AddToWallet 389764b51ef7f40a9b84a5dc30ac444c7e0053eacf088a7cfacd0bf1479dc531  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=771e13f08105c9af31d8c1f2673b5a79b8544399e9e779d163582cc94fcc3049 height=138 version=0x20000000 log2_work=8.1189411 tx=139 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(138txo)
+2018-02-15 02:37:49 AddToWallet 5e1bd169ddd00e3a22499306a6e24653d62c58b9298b5265173b2e6c4ee00c7e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=4033a22cf18f04a2e8b8c123ef254ecc88a4b5ae48b3fe1227956cab6ef2b178 height=139 version=0x20000000 log2_work=8.129283 tx=140 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(139txo)
+2018-02-15 02:37:49 AddToWallet 8875526bb256262feb5ed0412e8fc7d1f8497806a050548d86db2770c9fa4357  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3e472342c5a7e51c1c7df49415b44aa8635f8e2e87354cd900ea8f72737039ac height=140 version=0x20000000 log2_work=8.1395514 tx=141 date='2018-02-15 02:37:54' progress=1.000000 cache=0.0MiB(140txo)
+2018-02-15 02:37:49 AddToWallet 5229c8fc5b1cbf790d49352a652a2f759c33106a385f3dcc59f119f2fe78ed53  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=631576e8c4e054ed665484f8f93fe21493d4118e3e1f0d8dcd981d8be9ea04cf height=141 version=0x20000000 log2_work=8.1497471 tx=142 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(141txo)
+2018-02-15 02:37:49 AddToWallet b9bf9cf5e4465db2f7adcd74fd42ff1e9c96c2dbf0aff7266e80ff230cf35693  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0e8eace343a01b6474cc87c6ba6916cf20b6ad415bc97158f51abcaf7dbac055 height=142 version=0x20000000 log2_work=8.1598713 tx=143 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(142txo)
+2018-02-15 02:37:49 AddToWallet 0bd29a63c3f233dc133d68b0d07f19d3f9a8d5565d77b85f4c8961869f03df6e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5dbca5d8a04c506df3d5f711af79ac7f5fdb279c8f731e63b157123d1cfd2f8e height=143 version=0x20000000 log2_work=8.169925 tx=144 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(143txo)
+2018-02-15 02:37:49 AddToWallet 5a5695f3bc74bdf75fee84b6dce8b20c733facd87243f8f2c1d26715b93f6997  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=094b7b4eb1fbb012ccd95e4e8abfdfa27548c4c7e0d6c910fd3ad05065dfa75f height=144 version=0x30000003 log2_work=8.1799091 tx=145 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(144txo)
+2018-02-15 02:37:49 AddToWallet 4b8f03c9e390dcbd0fcc28107f3e003923037ab7312c2432e8122dec387e69f2  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0c2270b377ff4d8dac50f05b974d8adbc1af0c6d08c51f2eecb34368de274ff5 height=145 version=0x30000003 log2_work=8.1898246 tx=146 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(145txo)
+2018-02-15 02:37:49 AddToWallet 1793fb5429f5d5e4258f29029b080b85d525c7afb56320561c30cc7f901b1b79  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5d814326d5471ca70a8912645c0dbbd888080afdcb28912874fc448724a9cb79 height=146 version=0x30000003 log2_work=8.1996723 tx=147 date='2018-02-15 02:37:55' progress=1.000000 cache=0.0MiB(146txo)
+2018-02-15 02:37:49 AddToWallet 99ab92ea57a8dfeabd448c22cb813eae69a7137c42911a16a282ea37472359a1  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0906752b92a4a01f5ee36da39c2c4743b198197f46f676f91bfe00770ed1bce4 height=147 version=0x30000003 log2_work=8.2094534 tx=148 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(147txo)
+2018-02-15 02:37:49 AddToWallet 8f5aa72bbba81b4b976bfae5c24cea24fad84b189164b8bfe0538870b884bc13  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=799460b3ee5f77bdaf87e7fc9360f2390c831347f31fba58badfed6c7334ceff height=148 version=0x30000003 log2_work=8.2191685 tx=149 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(148txo)
+2018-02-15 02:37:49 AddToWallet 9f798b65319889745dbb0a7413d6a127f3c93ba58d50a0927ea0402a3b99fbc6  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=50990b0ba8b326f0d2bcc159acd9a0216d23f1c6ebf2fbcf19373d39c7c57103 height=149 version=0x30000003 log2_work=8.2288187 tx=150 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(149txo)
+2018-02-15 02:37:49 AddToWallet 370ea709671b6162f478116aa29b2918daf58f5ddedc0d1830c9043fd06aa9d4  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2057b7fb436d383542ea250bc61792e1a9c4d1ae1fdcdcc7357b8aa2d12e37cb height=150 version=0x30000003 log2_work=8.2384047 tx=151 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(150txo)
+2018-02-15 02:37:49 AddToWallet 2ceeab75b76921e16b4280563c684c91122f4c17b551f0fe1a56cf209eb97a6f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=35cdbced0e0d810a55a1fde78d8e7c0b204856136ee4be6f8b3bbe0b18803188 height=151 version=0x30000003 log2_work=8.2479275 tx=152 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(151txo)
+2018-02-15 02:37:49 AddToWallet 6e34b439bb480ff252c414452739392cf438aaff19d753e3ce8fd324897b346c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=690618fb673619dc757704e9b47ebb86bb40883d7cde09c6b661adc76c718a1a height=152 version=0x30000003 log2_work=8.2573878 tx=153 date='2018-02-15 02:37:56' progress=1.000000 cache=0.0MiB(152txo)
+2018-02-15 02:37:49 AddToWallet 7c810ec123a26ab1424beedcf42bd1740c205ccbedcfc9ad68e45988ed8b374c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5b88c4e867495e8d6b7cb54bb74df924b0eb803ca7d5096f17243ebb1bca457c height=153 version=0x30000003 log2_work=8.2667865 tx=154 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(153txo)
+2018-02-15 02:37:49 AddToWallet 3e8980d1a7c27dd55c45be5287816eee00ea383b36f2b54d3891fc2c4703850b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7d37ebf12cd48a37d528d80de8d19d55d6ff02cc7032718f8ef0626c798a51b1 height=154 version=0x30000003 log2_work=8.2761244 tx=155 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(154txo)
+2018-02-15 02:37:49 AddToWallet a1f6b85d9cd95461c19d080ee06f0634ea381cac72adceb1d87c3f8e0e935d69  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=387fe760f548630795c01737a554a36c9e8804ab5704f148c014e20389af60a2 height=155 version=0x30000003 log2_work=8.2854022 tx=156 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(155txo)
+2018-02-15 02:37:49 AddToWallet 3f9e1ba6ae18dab0b884a914e2de3c8257222b74b190c25a69b007c5a641d81e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7e54f18de3a5c1f4c8f9faa9bdb04d0cd9187a023e6c16c29662d95facc73bec height=156 version=0x30000003 log2_work=8.2946207 tx=157 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(156txo)
+2018-02-15 02:37:49 AddToWallet a12abdf92f7a2a1841389ca83d16bc4e6ee13391503e5cc9aa52d6c56b4014c5  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=495e21e0cfef8097fb149ed46026eeb79271e77d3584d0b7d1f77279ea1b486f height=157 version=0x30000003 log2_work=8.3037807 tx=158 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(157txo)
+2018-02-15 02:37:49 AddToWallet d6047b467e5ed65505b9087c45f3b1c7ee61e876274d89d7fee330177f777dd0  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3699c6cb3704d19c1c857ca8b08d9dbbc4307435bf52e3e36564d8f0e4c8a632 height=158 version=0x30000003 log2_work=8.312883 tx=159 date='2018-02-15 02:37:57' progress=1.000000 cache=0.0MiB(158txo)
+2018-02-15 02:37:49 AddToWallet 5e1f7c04f394ce0d0e35a191c0863bc545b1cea57d3a4aede5f414519315b04d  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0b45fc39b9d7c6fec1ed0de65fd40f3596c886f420dac422f39e849fc89c1166 height=159 version=0x30000003 log2_work=8.3219281 tx=160 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(159txo)
+2018-02-15 02:37:49 AddToWallet 0cedea3ac19c58951698e87d81d2f87ea309860c983f38b15f715b79d025bd23  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=6f442a7d65c2b0d63457f38b0e5b650ba4ece97d0e4047eee147d23870372e25 height=160 version=0x30000003 log2_work=8.3309169 tx=161 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(160txo)
+2018-02-15 02:37:49 AddToWallet 7e74c9259c2c19be4f66a445c9b056f365ccaa17e63e2970c916240d87b40cfa  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=728d61518374c6c3ee8e7dcccb7e56d44a83cecb18beee3bde1e3e8eefcfd2ac height=161 version=0x30000003 log2_work=8.33985 tx=162 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(161txo)
+2018-02-15 02:37:49 AddToWallet aa149f8f05481296c488f2e5d8d57ac43d972f952579bf62d9d4a8bd24cbf30a  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7110c8caca121889a487d70f70945ceb7a3c08c8b31a7e6ed1338437e5545bc9 height=162 version=0x30000003 log2_work=8.3487282 tx=163 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(162txo)
+2018-02-15 02:37:49 AddToWallet b0023b62f93b0b0aa347ee6ee25c9869b753092c67f6c9b75c5475ce2046c4be  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=59c96631df724de5c482dda262f633bbf04bcfd277ad3b4d57bc667bf51f03b8 height=163 version=0x30000003 log2_work=8.357552 tx=164 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(163txo)
+2018-02-15 02:37:49 AddToWallet 704c67f26d025f3198e77de5c471155e95fefb5b6cdb4ec655f64d2d406e8144  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3b353ff2b0f94a9334a36738050013042dc7b4dff149aaea8be877cd75004043 height=164 version=0x30000003 log2_work=8.3663222 tx=165 date='2018-02-15 02:37:58' progress=1.000000 cache=0.0MiB(164txo)
+2018-02-15 02:37:49 AddToWallet 3d58d9f2e1e834ef2a46cfb26b7e5a96933a984a6017d88343102646b3bcb8fa  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=61d334f3cb4b9b53b04d410cdaada10a8876a3f181eb27cf4c130446a3f997e4 height=165 version=0x30000003 log2_work=8.3750394 tx=166 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(165txo)
+2018-02-15 02:37:49 AddToWallet 92236937cb4c3e90f08da6ab75535579bf3fdeb4787dad3cd0046d5a7e60ff35  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=69108bf55c4083530c94484d0225e3dd701992ae4b4941bb7a1aab0dfecad929 height=166 version=0x30000003 log2_work=8.3837043 tx=167 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(166txo)
+2018-02-15 02:37:49 AddToWallet 3b809fed99113e5b19f77bdbed98fee581021bcbbb3e2659e20e1f5e6384271b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=54dae9452449afcade05c04d3671f80f9066bbf542be1f7febe946ce4b8a5e60 height=167 version=0x30000003 log2_work=8.3923174 tx=168 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(167txo)
+2018-02-15 02:37:49 AddToWallet bd6dd4c6bb04860c6e5132fdb798c7dc230e7e5f985b523e2e26833cf341be20  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=2715d42a36882f8ee4becc5a9f18478d8da2279916fdfc989f02d784c93fb5c9 height=168 version=0x30000003 log2_work=8.4008794 tx=169 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(168txo)
+2018-02-15 02:37:49 AddToWallet 58e7a4292f7de1ffc5655ae274ce5d24f3d8bfe6c6b838fd45efe953758498f1  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3f1bcc0696494df6810c89af436275814a363f68d407d9cf4b0926298d7ebf4b height=169 version=0x30000003 log2_work=8.4093909 tx=170 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(169txo)
+2018-02-15 02:37:49 AddToWallet c5ae2caecf5e3dfaeded2e6ad387ad0333c8b9c4e3c4e096a8ef4e86b9fd9244  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0113bc1f9f579d18c8fad9ce84a63194d05503e7a51178e617b09db9b03bc883 height=170 version=0x30000003 log2_work=8.4178525 tx=171 date='2018-02-15 02:37:59' progress=1.000000 cache=0.0MiB(170txo)
+2018-02-15 02:37:49 AddToWallet 215580252101b63f320063fc9787297dd4c03f1b415d106be86df1aa17681321  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=695b4dbc9be133f98022e2dec544012297661bd62704cca6bfe0cb41ad7b6d80 height=171 version=0x30000003 log2_work=8.4262648 tx=172 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(171txo)
+2018-02-15 02:37:49 AddToWallet f78cee1901961785f36c45986a25bd60994eb636a7dca219dfaddaabc6e9e4c8  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=79c8cd945441ae3e73e5fbc294bf0b60f183698dd60e489a4aaafb646f823377 height=172 version=0x30000003 log2_work=8.4346282 tx=173 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(172txo)
+2018-02-15 02:37:49 AddToWallet e3fa9fabaead342ee637e778e880179170cbaabc097cc7a9816a81723074e15b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=664e8eb4baad166d03723d0ec9afdf6b982b918691a24e8d3fe96924a684db1d height=173 version=0x30000003 log2_work=8.4429435 tx=174 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(173txo)
+2018-02-15 02:37:49 AddToWallet 17680030838b637a0aa1a9e4c1ec772333b0e01a15aea9c933b9d428d53702d3  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5ea738c2570bd47ae85c5ca87ad59168ab07aba38d98e99ba724eed0876a6067 height=174 version=0x30000003 log2_work=8.4512111 tx=175 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(174txo)
+2018-02-15 02:37:49 AddToWallet 2bcb758f54ec8f3e5f1ed88f43ab3e74f1ea90212b74f5103e83289359e91434  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5ce2d90bea7dfb5425607a500cf2206d9c7cbf9ce80b4de84b77e0eb20027238 height=175 version=0x30000003 log2_work=8.4594316 tx=176 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(175txo)
+2018-02-15 02:37:49 AddToWallet e127aea91b996aac0a79fc6ca0aaba10e392feb696a4a3410fc87c59ebe2c708  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5123632aab1248d523fcf6764cce7aec0a6ce904ea5fcee0f76455ba79b6b5a7 height=176 version=0x30000003 log2_work=8.4676056 tx=177 date='2018-02-15 02:38:00' progress=1.000000 cache=0.0MiB(176txo)
+2018-02-15 02:37:49 AddToWallet 0930720947c0d19ae33dcebd276c90b62bf1c892686bc2d9829e0d5b70755a6e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=57fb964a99bdf05dd82e4f9c2cb60a9a190ce0fe740d6f154638c9a932e55cd0 height=177 version=0x30000003 log2_work=8.4757334 tx=178 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(177txo)
+2018-02-15 02:37:49 AddToWallet f574379dae04dd8b03748ec759b36abc6fce392083b2de265e3f1640c3445afe  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=4c42a5b342ab71a7d9467fd532a2e671eb4c896e8478ed5c8f23505162449c98 height=178 version=0x30000003 log2_work=8.4838158 tx=179 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(178txo)
+2018-02-15 02:37:49 AddToWallet 0e7032415ad0612c85b9b96efb4d45541d55f9cb4da76b5efd561ff0e37b58c2  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5458a3b279289dc3d90fee86d700c72263ac380b3148d12c0c7a58107c53549d height=179 version=0x30000003 log2_work=8.4918531 tx=180 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(179txo)
+2018-02-15 02:37:49 AddToWallet ddc423f3a7fd7e3592a9ddeec32ac034a8a6c909a25b11683e79ac82f79d8d8c  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=354649d5fa13eae6dea21ceef9f5b65563f0f822f959d42ce4379f5cf1996814 height=180 version=0x30000003 log2_work=8.4998459 tx=181 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(180txo)
+2018-02-15 02:37:49 AddToWallet 40f99754f06fdbea047044bf20530ab39dc6b9ddab5d4b7aeb5bcc48d7c16c9a  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=184414ecbe2f0d9de8d8149a5f3fbc957dd4e23cfc9f2d0c03733e325f97ae7a height=181 version=0x30000003 log2_work=8.5077946 tx=182 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(181txo)
+2018-02-15 02:37:49 AddToWallet 8543f5923f84bc2f4fb3537a60d59ee99077e20ec320303117b51247bcaa554e  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=15f66afcf3eda6b0ccfc6146b5c797e947fd11668cf8898bb1228d11725b6e41 height=182 version=0x30000003 log2_work=8.5156998 tx=183 date='2018-02-15 02:38:01' progress=1.000000 cache=0.0MiB(182txo)
+2018-02-15 02:37:49 AddToWallet d1a7fb46b7f48e2e012682a930a65cb19e845cbb518b4255ba7d4b6e1e745fd2  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5c3247e9f2a101155f6b1762457ba41350ef62ad0bcca666735cce182c1321a3 height=183 version=0x30000003 log2_work=8.523562 tx=184 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(183txo)
+2018-02-15 02:37:49 AddToWallet bc0a36747d58c9725c6b0e191b55b09fa05e317580b16594b450b3add770bee6  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=1f8b118b7e7d6dffdb4496d8849aef0331163f570b8ca4aeac03af03c5595717 height=184 version=0x30000003 log2_work=8.5313815 tx=185 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(184txo)
+2018-02-15 02:37:49 AddToWallet 6423db6448553d65a197da37061be6086001a12fc84c623ad6154e85dbfa39bf  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7e71dfd8799a05b9d468f3946a9e5502c05839b1bd92e85c3815ebfa6c081e47 height=185 version=0x30000003 log2_work=8.5391588 tx=186 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(185txo)
+2018-02-15 02:37:49 AddToWallet 71f00ee6d23ddc4bdf82cfff0e6dc76244ecf948a7175d9f594a2f049f334f87  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0685dc3df5116378fc2ed4715c6efc4c61603bca02eea7b1371e194c03cf06b3 height=186 version=0x30000003 log2_work=8.5468945 tx=187 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(186txo)
+2018-02-15 02:37:49 AddToWallet 3085b7e6490fa58bc632ba2d7c92148e415bbaab894bb192b11d939454a9f1c6  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=48558e627d0157799398c92cc2ebbe5c268eaca701473399eccc00650bf91c9d height=187 version=0x30000003 log2_work=8.5545889 tx=188 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(187txo)
+2018-02-15 02:37:49 AddToWallet 6127b5e5efecf82e329908bd419e084a2b3974ed1103d01cc27fef078964014f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=014e478612330f7fe0238abd001b09304441ba105abf1013c8e52c5d5ff04e29 height=188 version=0x30000003 log2_work=8.5622424 tx=189 date='2018-02-15 02:38:02' progress=1.000000 cache=0.0MiB(188txo)
+2018-02-15 02:37:49 AddToWallet caac7cd364f3dec48fbdda623ea81f40454052211682232713d534b372806136  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=750aadb91e71460636a8a58ef03306e35461e309eb2b4d0107847fca5c995157 height=189 version=0x30000003 log2_work=8.5698556 tx=190 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(189txo)
+2018-02-15 02:37:49 AddToWallet 8b7ca6f621f30fc3243c9793c396affef030391ad3537457659c9d394813b19d  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0c69aeeefae6c6d48467ed6be98d455ce1f183a0bd71b6073b91e6ed267e824d height=190 version=0x30000003 log2_work=8.5774288 tx=191 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(190txo)
+2018-02-15 02:37:49 AddToWallet 24855a781696e21ebc3492545df6f517ffe16469c204ef2c8897e1f4fb08b61b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=781c47a12bca7012f3d992bfb6f455e75b7e1483d27f96d01eb64120f5cb16fc height=191 version=0x30000003 log2_work=8.5849625 tx=192 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(191txo)
+2018-02-15 02:37:49 AddToWallet 7f0c895209b706ee18a048326e515733ff26401ebf8482ff2cc653027cd3ebbb  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=7505196cce662c0d579809d35f4a6d76360bdf14be649602a0dafc36f756cf33 height=192 version=0x30000003 log2_work=8.592457 tx=193 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(192txo)
+2018-02-15 02:37:49 AddToWallet e303c7e323d1a1543988ca21005d2ae6621a5754daa5030fec35fdc3ce6346e7  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=3ac646b84f4d0623f18600bfa5a5d1e95ddf936dacd98bee8b3f7f4c0a6b269e height=193 version=0x30000003 log2_work=8.5999128 tx=194 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(193txo)
+2018-02-15 02:37:49 AddToWallet 78f82e1bffd748e52dddb2c20536cba2a0aa56fe098a76404c9956d04023d93f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=394f806ae3c43d0e999d6db9435f5e12457ba3d0a368732e3256c723079111b7 height=194 version=0x30000003 log2_work=8.6073303 tx=195 date='2018-02-15 02:38:03' progress=1.000000 cache=0.0MiB(194txo)
+2018-02-15 02:37:49 AddToWallet d6d1b9291535a1cba7e950da0606cead5be0aee337573c1f380e80f87c115f8f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=58222028244bad731e0a9018d6b2c43aa265e4eb60d2f9e5443cb2d2f4862f9c height=195 version=0x30000003 log2_work=8.6147098 tx=196 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(195txo)
+2018-02-15 02:37:49 AddToWallet a6bfa4bf148e20be4fb9e79eb972bdd20d2a255bd379911168d78b1bdc97c605  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=28dc369f5becc670c2eddc3e997171a23dc5e048416cc168ecf9844d401b2c04 height=196 version=0x30000003 log2_work=8.6220518 tx=197 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(196txo)
+2018-02-15 02:37:49 AddToWallet e47153f146ba3329fa30d8b599070b4e0e8b4e42eba55be15f6d88313572be4b  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=65171ac8a7d4ba814a716193aaeceed12c769b0fb45b397b02f2a5959fcd8e08 height=197 version=0x30000003 log2_work=8.6293566 tx=198 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(197txo)
+2018-02-15 02:37:49 AddToWallet a42e4bee2c36e8a1ff5e6c3394edecfecf7e47918a58567dd6c6d4561fdd5c09  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=757cdf2ba84f5ccf7c76738239c3461d86cf73438deadb4409a9cf416d694a55 height=198 version=0x30000003 log2_work=8.6366246 tx=199 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(198txo)
+2018-02-15 02:37:49 AddToWallet c0edec97c7fa59b3087a4f48c30de59c3997f68bd4a6342316415ba878cd7fec  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=4984f934914f97aa892eec4fae1463fd95db64bc448510dc7bbf412f50bcf075 height=199 version=0x30000003 log2_work=8.6438562 tx=200 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(199txo)
+2018-02-15 02:37:49 AddToWallet 07db02506594c041c4f2c9bed8005a97d405fd43d714aedc6fee278273d94379  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=076d9d879f373958d7e9108e9f0c83989bdb3781c57535b7aba1465805de1ba2 height=200 version=0x30000003 log2_work=8.6510517 tx=201 date='2018-02-15 02:38:04' progress=1.000000 cache=0.0MiB(200txo)
+2018-02-15 02:37:49 AddToWallet c7dbded46716f2c6e24388e1756f9b7910c51061e29fc9b6a8c011d7c1c139e1  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=67a06e20bbda1615c6d63d9c9b085dbe82bd6f82bd294b05e3b3b839440f9d44 height=201 version=0x30000003 log2_work=8.6582115 tx=202 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(201txo)
+2018-02-15 02:37:49 AddToWallet a10083f0afe43ba7644cd78e21c2e3a90f1f492fd9181c050496ec75e7554fa2  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=14cc740239410dac8809f51100967927b46610b6e10a1c4a83e90c8438714226 height=202 version=0x30000003 log2_work=8.6653359 tx=203 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(202txo)
+2018-02-15 02:37:49 AddToWallet e5168089789b32deeded969242d64cfd79dd583d6a9b88e2be454eadf38f790f  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=5c443a4566a2e61ecbcd8553836c8b681818dbabb1440b8634818779e7880cf0 height=203 version=0x30000003 log2_work=8.6724253 tx=204 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(203txo)
+2018-02-15 02:37:49 AddToWallet 2888b459909f24ed50b2ccccfb735429dfcd8b5dfbad56acece385278d9e7ae7  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=02b148aae489d17b7e6d4852ce2eec7e518141506cbb2d3470e3abe0901b6281 height=204 version=0x30000003 log2_work=8.6794801 tx=205 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(204txo)
+2018-02-15 02:37:49 AddToWallet 2d090426e60444fb0e9daad6b93976c749c20eb33b92bb6c629523d56367879a  new
+2018-02-15 02:37:49 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:37:49 UpdateTip: new best=0a24b31231fcd566e8b1d68279bd6062cd32cd77f5339efe67a383490954b72d height=205 version=0x30000003 log2_work=8.6865005 tx=206 date='2018-02-15 02:38:05' progress=1.000000 cache=0.0MiB(205txo)
+2018-02-15 02:37:49 AddToWallet c0be7183e2ec0631d583bdcd67d633a2da89a9988006dff464c1804052942ffc  new
+2018-02-15 02:38:36 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:38:36 keypool reserve 3
+2018-02-15 02:38:36 keypool keep 3
+2018-02-15 02:42:30 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:42:30 keypool reserve 4
+2018-02-15 02:42:30 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:42:30 UpdateTip: new best=028173fc42d803c3a09237ed98434f74fe26b11384600203327359197f73b814 height=206 version=0x30000003 log2_work=8.693487 tx=207 date='2018-02-15 02:42:30' progress=1.000000 cache=0.0MiB(206txo)
+2018-02-15 02:42:30 AddToWallet a72992e463d7233b3ca221c9487440bc4337e62ca0a905654a904f4640e5fec0  new
+2018-02-15 02:42:30 keypool keep 4
+2018-02-15 02:43:35 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:43:35 keypool reserve 5
+2018-02-15 02:43:35 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:43:35 UpdateTip: new best=4767425fd2fe0d6821acd7f6831330b5a71251a8b972d6d5a24a6cbe200bae4d height=207 version=0x30000003 log2_work=8.7004397 tx=208 date='2018-02-15 02:43:35' progress=1.000000 cache=0.0MiB(207txo)
+2018-02-15 02:43:35 AddToWallet bdb5a9b603c319c8d87bf5b48d804c8def16171911e5fdecfcb8539a158ceb4b  new
+2018-02-15 02:43:35 keypool keep 5
+2018-02-15 02:44:36 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:44:36 keypool reserve 6
+2018-02-15 02:44:36 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:44:36 UpdateTip: new best=6e13ea8ee31c875a71274726a4524d1794fc20118c5fcc0bdd44dfa6e42a121e height=208 version=0x30000003 log2_work=8.7073591 tx=209 date='2018-02-15 02:44:36' progress=1.000000 cache=0.0MiB(208txo)
+2018-02-15 02:44:36 AddToWallet e46a6e2557f29965d29beb793945395f90536f301915169c638f9f745e747810  new
+2018-02-15 02:44:36 keypool keep 6
+2018-02-15 02:46:31 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:46:31 keypool reserve 7
+2018-02-15 02:46:31 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:46:31 UpdateTip: new best=2ec7673d20f4ab6c9f1846bfa0d61624f6313179757940238a08665d4fbda123 height=209 version=0x30000003 log2_work=8.7142455 tx=210 date='2018-02-15 02:46:31' progress=1.000000 cache=0.0MiB(209txo)
+2018-02-15 02:46:31 AddToWallet 948afeb82762e483a99ad74a7010c4e74a518d45df7734ef67dbdf5bd25dc186  new
+2018-02-15 02:46:31 keypool keep 7
+2018-02-15 02:46:52 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:46:52 keypool reserve 8
+2018-02-15 02:46:52 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:46:52 UpdateTip: new best=1896fc9384790b44cef0ec185428cc359901bfd5fdc8c4356faf8c9a81105a7d height=210 version=0x30000003 log2_work=8.7210992 tx=211 date='2018-02-15 02:46:52' progress=1.000000 cache=0.0MiB(210txo)
+2018-02-15 02:46:52 AddToWallet 1c1cf165da7ddfd50ffec1762200a442de79fc225b31a333efc7f62cf2b5ef9e  new
+2018-02-15 02:46:52 keypool keep 8
+2018-02-15 02:47:12 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:47:12 keypool reserve 9
+2018-02-15 02:47:12 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:47:12 UpdateTip: new best=2fe3c71758f84435d6d1ff6cadad9d95c38de83d4770b14da48dba8c1aab6668 height=211 version=0x30000003 log2_work=8.7279205 tx=212 date='2018-02-15 02:47:12' progress=1.000000 cache=0.0MiB(211txo)
+2018-02-15 02:47:12 AddToWallet 322a112b3be72b104edba0b6b30a38832f8e91c45cab1dae3c08c010228d62a7  new
+2018-02-15 02:47:12 keypool keep 9
+2018-02-15 02:48:01 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:48:01 keypool reserve 10
+2018-02-15 02:48:01 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:48:01 UpdateTip: new best=5fbd6f88f6401452fe4eb98d87c8abc63e48a94bf3c81da70d4dd0f7e7e50236 height=212 version=0x30000003 log2_work=8.7347096 tx=213 date='2018-02-15 02:48:01' progress=1.000000 cache=0.0MiB(212txo)
+2018-02-15 02:48:01 AddToWallet e2bf6d08601bab4518e94e7d5701868711ca97b221be36c2ecb6d044688cc42c  new
+2018-02-15 02:48:01 keypool keep 10
+2018-02-15 02:49:57 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:49:57 keypool reserve 11
+2018-02-15 02:49:57 CreateNewBlock(): block weight: 908 txs: 0 fees: 0 sigops 400
+2018-02-15 02:49:57 UpdateTip: new best=5c1c23ee6aabe5a7a66b6b62092c83a1ff2f9d72b0659915f6034802744f6d34 height=213 version=0x30000003 log2_work=8.741467 tx=214 date='2018-02-15 02:49:57' progress=1.000000 cache=0.0MiB(213txo)
+2018-02-15 02:49:57 AddToWallet 9d243be82a920ef936136affc074f610f00e081514c0d0e734013f94e5e57806  new
+2018-02-15 02:49:57 keypool keep 11
+2018-02-15 02:50:51 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:50:51 keypool reserve 1001
+2018-02-15 02:50:51 Fee Calculation: Fee:3840 Bytes:192 Needed:3840 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:50:51 CommitTransaction:
+CTransaction(hash=b0bff2b6a1, ver=2, vin.size=1, vout.size=2, nLockTime=213)
+    CTxIn(COutPoint(cab22d93b1, 0), scriptSig=47304402201e98b44a1d6b20, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=49.90124160, scriptPubKey=76a9141f747cc565604d1eee210a9c)
+    CTxOut(nValue=0.09872000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+2018-02-15 02:50:51 keypool keep 1001
+2018-02-15 02:50:51 AddToWallet b0bff2b6a1c1334dc83b8ffeb871d9bfdcb6adbab110ea255696388c19ef7b91  new
+2018-02-15 02:50:51 AddToWallet b0bff2b6a1c1334dc83b8ffeb871d9bfdcb6adbab110ea255696388c19ef7b91  
+2018-02-15 02:50:51 Relaying wtx b0bff2b6a1c1334dc83b8ffeb871d9bfdcb6adbab110ea255696388c19ef7b91
+2018-02-15 02:50:51 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:50:51 keypool reserve 12
+2018-02-15 02:50:51 CreateNewBlock(): block weight: 1672 txs: 1 fees: 3840 sigops 408
+2018-02-15 02:50:51 UpdateTip: new best=67b1f38d92536bc724316e55ca03d058cecf29298ca8c1830de80cbb41fe7e67 height=214 version=0x30000003 log2_work=8.7481928 tx=216 date='2018-02-15 02:50:51' progress=1.000000 cache=0.0MiB(216txo)
+2018-02-15 02:50:51 AddToWallet 69e617d1aaaaced0ce5e4c997829369e1a3e3620b41eac7dd406a993e043c49c  new
+2018-02-15 02:50:51 AddToWallet b0bff2b6a1c1334dc83b8ffeb871d9bfdcb6adbab110ea255696388c19ef7b91  update
+2018-02-15 02:50:51 keypool keep 12
+2018-02-15 02:53:14 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:53:14 keypool reserve 1002
+2018-02-15 02:53:14 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:53:14 CommitTransaction:
+CTransaction(hash=062857f419, ver=2, vin.size=1, vout.size=2, nLockTime=214)
+    CTxIn(COutPoint(b0bff2b6a1, 0), scriptSig=483045022100a1fe238bb51f, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=49.63011640, scriptPubKey=76a9143e97d394e24fa848e75f6c54)
+    CTxOut(nValue=0.27108000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+2018-02-15 02:53:14 keypool keep 1002
+2018-02-15 02:53:14 AddToWallet 062857f4193a96015677007cdb918039a6a1a2094d3d9f3f1c6584886cce5d50  new
+2018-02-15 02:53:14 AddToWallet 062857f4193a96015677007cdb918039a6a1a2094d3d9f3f1c6584886cce5d50  
+2018-02-15 02:53:14 Relaying wtx 062857f4193a96015677007cdb918039a6a1a2094d3d9f3f1c6584886cce5d50
+2018-02-15 02:53:14 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:53:14 keypool reserve 13
+2018-02-15 02:53:14 CreateNewBlock(): block weight: 1812 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:53:14 UpdateTip: new best=3b7de7e0cb03e2a221c90e4fecd81b952237deb36812e9a30155a69e5bf622e3 height=215 version=0x30000003 log2_work=8.7548875 tx=218 date='2018-02-15 02:53:14' progress=1.000000 cache=0.0MiB(218txo)
+2018-02-15 02:53:14 AddToWallet cbd621918c5163ebaf69bb30b20792ca6cecfcac78f8053b5b115cc730991830  new
+2018-02-15 02:53:14 AddToWallet 062857f4193a96015677007cdb918039a6a1a2094d3d9f3f1c6584886cce5d50  update
+2018-02-15 02:53:14 keypool keep 13
+2018-02-15 02:53:17 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:53:17 keypool reserve 1003
+2018-02-15 02:53:17 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:0 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:53:17 CommitTransaction:
+CTransaction(hash=bc90476506, ver=2, vin.size=1, vout.size=2, nLockTime=215)
+    CTxIn(COutPoint(062857f419, 0), scriptSig=47304402207a7b2986693d9c, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.17955000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=49.45052120, scriptPubKey=76a914ed7534dae5eba2ac32cee0ce)
+2018-02-15 02:53:17 keypool keep 1003
+2018-02-15 02:53:17 AddToWallet bc90476506cb93b8ca068e305d90f65c9472facf2c9be306c30c227098b5da2b  new
+2018-02-15 02:53:17 AddToWallet bc90476506cb93b8ca068e305d90f65c9472facf2c9be306c30c227098b5da2b  
+2018-02-15 02:53:17 Relaying wtx bc90476506cb93b8ca068e305d90f65c9472facf2c9be306c30c227098b5da2b
+2018-02-15 02:53:17 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:53:17 keypool reserve 14
+2018-02-15 02:53:17 CreateNewBlock(): block weight: 1808 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:53:17 UpdateTip: new best=568c074cf5c9a9f72a8ba9358652bb3797d36c0f7b313d5ed248d03fb2c157fc height=216 version=0x30000003 log2_work=8.7615512 tx=220 date='2018-02-15 02:53:17' progress=1.000000 cache=0.0MiB(220txo)
+2018-02-15 02:53:17 AddToWallet 494454b9c629d47aace923951b92545f689ce7f753d052baf1ac7ae6b162646b  new
+2018-02-15 02:53:17 AddToWallet bc90476506cb93b8ca068e305d90f65c9472facf2c9be306c30c227098b5da2b  update
+2018-02-15 02:53:17 keypool keep 14
+2018-02-15 02:53:23 keypool added 1 keys (0 internal), size=2000 (1000 internal)
+2018-02-15 02:53:23 keypool reserve 1004
+2018-02-15 02:53:23 Fee Calculation: Fee:4520 Bytes:226 Needed:4520 Tgt:1 (requested 6) Reason:"Fallback fee" Decay 0.00000: Estimation: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2018-02-15 02:53:23 CommitTransaction:
+CTransaction(hash=f41af243e6, ver=2, vin.size=1, vout.size=2, nLockTime=216)
+    CTxIn(COutPoint(bc90476506, 1), scriptSig=483045022100ff48ac7f370d, nSequence=4294967294)
+    CScriptWitness()
+    CTxOut(nValue=0.26731000, scriptPubKey=76a914a3d6d9fe005cfa1781d569e5)
+    CTxOut(nValue=49.18316600, scriptPubKey=76a91441f0059c690f0acff050532e)
+2018-02-15 02:53:23 keypool keep 1004
+2018-02-15 02:53:23 AddToWallet f41af243e631f0b76d6761a5ee15741ed94de8497da27b7724d73f347877029f  new
+2018-02-15 02:53:23 AddToWallet f41af243e631f0b76d6761a5ee15741ed94de8497da27b7724d73f347877029f  
+2018-02-15 02:53:23 Relaying wtx f41af243e631f0b76d6761a5ee15741ed94de8497da27b7724d73f347877029f
+2018-02-15 02:53:23 keypool added 1 keys (1 internal), size=2000 (1000 internal)
+2018-02-15 02:53:23 keypool reserve 15
+2018-02-15 02:53:23 CreateNewBlock(): block weight: 1812 txs: 1 fees: 4520 sigops 408
+2018-02-15 02:53:23 UpdateTip: new best=3f3810203bef554a9823d0c2389c13b9678551539ad947c4f9a8c588ab1216fa height=217 version=0x30000003 log2_work=8.7681843 tx=222 date='2018-02-15 02:53:23' progress=1.000000 cache=0.0MiB(222txo)
+2018-02-15 02:53:23 AddToWallet 57dad8e748c3ac3f3e01bf0a891a491fd34ff90382fd55f33dc73c1752d4f9d0  new
+2018-02-15 02:53:23 AddToWallet f41af243e631f0b76d6761a5ee15741ed94de8497da27b7724d73f347877029f  update
+2018-02-15 02:53:23 keypool keep 15
+2018-02-15 02:53:58 UpdateTip: new best=6fbceb78c66fb0cf38d10ae1cf5eb555143c082eaeb5d108170695200067c24a height=218 version=0x30000003 log2_work=8.7747871 tx=224 date='2018-02-15 02:53:58' progress=1.000000 cache=0.0MiB(225txo)
+2018-02-15 02:54:02 UpdateTip: new best=334082f2eb3bfb302aa3a0ca5191894a0db78e9f410b6c806df23a1f7984dfc3 height=219 version=0x30000003 log2_work=8.7813597 tx=226 date='2018-02-15 02:54:02' progress=1.000000 cache=0.0MiB(227txo)
+2018-02-15 02:54:04 UpdateTip: new best=6bd34a4c75ca7fee901bf29503dc664b82c383737fd859debdf1d3dc6aa966cc height=220 version=0x30000003 log2_work=8.7879026 tx=228 date='2018-02-15 02:54:04' progress=1.000000 cache=0.0MiB(228txo)
+2018-02-15 02:56:51 UpdateTip: new best=2141c31794e0e722bc8f3e33008231384918c235232c4b30e981582ec27315c0 height=221 version=0x30000003 log2_work=8.7944159 tx=230 date='2018-02-15 02:56:51' progress=1.000000 cache=0.0MiB(230txo)
+2018-02-15 02:56:52 UpdateTip: new best=00ed54d2b595816ac775f321d81498492d42362ba9cce227cc01f035712d4e4c height=222 version=0x30000003 log2_work=8.8008999 tx=232 date='2018-02-15 02:56:52' progress=1.000000 cache=0.0MiB(232txo)
+2018-02-15 02:57:55 tor: Thread interrupt
+2018-02-15 02:57:55 opencon thread exit
+2018-02-15 02:57:55 torcontrol thread exit
+2018-02-15 02:57:55 scheduler thread interrupt
+2018-02-15 02:57:55 addcon thread exit
+2018-02-15 02:57:55 Shutdown: In progress...
+2018-02-15 02:57:55 msghand thread exit
+2018-02-15 02:57:55 net thread exit
+2018-02-15 02:57:55 Dumped mempool: 8e-06s to copy, 0.044511s to dump
+2018-02-15 02:57:55 Shutdown: done
