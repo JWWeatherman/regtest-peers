@@ -5,7 +5,7 @@
 BR_START="bitcoind"
 BITCOIN_CLI="bitcoin-cli"
 
-DATA_DIR="-datadir=bitcoin-regtest-node/peers/"
+DATA_DIR="-datadir=/home/richard/Documents/regtest-peers/peers/"
 
 DAEMON="-daemon"
 STOP="-stop"
@@ -35,10 +35,38 @@ function cmd_help() {
   echocyan "[b|bootstrap] <name>        ... Initialize a new private blockchain (regtest) and mine first 50 BTC.";echo
   echocyan "[s|simulate] <name> <addr>  ... Transfer a random amount of money in a random amount of transactions to the address <addr>.";echo
   echocyan "[m|mine] <name>             ... Mine one block and include all transactions that are currently in the memory pool, if possible.";echo
-  echocyan "[bal|balance] <name>        ... Get the peers balance."
+  echocyan "[bal|balance] <name>        ... Get the peers balance";echo
+  echocyan "[sta|start] <name>          ... Starts a peers instance";echo
+  echocyan "[sto|stop] <name>           ... Stops peers instance";echo
+  echocyan "[g|getinfo] <name>          ... Gets peers info";echo
+  echocyan "[-h|--help]                 ... Shows this help menu";echo
 }
 
 case "$1" in
+    sta|start)
+      if [ -z "$2" ]; then
+        cmd_help;
+      else
+        startDaemon $2
+      fi
+    ;;
+    -h|--help)
+      cmd_help;
+    ;;
+    g|getinfo)
+      if [ -z "$2" ]; then
+        cmd_help; exit
+      else 
+        getInfo $2
+      fi
+    ;;
+    sto|stop)
+      if [ -z "$2" ]; then
+        cmd_help; exit
+      else
+        stopDaemon $2
+      fi
+    ;;
     b|bootstrap)
       if [ -z "$2" ]; then
         cmd_help; exit

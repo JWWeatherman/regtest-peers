@@ -67,32 +67,26 @@ command.
     ~$ ./btc_node.sh mine <Peername>
     # Alternative short command:
     ~$ ./btc_node.sh m <Peername>
- 
+
+## Available Commands ##
+
+Most of the usual Bitcoin-cli commands are available for use. To see them do
+```
+   ~$ ./btc_node.sh --help
+   # Alternative short command:
+   ~$ ./btc_node.sd -h
+```
 ----
-
-**For all:**
-
-Switch to new console and let the bitcoind running. We generate 101 new blocks
-(starting from the genesis block), in order to be able to access the first one
-and get 50 BTC.
-
-    ~$ bitcoin-cli -datadir=path/to/peers/<Peername> generate 101
-    ... # Wait until all blocks are generated, ~1 minute
-    ~$ bitcoin-cli -datadir=path/to/peers/<Peername> getbalance
-    50.00000000 # <= You should see that or at least a number bigger then zero.
-
-**Congratulations!** You have now your first BTC that you can spent.
 
 Where to go from here? Please read further how to spent this BTC and how to make
  the whole a little bit more effective, with less typing and more automated.
 
 ## Preparing your working environment ##
 
-We don't want to type each time `bitcoin-cli -regtest`. The command `br` is easier
-to type and easy to remember: The beginning letters of the command.
+It's a good idea to setup an alias to make running the script a little more conscise
 
-    ~$ echo 'alias br <Peername>="bitcoin-cli -datadir=path/to/peers/<Peername>"' >> ~/.bashrc; source ~/.bashrc
-    ~$ br <Peername> getbalance
+    ~$ echo 'alias peerd=~/<Path>/<Too>/regtest-peers/btc_node.sh' >> ~/.bashrc; source ~/.bashrc // or // ~/.zshrc; source ~/.zshrc 
+    ~$ peerd g <Peername>
 
 ## Support this project ##
 

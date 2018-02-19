@@ -54,3 +54,88 @@ function miningFirstBTC() {
   echocyan "[WALLET] $1 wallet balance: \e[1m\e[7m${BALANCE} BTC\e[0m"; echo
 }
 
+######################################
+# Start daemon for specific peer
+######################################
+function startDaemon() {
+  echocyan "[DAEMON] Starting '$1' daemon"; echo
+  echocyan "[DAEMON] '${BR_START}' '${DATA_DIR}$1' '${DAEMON}'"; echo
+  
+  ${BR_START} ${DATA_DIR}$1 ${DAEMON}
+
+  echogreen "[DAEMON] '$1' daemon started"; echo
+}
+  
+
+#######################################
+# Stop daemon for specific peer
+#######################################
+function stopDaemon() {
+  echoyellow "[WARN] Stopping '$1' daemon in ctl+c to stop "
+  for i in `seq 5 -1 1`; do
+    echored $i
+    sleep 1
+    echo -n " "
+  done; echo
+  echocyan "[DAEMON] '${BITCOIN_CLI}' '${DATA_DIR}$1' stop"; echo
+
+  ${BITCOIN_CLI} ${DATA_DIR}$1 stop 
+
+  echocyan "[DAEMON] '$1' daemon is stopped"; echo
+}
+
+#######################################
+# GetInfo for specific peer
+#######################################
+function getInfo() {
+  echocyan "[DAEMON] Getting '$1' info"; echo
+  echoyellow "'${BITCOIN_CLI}' '${DATA_DIR}$1' getinfo"; echo
+
+  ${BITCOIN_CLI} ${DATA_DIR}$1 getinfo
+
+  echo 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
