@@ -39,6 +39,13 @@ There is three peers setup in the `peers` directory. Peers are connected allowin
 
 ## Quickstart ##
 
+Point DATA_DIR to where this script is installed.
+
+```
+   # In btc_node.sh change DATA_DIR
+   ~$ DATA_DIR="-datadir=/<Path>/<Too>/regtest-peers/peers/"   
+```
+
 Setup your a peers private blockchain in regtest mode and mine 50 BTC. In this
 version we assume that `bitcoind` is installed. Try `bitcoin-cli -help`. 
 
