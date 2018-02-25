@@ -40,12 +40,24 @@ function cmd_help() {
   echocyan "[sto|stop] <name>           ... Stops peers instance";echo
   echocyan "[g|getinfo] <name>          ... Gets peers info";echo
   echocyan "[-h|--help]                 ... Shows this help menu";echo
+  echocyan "[a|address] <name>          ... Get new address";echo
+  echocyan "[ba|bootstrap-all           ... Bootstrap all peers";echo
 }
 
 case "$1" in
+    ba|bootstrap-all)
+      bootstrapAll; 
+    ;;
+    a|address)
+      if [ -z "$2" ]; then
+        cmd_help; exit
+      else 
+        getNewAddress $2
+      fi
+    ;;
     sta|start)
       if [ -z "$2" ]; then
-        cmd_help;
+        cmd_help; exit
       else
         startDaemon $2
       fi

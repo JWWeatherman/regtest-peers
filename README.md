@@ -61,6 +61,14 @@ keep a snapshot of the current version.
     # Alternative short command:
     ~$ ./btc_node.sh b <Peername>
 
+You are also able to bootstrap all the peers with a single command.
+
+```
+    ~$ ./btc_node.sh bootstrapAll
+    # Alternative short command:
+    ~$ ./btc_node.sh ba 
+``` 
+
 Simulate a random number of transactions to the given address (between 1 and 10), with a random BTC amount each time (between 0 and 1).
 
     ~$ ./btc_node.sh simulate <Peername> n44FXNKLPbqj3awCXDtNSZrrJonoX9NQsg

@@ -96,10 +96,33 @@ function getInfo() {
   echo 
 } 
 
+#######################################
+# Get new wallet address
+#######################################
+function getNewAddress() {
+  echocyan "[DAEMON] Getting new address for '$1'"; echo
+  echoyellow "'${BITCOIN_CLI}' '${DATA_DIR}$1' getnewaddress"; echo
+ 
+  ${BITCOIN_CLI} ${DATA_DIR}$1 getnewaddress
 
+  echo
+}
 
-
-
+#########################################
+# Bootstrap all peers in peers directory
+#########################################
+function bootstrapAll() {
+  for dir in ../peers/*/
+    do
+      dir=${dir%*/}
+      echocyan "[DAEMON] Starting Bootstrap for peer '${dir##*/}'"; echo
+      terminateBitcoind 
+      purgingBlockchain ${dir##*/}
+      startBitcoind ${dir##*/}
+      miningFirstBTC ${dir##*/}
+    done
+    echocyan "[DAEMON] Finished Bootstrapping all peers"; echo
+}
 
 
 
