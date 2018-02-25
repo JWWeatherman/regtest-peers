@@ -39,11 +39,11 @@ There is three peers setup in the `peers` directory. Peers are connected allowin
 
 ## Quickstart ##
 
-Point DATA_DIR to where this script is installed.
+Point DATA_DIR to where the peers are installed.
 
 ```
-   # In btc_node.sh change DATA_DIR
-   ~$ DATA_DIR="-datadir=/<Path>/<Too>/regtest-peers/peers/"   
+   # In btc_node.sh change PEERS_DIR
+   ~$ PEERS_DIR="/<Path>/<Too>/regtest-peers/peers/"   
 ```
 
 Setup your a peers private blockchain in regtest mode and mine 50 BTC. In this

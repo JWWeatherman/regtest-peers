@@ -5,7 +5,8 @@
 BR_START="bitcoind"
 BITCOIN_CLI="bitcoin-cli"
 
-DATA_DIR="-datadir=/home/richard/Documents/regtest-peers/peers/"
+PEERS_DIR="/home/richard/Documents/regtest-peers/peers/"
+DATA_DIR="-datadir=${PEERS_DIR}"
 
 DAEMON="-daemon"
 STOP="-stop"
@@ -16,7 +17,6 @@ SLEEP_TIME=7
 LOG_FILE="/tmp/bitcoind.log"
 PID_FILE="/tmp/bitcoind.pid"
 
-PEERS_DIR="bitcoin-regtest-node/peers"
 REGTEST_DIR="${HOME}/.bitcoin/regtest/"
 
 DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -37,7 +37,9 @@ function cmd_help() {
   echocyan "[m|mine] <name>             ... Mine one block and include all transactions that are currently in the memory pool, if possible.";echo
   echocyan "[bal|balance] <name>        ... Get the peers balance";echo
   echocyan "[sta|start] <name>          ... Starts a peers instance";echo
+  echocyan "[staa|startall              ... Starts all peer instances";echo
   echocyan "[sto|stop] <name>           ... Stops peers instance";echo
+  echocyan "[stoa|stopall]              ... Stops all peer instances"echo
   echocyan "[g|getinfo] <name>          ... Gets peers info";echo
   echocyan "[-h|--help]                 ... Shows this help menu";echo
   echocyan "[a|address] <name>          ... Get new address";echo
@@ -62,6 +64,9 @@ case "$1" in
         startDaemon $2
       fi
     ;;
+    staa|startall)
+     startAll;
+    ;;
     -h|--help)
       cmd_help;
     ;;
@@ -78,6 +83,9 @@ case "$1" in
       else
         stopDaemon $2
       fi
+    ;;
+    stoa|stopall)
+      stopAll;
     ;;
     b|bootstrap)
       if [ -z "$2" ]; then

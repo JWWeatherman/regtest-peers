@@ -1,4 +1,32 @@
 ######################################
+# Stop all peers
+#####################################
+function stopAll() {
+  for dir in ${PEERS_DIR}*/
+    do
+      dir=${dir%*/}
+      echoyellow "[DAEMON] Stopping peer '${dir##*/}'"; echo
+      stopDaemon ${dir##*/}
+    done
+    echogreen "[DAEMON] Finished Stopping all peers"; echo
+
+}
+
+#####################################
+# Starts all peers
+#####################################
+function startAll() {
+  for dir in ${PEERS_DIR}*/
+    do
+      dir=${dir%*/}
+      echoyellow "[DAEMON] Starting peer '${dir##*/}'"; echo
+      startDaemon ${dir##*/}
+    done
+    echogreen "[DAEMON] Finished Starting all peers"; echo
+
+}
+
+######################################
 # Stopping previous running instance
 ######################################
 function terminateBitcoind() {
@@ -112,10 +140,11 @@ function getNewAddress() {
 # Bootstrap all peers in peers directory
 #########################################
 function bootstrapAll() {
-  for dir in ../peers/*/
+  echo "${PEERS_DIR}"; 
+  for dir in ${PEERS_DIR}*/
     do
       dir=${dir%*/}
-      echocyan "[DAEMON] Starting Bootstrap for peer '${dir##*/}'"; echo
+      echocyan "[DAEMON] Starting Bootstrap for peer '${dir}'"; echo
       terminateBitcoind 
       purgingBlockchain ${dir##*/}
       startBitcoind ${dir##*/}
