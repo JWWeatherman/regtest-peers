@@ -43,7 +43,7 @@ function terminateBitcoind() {
 # Cleaning up old blockchain
 ######################################
 function purgingBlockchain() {
-  echoyellow "[WARN] Deleting directory '${PEERS_DIR}/$1/regtest' in "
+  echoyellow "[WARN] Deleting directory '${PEERS_DIR}$1/regtest' in "
   for i in `seq 5 -1 1`; do
     echored  $i
     sleep 1
@@ -153,7 +153,18 @@ function bootstrapAll() {
     echocyan "[DAEMON] Finished Bootstrapping all peers"; echo
 }
 
-
+##########################################
+# Get all peer info at once
+##########################################
+function getAllInfo() {
+  for dir in ${PEERS_DIR}*/
+    do
+      dir=${dir%*/}
+      echocyan "[DAEMON] getting '${dir}' info now"; echo
+      getInfo ${dir##*/}
+    done
+    echocyan "[DAEMON] Finished getting all peers info"; echo
+}
 
 
 

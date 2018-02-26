@@ -41,12 +41,16 @@ function cmd_help() {
   echocyan "[sto|stop] <name>           ... Stops peers instance";echo
   echocyan "[stoa|stopall]              ... Stops all peer instances"echo
   echocyan "[g|getinfo] <name>          ... Gets peers info";echo
+  echocyan "[ga|getallinfo              ... Gets all peers info at once"; echo
   echocyan "[-h|--help]                 ... Shows this help menu";echo
   echocyan "[a|address] <name>          ... Get new address";echo
   echocyan "[ba|bootstrap-all           ... Bootstrap all peers";echo
 }
 
 case "$1" in
+    ga|getinfo)
+      getAllInfo;
+    ;;
     ba|bootstrap-all)
       bootstrapAll; 
     ;;
