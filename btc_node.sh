@@ -33,7 +33,7 @@ function cmd_help() {
   echocyan "USAGE: $0 COMMAND";echo;echo
   echocyan "COMMAND";echo
   echocyan "[b|bootstrap] <name>          ... Initialize a new private blockchain (regtest) and mine first 50 BTC.";echo
-  echocyan "[s|simulate] <name> <addr>    ... Transfer a random amount of money in a random amount of transactions to the address <addr>.";echo
+  echocyan "[s|spend] <name> <addr> <amt> ... Send funds from one address to another.";echo
   echocyan "[m|mine] <name>               ... Mine one block and include all transactions that are currently in the memory pool, if possible.";echo
   echocyan "[mx|minexblocks] <name> <amt> ... Mine a set amount of blocks.";echo
   echocyan "[bal|balance] <name>          ... Get the peers balance";echo
@@ -116,11 +116,11 @@ case "$1" in
         generateBlock $2
       fi
     ;;
-    s|simulate)
-      if [ -z "$2" ]; then
+    s|spend)
+      if [ -z "$4" ]; then
         cmd_help; exit
       else
-        donateRandomAmount $2 $3
+        spend $2 $3 $4
         generateBlock $2
         showWalletBalance $2
       fi

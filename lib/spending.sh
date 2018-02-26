@@ -1,12 +1,18 @@
 ######################################
-# Donate to address
+# Send to address
 ######################################
-function donateRandomAmount() {
+function spend() {
 
-  AMOUNT=0$(echo "scale=8; ${RANDOM} / 100000.0" | bc)
-  echogreen "[ADDRESS] Transferring '${AMOUNT}' to address '${2}'"; echo
-  TRX=$(${BITCOIN_CLI} ${DATA_DIR}$1 sendfrom "${WALLET_ACCOUNT}" $2 ${AMOUNT})
-  echoyellow "\t|-> Transferred ${AMOUNT} BTC in trx '${TRX}'";echo
+  FROM=${DATA_DIR}$1
+  TO=$2
+  AMT=$3
+
+  echogreen "[ADDRESS] Transferring '${AMT}' from peer '${FROM}' to address '${TO}'"; echo
+  echocyan "[DAEMON] ${BITCOIN_CLI} ${FROM} sendtoaddress ${TO} ${AMT}"; echo
+
+  TRX=$(${BITCOIN_CLI} ${FROM} sendtoaddress ${TO} ${AMT})
+
+  echogreen "\t|-> Transferred ${AMT} BTC in trx '${TRX}'"; echo
 }
 
 function generateBlock() {
