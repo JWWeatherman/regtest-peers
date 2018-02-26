@@ -32,22 +32,30 @@ source ${LIB_DIR}/spending.sh
 function cmd_help() {
   echocyan "USAGE: $0 COMMAND";echo;echo
   echocyan "COMMAND";echo
-  echocyan "[b|bootstrap] <name>        ... Initialize a new private blockchain (regtest) and mine first 50 BTC.";echo
-  echocyan "[s|simulate] <name> <addr>  ... Transfer a random amount of money in a random amount of transactions to the address <addr>.";echo
-  echocyan "[m|mine] <name>             ... Mine one block and include all transactions that are currently in the memory pool, if possible.";echo
-  echocyan "[bal|balance] <name>        ... Get the peers balance";echo
-  echocyan "[sta|start] <name>          ... Starts a peers instance";echo
-  echocyan "[staa|startall              ... Starts all peer instances";echo
-  echocyan "[sto|stop] <name>           ... Stops peers instance";echo
-  echocyan "[stoa|stopall]              ... Stops all peer instances"echo
-  echocyan "[g|getinfo] <name>          ... Gets peers info";echo
-  echocyan "[ga|getallinfo              ... Gets all peers info at once"; echo
-  echocyan "[-h|--help]                 ... Shows this help menu";echo
-  echocyan "[a|address] <name>          ... Get new address";echo
-  echocyan "[ba|bootstrap-all           ... Bootstrap all peers";echo
+  echocyan "[b|bootstrap] <name>          ... Initialize a new private blockchain (regtest) and mine first 50 BTC.";echo
+  echocyan "[s|simulate] <name> <addr>    ... Transfer a random amount of money in a random amount of transactions to the address <addr>.";echo
+  echocyan "[m|mine] <name>               ... Mine one block and include all transactions that are currently in the memory pool, if possible.";echo
+  echocyan "[mx|minexblocks] <name> <amt> ... Mine a set amount of blocks.";echo
+  echocyan "[bal|balance] <name>          ... Get the peers balance";echo
+  echocyan "[sta|start] <name>            ... Starts a peers instance";echo
+  echocyan "[staa|startall                ... Starts all peer instances";echo
+  echocyan "[sto|stop] <name>             ... Stops peers instance";echo
+  echocyan "[stoa|stopall]                ... Stops all peer instances"echo
+  echocyan "[g|getinfo] <name>            ... Gets peers info";echo
+  echocyan "[ga|getallinfo                ... Gets all peers info at once"; echo
+  echocyan "[-h|--help]                   ... Shows this help menu";echo
+  echocyan "[a|address] <name>            ... Get new address";echo
+  echocyan "[ba|bootstrap-all             ... Bootstrap all peers";echo
 }
 
 case "$1" in
+    mx|minexblocks)
+      if [ -z "$3" ]; then
+        cmd_help; exit
+      else 
+        mineXblocks $2 $3
+      fi
+    ;;
     ga|getinfo)
       getAllInfo;
     ;;
