@@ -121,7 +121,7 @@ case "$1" in
         cmd_help; exit
       else
         spend $2 $3 $4
-        generateBlock $2
+        # generateBlock $2
         showWalletBalance $2
       fi
     ;;
